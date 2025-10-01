@@ -20,10 +20,31 @@ qa = [
     ("What is a bad classification usecase", "predicting the weather", "ML"),
     ("What is the purpose of the logit function in logistic regression?", "The logit function is used to transform the predicted probabilities of a binary classification problem into a linear combination of the input features. It maps the probabilities from the range [0, 1] to the range (-∞, +∞), allowing for easier optimization of the model parameters.", "GLM"),
     ("What is the difference between logistic regression and linear regression?", "Logistic regression is used for binary classification problems, while linear regression is used for regression problems. Logistic regression predicts the probability of an input belonging to a certain class, while linear regression predicts a continuous output value.", "GLM"),
-    ("what is naive bayes", "a simple probabilistic classifier based on applying Bayes' theorem with strong (naive) independence assumptions between the features", "ML"),
-
-
-
+    ("what is naive bayes", "a simple probabilistic classifier based on applying Bayes' theorem with strong (naive) independence assumptions between the features. Probability of a occuring event = P(A|B) = P(B|A) * P(A) / P(B)", "ML"),
+    ("What is naive bayes good at?","Spam emails, words we care about. Determine the mood of a person.","ML"),
+    ("Narrow ai", "are systems able to perceive a narrow segment of the world, perform operations and deploy specialized tasks within that limited context. Narrow AI is more relevant for applied research and business", "AI"),
+    ("General ai","GENERAL AI is Occupied with the greater goal of reproducing and understanding intelligence. A kind of psychology (in Silico) from the engineering perspective. Nowadays it is mostly relevant for basic research.",""),
+    ("what is Deep learning","A subset of machine learning that uses neural networks with many layers (deep neural networks) to model complex patterns in data. It is particularly effective for tasks such as image and speech recognition, natural language processing, and game playing.","ML"),
+    ("What is the different kinds of ai","Ai: Artificial Intelligence, Symbolic AI(GOFAI): programmed rules, fuzzy logic. ML: Machine learning, Supervised learning: requires labeled data, Unsupervised learning: requires unlabeled data. Reinforcement learning: Learn from experience, trial and error, reward policy. DL: Deep learning, uses neural networks with many layers. Generative algoritms: Exploit mutation and selection to find solution.","AI"),
+    ("What is SVM","Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks. It works by finding the hyperplane that best separates the data points of different classes in a high-dimensional space.","ML"),
+    ("When is SVM used","detect cancer cells, driving routes, face detection, hand writing,. Small datasets. require large processing power.",""),
+    ("Regression","Regression is a type of supervised learning algorithm used to predict continuous values. It works by finding the relationship between the input features and the output variable, and can be used for tasks such as predicting house prices or stock prices.","ML"),
+    ("When is regression used","Dont know what the output value. Contious amount of numbers. Price of a house in one year. Regression is used for prediction, forecasting, time series, determining causal effect between variables.",""),
+    ("Classification is used for","descrete value, divide the dataset into different classes.",""),
+    ("What is Descriptive models","describe what you observe now. removes complexity.",""),
+    ("What is Predictive models and retroactive models","look for correlations and trends in the data to point out how data would look like if the trend continues in the future or in the past",""),
+    ("Mechanistic models","describes the process or phenomenon in terms of its parts and causes. This can only be developed through carefully designed experiments",""),
+    ("Normative models","describe optimal strategies. In other words, given a problem, what is the optimal way to solve it?",""),
+    ("Lasso regression","A type of linear regression that uses L1 regularization to prevent overfitting by adding a penalty equal to the absolute value of the magnitude of coefficients.","ML"),
+    ("K-means","A popular unsupervised learning algorithm used for clustering. It partitions the data into K distinct clusters based on feature similarity.","ML"),
+    ("What is the purpose of feature scaling?","Feature scaling is used to normalize the range of independent variables or features of data. It helps in speeding up the convergence of gradient descent and improves the performance of the model.","ML"),
+    ("What is the curse of dimensionality?","The curse of dimensionality refers to various phenomena that arise when analyzing and organizing data in high-dimensional spaces. It can lead to overfitting and increased computational cost.","ML"),
+    ("What is cross-validation?","Cross-validation is a technique used to assess the performance of a model by partitioning the data into subsets, training the model on some subsets and validating it on others.","ML"),
+    ("","",""),
+    ("","",""),
+    ("","",""),
+    ("","",""),
+    ("","",""),
 
 
 ]
