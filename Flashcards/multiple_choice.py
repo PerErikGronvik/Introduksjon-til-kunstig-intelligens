@@ -3,85 +3,115 @@ import numpy as np
 
 # qa_mc = ["question","a", "b", "c", "d", "answer","category","source"]
 qa_mc = [
- ["question","a","b","c","d","answer","category","source"],
+ ("question","a","b","c","d","answer","category","source"),
 
- ["Which one of the following is the largest and fastest growing sector for AI-related global investment (2018-2019)?","Facial Recognition","Autonomous driving","Drug, cancer study","Robotic automation","Autonomous driving","AI industry trends","eksamen 2021"],
+ ("Which one of the following is the largest and fastest growing sector for AI-related global investment (2018-2019)?","Facial Recognition","Autonomous driving","Drug, cancer study","Robotic automation","Autonomous driving","AI industry trends","eksamen 2021"),
 
- ["Which country got the most private investments (for startups) in Artificial Intelligence (in 2018) in terms of per capita?","United States","China","Singapore","Israel","Israel","AI industry trends","eksamen 2021"],
+ ("Which country got the most private investments (for startups) in Artificial Intelligence (in 2018) in terms of per capita?","United States","China","Singapore","Israel","Israel","AI industry trends","eksamen 2021"),
 
- ["Many people consider Artificial Intelligence as the","Sixth industrial revolution","Fifth industrial revolution","Fourth industrial revolution","Third industrial revolution","Fourth industrial revolution","AI history","eksamen 2021"],
+ ("Many people consider Artificial Intelligence as the","Sixth industrial revolution","Fifth industrial revolution","Fourth industrial revolution","Third industrial revolution","Fourth industrial revolution","AI history","eksamen 2021"),
 
- ["Which of the following is true for General Artificial Intelligence?","Takes knowledge from one domain and transfers it to other domain","Dedicated to assist with or take over specific tasks","Machines which are an order of magnitude as intelligent or more intelligent than humans","Machines that rely on human input","Machines which are an order of magnitude as intelligent or more intelligent than humans","AI concepts","eksamen 2021"],
+ ("Which of the following is true for General Artificial Intelligence?","Takes knowledge from one domain and transfers it to other domain","Dedicated to assist with or take over specific tasks","Machines which are an order of magnitude as intelligent or more intelligent than humans","Machines that rely on human input","Machines which are an order of magnitude as intelligent or more intelligent than humans","AI concepts","eksamen 2021"),
 
- ["Chatbots and Voice assistants (Siri, Alexa, Google assistant) are examples of","General AI","Narrow AI","Super AI","None","Narrow AI","AI concepts","eksamen 2021"],
+ ("Chatbots and Voice assistants (Siri, Alexa, Google assistant) are examples of","General AI","Narrow AI","Super AI","None","Narrow AI","AI concepts","eksamen 2021"),
 
- ["What is a Turing test in Artificial Intelligence?","A method for determining whether or not a computer is capable of thinking like a human being.","A method for determining whether or not a computer is capable of thinking like Super AI","A method for determining whether or not a computer is capable of thinking like General AI","A benchmark for AI speed","A method for determining whether or not a computer is capable of thinking like a human being.","AI fundamentals","eksamen 2021"],
+ ("What is a Turing test in Artificial Intelligence?","A method for determining whether or not a computer is capable of thinking like a human being.","A method for determining whether or not a computer is capable of thinking like Super AI","A method for determining whether or not a computer is capable of thinking like General AI","A benchmark for AI speed","A method for determining whether or not a computer is capable of thinking like a human being.","AI fundamentals","eksamen 2021"),
 
- ["While working with creating Artificial Intelligence applications, in which area do AI programmers spend most of their time","Model deployment","Data processing (cleaning, labeling etc)","A.I programming","Model development","Data processing (cleaning, labeling etc)","Data engineering","eksamen 2021"],
+ ("While working with creating Artificial Intelligence applications, in which area do AI programmers spend most of their time","Model deployment","Data processing (cleaning, labeling etc)","A.I programming","Model development","Data processing (cleaning, labeling etc)","Data engineering","eksamen 2021"),
 
- ["A data point which differs significantly from other observed data points is called","Labeled data","Synthetic data","Outlier","Noise","Outlier","Data processing","eksamen 2021"],
+ ("A data point which differs significantly from other observed data points is called","Labeled data","Synthetic data","Outlier","Noise","Outlier","Data processing","eksamen 2021"),
 
- ["What is the figure below an example of?","Synthetic data generation","Data anonymization","Feature engineering","Data labeling","Data labeling","Data engineering","eksamen 2021"],
+ ("What is the process of manually adding tags or categories to data points called?","Synthetic data generation","Data anonymization","Feature engineering","Data labeling","Data labeling","Data engineering","eksamen 2021"),
 
- ["The process of using domain knowledge of a data set to create new attributes from existing data points/attributes is called","Feature engineering","Synthetic data generation","Data labeling","Data cleaning","Feature engineering","Data engineering","eksamen 2021"],
+ ("The process of using domain knowledge of a data set to create new attributes from existing data points/attributes is called","Feature engineering","Synthetic data generation","Data labeling","Data cleaning","Feature engineering","Data engineering","eksamen 2021"),
 
- ["Which type of machine learning is shown in this image?","Recommender systems","Reinforcement learning","Unsupervised learning","Supervised learning","Supervised learning","Machine learning types","eksamen 2021"],
+ ("Which type of machine learning uses labeled training data with input-output pairs?","Recommender systems","Reinforcement learning","Unsupervised learning","Supervised learning","Supervised learning","Machine learning types","eksamen 2021"),
 
- ["In a specific kind of machine learning, an agent can learn in an interactive environment by trial and error using feedback from its own actions and experiences. This is","Supervised learning","Unsupervised learning","Recommender systems","Reinforcement learning","Reinforcement learning","Machine learning types","eksamen 2021"],
+ ("In a specific kind of machine learning, an agent can learn in an interactive environment by trial and error using feedback from its own actions and experiences. This is","Supervised learning","Unsupervised learning","Recommender systems","Reinforcement learning","Reinforcement learning","Machine learning types","eksamen 2021"),
 
- ["What kind of algorithm is Logistic regression?","Clustering algorithm","Regression algorithm","Association algorithm","Classification algorithm","Classification algorithm","Machine learning algorithms","eksamen 2021"],
+ ("What kind of algorithm is Logistic regression?","Clustering algorithm","Regression algorithm","Association algorithm","Classification algorithm","Classification algorithm","Machine learning algorithms","eksamen 2021"),
 
- ["The output of a sigmoid function (for classification algorithms) has a range from","0 to 10","0 to 1","0 to 1000","0 to 100","0 to 1","Mathematical functions","eksamen 2021"],
+ ("The output of a sigmoid function (for classification algorithms) has a range from","0 to 10","0 to 1","0 to 1000","0 to 100","0 to 1","Mathematical functions","eksamen 2021"),
 
- ["Suppose that you are given the previous tax information of all individuals and you now have to develop an algorithm which predicts how much tax they will submit next year. Which type of algorithm would you use?","Clustering","Classification","Association","Regression","Regression","Machine learning applications","eksamen 2021"],
+ ("Suppose that you are given the previous tax information of all individuals and you now have to develop an algorithm which predicts how much tax they will submit next year. Which type of algorithm would you use?","Clustering","Classification","Association","Regression","Regression","Machine learning applications","eksamen 2021"),
 
- ["What kind of algorithm assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature","Naive Bayes algorithm","Polynomial regression","Linear regression","Logistic regression","Naive Bayes algorithm","Machine learning algorithms","eksamen 2021"],
+ ("What kind of algorithm assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature","Naive Bayes algorithm","Polynomial regression","Linear regression","Logistic regression","Naive Bayes algorithm","Machine learning algorithms","eksamen 2021"),
 
- ["What is the maximum number of hyperplanes one can use","10 dimensional","n dimensional","2 dimensional","3 dimensional","n dimensional","SVM / geometry","eksamen 2021"],
+ ("What is the maximum number of hyperplanes one can use","10 dimensional","n dimensional","2 dimensional","3 dimensional","n dimensional","SVM / geometry","eksamen 2021"),
 
- ["Suppose you are given a data set of student complaints from OsloMet’s customer service center. The data set is labelled. You are now given a task to understand how angry or happy the students are in those complaints. What kind of algorithms would you use?","Regression","Clustering","Classification","Association","Classification","NLP / sentiment analysis","eksamen 2021"],
+ ("Suppose you are given a data set of student complaints from OsloMet’s customer service center. The data set is labelled. You are now given a task to understand how angry or happy the students are in those complaints. What kind of algorithms would you use?","Regression","Clustering","Classification","Association","Classification","NLP / sentiment analysis","eksamen 2021"),
 
- ["Suppose you are given a data set of X ray images of Covid patients. The data set is not labelled and you do not have the opportunity to label it. You are now given the task to identify if the patient has covid or not. What kind of algorithm would you use?","Clustering","Classification","Regression","Reinforcement","Clustering","Unsupervised learning","eksamen 2021"],
+ ("Suppose you are given a data set of X ray images of Covid patients. The data set is not labelled and you do not have the opportunity to label it. You are now given the task to identify if the patient has covid or not. What kind of algorithm would you use?","Clustering","Classification","Regression","Reinforcement","Clustering","Unsupervised learning","eksamen 2021"),
 
- ["Suppose you operate a successful eCommerce store. You want to boost your sales and think you can encourage people to buy more based on their previous purchases. What kind of algorithm would you use to show customers what should they buy?","Association","Clustering","Classification","Regression","Association","Recommender systems","eksamen 2021"],
+ ("Suppose you operate a successful eCommerce store. You want to boost your sales and think you can encourage people to buy more based on their previous purchases. What kind of algorithm would you use to show customers what should they buy?","Association","Clustering","Classification","Regression","Association","Recommender systems","eksamen 2021"),
 
- ["An equation that describes a relationship between two quantities that show a constant rate of change is called","Support vector machine","Linear regression","Naive Bayes","Logistic regression","Linear regression","Regression","eksamen 2021"],
+ ("An equation that describes a relationship between two quantities that show a constant rate of change is called","Support vector machine","Linear regression","Naive Bayes","Logistic regression","Linear regression","Regression","eksamen 2021"),
 
- ["The following is an example of","Linear regression","Polynomial regression","Exponential regression","None","Polynomial regression","Regression","eksamen 2021"],
+ ("A regression model where the relationship between variables follows a curved line (like y = ax² + bx + c) is an example of","Linear regression","Polynomial regression","Exponential regression","None","Polynomial regression","Regression","eksamen 2021"),
 
- ["The following image which shows a tight formation of data points which is usually produced by","K-means algorithm","Linear regression","Gaussian algorithm","Decision tree","K-means algorithm","Clustering","eksamen 2021"],
+ ("A recommendation system (e.g. used by social media companies) usually belongs to the following category of AI:","Super A.I.","Narrow A.I.","General A.I.","None","Narrow A.I.","AI categories","eksamen 2021"),
 
- ["A recommendation system (e.g. used by social media companies) usually belongs to the following category of AI:","Super A.I.","Narrow A.I.","General A.I.","None","Narrow A.I.","AI categories","eksamen 2021"],
+ ("Has there been any software which claims to have passed the Turing test?","Yes","No","Maybe","Unknown","Yes","AI history","eksamen 2021"),
 
- ["Has there been any software which claims to have passed the Turing test?","Yes","No","","","Yes","AI history","eksamen 2021"],
+ ("Suppose you are given the task to predict your income for the next year. You need data for the last 15 years and you only have data for the last 5 years. How will you get that missing data?","Data warehousing","Data anonymization","Feature engineering","Synthetic data","Synthetic data","Data handling","eksamen 2021"),
 
- ["Suppose you are given the task to predict your income for the next year. You need data for the last 15 years and you only have data for the last 5 years. How will you get that missing data?","Data warehousing","Data anonymization","Feature engineering","Synthetic data","Synthetic data","Data handling","eksamen 2021"],
+ ("In what kind of algorithms do we need to use data labeling?","Unsupervised learning","Reinforcement learning","Supervised learning","Semi-supervised learning","Supervised learning","Machine learning types","eksamen 2021"),
 
- ["In what kind of algorithms do we need to use data labeling?","Unsupervised learning","Reinforcement learning","Supervised learning","Semi-supervised learning","Supervised learning","Machine learning types","eksamen 2021"],
+ ("In Machine learning, Linear Regression falls within the category of:","Unsupervised learning","Recommender systems","Supervised learning","Reinforcement learning","Supervised learning","Machine learning types","eksamen 2021"),
 
- ["In Machine learning, Linear Regression falls within the category of:","Unsupervised learning","Recommender systems","Supervised learning","Reinforcement learning","Supervised learning","Machine learning types","eksamen 2021"],
+ ("Regression models are used with","Random data","Continuous data","None of the above","Categorical data","Continuous data","Regression","eksamen 2021"),
 
- ["Regression models are used with","Random data","Continuous data","None of the above","Categorical data","Continuous data","Regression","eksamen 2021"],
+ ("What is NOT valid for a hyperplane?","They are boundaries that help classify data points","Hyperplanes work with support vector machines","We can only use maximum 2 hyperplanes for any number of features","They separate data linearly","We can only use maximum 2 hyperplanes for any number of features","SVM","eksamen 2021"),
 
- ["What is NOT valid for a hyperplane?","They are boundaries that help classify data points","Hyperplanes work with support vector machines","We can only use maximum 2 hyperplanes for any number of features","They separate data linearly","We can only use maximum 2 hyperplanes for any number of features","SVM","eksamen 2021"],
+ ("Which statement is true about outliers?","The nature of the problem determines how outliers are used","Outliers should be part of the training data set but not test data","Outliers should be identified and removed from the data set","Outliers should be part of the test data set but not training data","The nature of the problem determines how outliers are used","Data processing","eksamen 2021"),
 
- ["Which statement is true about outliers?","The nature of the problem determines how outliers are used","Outliers should be part of the training data set but not test data","Outliers should be identified and removed from the data set","Outliers should be part of the test data set but not training data","The nature of the problem determines how outliers are used","Data processing","eksamen 2021"],
+ ("The correlation between the number of years an employee has worked for a company and the salary of the employee is 0.75. What can be said about employee salary and years worked?","Individuals that have worked for the company the longest have lower salaries","There is no relationship between salary and years worked","Individuals that have worked for the company the longest have higher salaries","The majority of employees have been with the company a long time","Individuals that have worked for the company the longest have higher salaries","Statistics","eksamen 2021"),
 
- ["The correlation between the number of years an employee has worked for a company and the salary of the employee is 0.75. What can be said about employee salary and years worked?","Individuals that have worked for the company the longest have lower salaries","There is no relationship between salary and years worked","Individuals that have worked for the company the longest have higher salaries","The majority of employees have been with the company a long time","Individuals that have worked for the company the longest have higher salaries","Statistics","eksamen 2021"],
+ ("What is TRUE for a machine learning algorithm?","It is harder to train the first 90% than the remaining 10%","None of the above","It is harder to train the remaining last 10% than the first 90%","Training complexity is uniform","It is harder to train the remaining last 10% than the first 90%","Machine learning","eksamen 2021"),
 
- ["What is TRUE for a machine learning algorithm?","It is harder to train the first 90% than the remaining 10%","None of the above","It is harder to train the remaining last 10% than the first 90%","Training complexity is uniform","It is harder to train the remaining last 10% than the first 90%","Machine learning","eksamen 2021"],
+ ("'You may also like' or 'recommended for you' kind of applications (used primarily in Amazon, Facebook etc) can be implemented by using algorithms such as","Neural network algorithms","Apriori algorithm","K-Means algorithm","Decision tree","Apriori algorithm","Recommender systems","eksamen 2021"),
 
- ["'You may also like' or 'recommended for you' kind of applications (used primarily in Amazon, Facebook etc) can be implemented by using algorithms such as","Neural network algorithms","Apriori algorithm","K-Means algorithm","Decision tree","Apriori algorithm","Recommender systems","eksamen 2021"],
+ ("What kind of problem does this statement highlight in your data: Most facial recognition systems today use a higher proportion of white faces as training data (study by IBM in 2019)","Clustered data","Data Bias","Unlabeled data","None of the above","Data Bias","Ethics / data bias","eksamen 2021"),
 
- ["What kind of problem does this statement highlight in your data: Most facial recognition systems today use a higher proportion of white faces as training data (study by IBM in 2019)","Clustered data","Data Bias","Unlabeled data","None of the above","Data Bias","Ethics / data bias","eksamen 2021"],
+  ("If the software follows a logical series of steps to reach a conclusion, is easy to explain and the programmer has complete control over the code, then what kind of programming is it?","Conventional programming","Artificial Intelligence programming","Machine learning","Neural networks","Conventional programming","Programming paradigms","eksamen 2021"),
 
- ["In the following image the self driving car came to an abrupt stop. What do you think went wrong?","The human took the floppy drive out of the car","A handful of stickers and graffiti have confused the car to misinterpret the sign","Self driving cars have problems with blue color","The smiley face picture was interpreted as a human face","A handful of stickers and graffiti have confused the car to misinterpret the sign","Computer vision","eksamen 2021"],
+ ("The major reason behind the increased use of Artificial Intelligence today is due to","Availability of increased data","Cloud computing","Powerful processors","Increased connectivity between devices","All of the above","AI trends","eksamen 2021"),
 
- ["If the software follows a logical series of steps to reach a conclusion, is easy to explain and the programmer has complete control over the code, then what kind of programming is it?","Conventional programming","Artificial Intelligence programming","","","Conventional programming","Programming paradigms","eksamen 2021"],
+ ("What is the preferred way to work with an A.I. algorithm?","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","Identify the problem -> choose algorithms -> run the algorithm -> prepare data -> train the algorithm -> export data to algorithms","Identify the problem -> choose algorithms -> train the algorithm -> run the algorithm -> prepare data -> export data to algorithms","All of the above","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","AI workflow","eksamen 2021"),
 
- ["The major reason behind the increased use of Artificial Intelligence today is due to","Availability of increased data","Cloud computing","Powerful processors","Increased connectivity between devices","All of the above","AI trends","eksamen 2021"],
+ ("What is a sigmoid function?","A function that creates a linear relationship","A mathematical function that produces an S-shaped curve used in ML","A function only used in statistics","A function that always outputs zero or one","A mathematical function that produces an S-shaped curve used in ML","GLM","flashcards"),
 
- ["What is the preferred way to work with an A.I. algorithm?","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","Identify the problem -> choose algorithms -> run the algorithm -> prepare data -> train the algorithm -> export data to algorithms","Identify the problem -> choose algorithms -> train the algorithm -> run the algorithm -> prepare data -> export data to algorithms","All of the above","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","AI workflow","eksamen 2021"]
+ ("What is the difference between a generative and discriminative model?","No difference, they are the same","Discriminative learns joint probability, generative learns conditional","Generative learns joint probability, discriminative learns conditional","Both learn only conditional probability","Generative learns joint probability, discriminative learns conditional","ML","flashcards"),
+
+ ("What is the purpose of regularization in machine learning?","To make models more complex","To prevent overfitting by adding penalty terms","To increase training speed","To reduce the number of features","To prevent overfitting by adding penalty terms","ML","flashcards"),
+
+ ("What is the difference between L1 and L2 regularization?","No difference","L1 uses absolute values, L2 uses squared values","L2 uses absolute values, L1 uses squared values","Both use the same penalty method","L1 uses absolute values, L2 uses squared values","ML","flashcards"),
+
+ ("What is gradient descent?","A data preprocessing technique","An optimization algorithm to minimize cost functions","A type of neural network","A feature selection method","An optimization algorithm to minimize cost functions","ML","flashcards"),
+
+ ("What is a decision boundary?","The edge of a dataset","A surface that separates different classes","A type of cost function","A data validation technique","A surface that separates different classes","ML","flashcards"),
+
+ ("What does 96 percent accuracy mean?","The model is 96% confident","Model correctly predicted 96% of output labels","Training took 96% of expected time","96% of features were used","Model correctly predicted 96% of output labels","ML","flashcards"),
+
+ ("What is the logit function used for in logistic regression?","To increase model complexity","To transform probabilities to linear combinations","To validate input data","To reduce computational cost","To transform probabilities to linear combinations","GLM","flashcards"),
+
+ ("What is Naive Bayes?","A complex neural network","A probabilistic classifier using Bayes' theorem with independence assumptions","A regression algorithm","A clustering method","A probabilistic classifier using Bayes' theorem with independence assumptions","ML","flashcards"),
+
+ ("What is Naive Bayes particularly good at?","Image recognition","Spam detection and text sentiment analysis","Weather prediction","Stock price prediction","Spam detection and text sentiment analysis","ML","flashcards"),
+
+ ("What is Deep Learning?","Basic machine learning","Subset of ML using neural networks with many layers","Only for image processing","A type of database","Subset of ML using neural networks with many layers","ML","flashcards"),
+
+ ("What is Support Vector Machine (SVM)?","Unsupervised clustering algorithm","Supervised algorithm finding optimal hyperplane for classification","Only for text processing","A data preprocessing tool","Supervised algorithm finding optimal hyperplane for classification","ML","flashcards"),
+
+ ("When is SVM typically used?","Large datasets only","Small datasets requiring high accuracy","Only for regression","Real-time applications","Small datasets requiring high accuracy","ML","flashcards"),
+
+ ("What is K-means?","Supervised learning algorithm","Unsupervised clustering algorithm partitioning data into K clusters","Classification algorithm","Regression technique","Unsupervised clustering algorithm partitioning data into K clusters","ML","flashcards"),
+
+ ("What is the purpose of feature scaling?","To reduce dataset size","To normalize the range of features for better model performance","To add more features","To remove outliers","To normalize the range of features for better model performance","ML","flashcards"),
+
+ ("What is the curse of dimensionality?","Having too few features","Problems arising when analyzing high-dimensional data","Having too much data","Network connectivity issues","Problems arising when analyzing high-dimensional data","ML","flashcards"),
+
+ ("What is Lasso regression?","Basic linear regression","Linear regression with L1 regularization","Non-linear regression","Clustering algorithm","Linear regression with L1 regularization","ML","flashcards")
 ]
 
 # Remove header row and empty questions
