@@ -135,7 +135,6 @@ def display_question(q):
     attempts = question_attempts.get(question_id, 0)
     unique_answered = len(answered_questions)
     total_questions = len(valid_questions)
-    print(f"Pool: {len(remaining_questions)} | Unique answered: {unique_answered}/{total_questions} | Attempts: {attempts} | {q[6]}")
     print(f"\n{q[0]}")
     print(f"\na) {q[1]}")
     print(f"s) {q[2]}")
@@ -152,38 +151,27 @@ def display_answer(q, user_answer=None):
         user_letter = answer_map.get(user_answer, '?')
         
         if user_answer.lower() == correct_answer.lower():
-            print(f"Correct answer: {correct_letter} | Your answer: {user_letter} | ✓ CORRECT!")
+            print(f"Correct answer: {correct_letter} '{correct_answer}' | Your answer: {user_letter} | ✓ CORRECT!")
         else:
-            print(f"Correct answer: {correct_letter} | Your answer: {user_letter} | ✗ INCORRECT!")
+            print(f"Correct answer: {correct_letter} '{correct_answer}' | Your answer: {user_letter} | ✗ INCORRECT!")
     else:
         # Just showing answer without user input
         answer_map = {q[1]: 'a', q[2]: 's', q[3]: 'd', q[4]: 'f'}
         correct_letter = answer_map.get(correct_answer, '?')
-        print(f"Correct answer: {correct_letter}")
+        print(f"Correct answer: {correct_letter} '{correct_answer}'")
 
 def get_user_choice():
     """Get user's choice for the multiple choice question"""
     while True:
-        choice = input("\nAnswer (a/s/d/f), 'w' show answer, 'e' skip question, 'r' new question, 'q' quit: ").strip().lower()
-        if choice == '':  # Enter key = new question
-            return 'r'
-        if choice in ['a', 's', 'd', 'f', 'w', 'e', 'r', 'q']:
-            return choice
-        print("Please enter a, s, d, f, w, e, r, or q")
-
-def get_continue_input():
-    """Get input for continuing - can be answer (a/s/d/f), Enter to continue, or q to quit"""
-    while True:
-        choice = input("Press Enter to continue, answer (a/s/d/f), or 'q' to quit: ").strip().lower()
-        if choice == '':  # Enter key = continue
-            return 'continue'
+        choice = input("\nAnswer (a/s/d/f), 'q' quit: ").strip().lower()
         if choice in ['a', 's', 'd', 'f', 'q']:
             return choice
-        print("Please press Enter, type a/s/d/f, or q")
+        print("Please enter a, s, d, f, or q")
+
+
 
 # Main quiz loop
 print("Welcome to the Adaptive Multiple Choice Quiz!")
-print("A-S-D-F (answers), W (show answer), E (skip)")
 
 while len(remaining_questions) > 0:
     # Pick a random question from remaining questions
@@ -195,35 +183,6 @@ while len(remaining_questions) > 0:
     
     if choice == 'q':
         break
-    elif choice == 'r':
-        # Just continue to get a new random question
-        continue
-    elif choice == 'e':
-        # Skip this question, just continue to get a new random question
-        continue
-    elif choice == 'w':
-        # Show answer - treat as wrong answer
-        question_attempts[question_id] = question_attempts.get(question_id, 0) + 1
-        answered_questions.add(question_id)
-        total_answered += 1
-        
-        # Track as wrong answer
-        if question_id not in wrong_answers:
-            wrong_answers[question_id] = {'wrong_count': 0, 'correct_answer': question[5]}
-        wrong_answers[question_id]['wrong_count'] += 1
-        
-        display_answer(question)
-        
-        # Check if all questions have been answered at least once
-        if len(answered_questions) == len(valid_questions):
-            remaining_questions = valid_questions.copy()
-            answered_questions.clear()
-            
-        # Get continue input with optional answer
-        continue_choice = get_continue_input()
-        if continue_choice == 'q':
-            break
-        continue
     elif choice in ['a', 's', 'd', 'f']:
         # Track attempt
         question_attempts[question_id] = question_attempts.get(question_id, 0) + 1
@@ -242,7 +201,6 @@ while len(remaining_questions) > 0:
             score += 1
             # Remove question from remaining questions (mastered!)
             remaining_questions.remove(question)
-            print(f"✓ MASTERED! Question removed. {len(remaining_questions)} questions left.")
         else:
             # Track wrong answer
             if question_id not in wrong_answers:
@@ -254,14 +212,8 @@ while len(remaining_questions) > 0:
             remaining_questions = valid_questions.copy()
             answered_questions.clear()
         
-        # Get continue input with optional answer
-        continue_choice = get_continue_input()
-        if continue_choice == 'q':
-            break
-        elif continue_choice in ['a', 's', 'd', 'f']:
-            # User provided an answer after seeing the result - treat as learning
-            print(f"You answered: {continue_choice} (noted for learning)")
-            continue
+        # Simple continue prompt
+        input("Press Enter to continue...")
         # Continue to next random question
 
 
