@@ -1,0 +1,10 @@
+[project]
+name = "oblig2-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.0.0",
+    "jupyterlab>=4.4.9",
+]

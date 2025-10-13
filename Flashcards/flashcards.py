@@ -45,9 +45,10 @@ qa = [
     ("","",""),
     ("","",""),
     ("","",""),
-
-
 ]
+# multiple choice up to 4 answers
+qa_mc = ["question","a", "b", "c", "d", "answer"]
+
 
 
 

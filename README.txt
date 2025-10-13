@@ -21,7 +21,16 @@ pip install uv
 # brew install uv
 ```
 
-### 2. Create and activate virtual environment
+### 2. No pyproject.toml. Initialize uv project (creates pyproject.toml)
+```bash
+# Initialize a new uv project (this creates pyproject.toml)
+uv init
+
+# This creates a pyproject.toml file needed for package management
+```
+
+
+### 3. Create and activate virtual environment
 ```bash
 # Create a new virtual environment (same on both systems)
 uv venv
@@ -39,13 +48,16 @@ source .venv/bin/activate
 # Note: You should see (.venv) at the beginning of your terminal prompt when activated
 ```
 
-### 3. Install project dependencies
+### 4. Install project dependencies (AFTER creating and activating venv)
 ```bash
-# Install dependencies from pyproject.toml
+# Make sure your virtual environment is activated first!
+# You should see (.venv) at the beginning of your terminal prompt
+
+# Install dependencies from pyproject.toml (if it exists)
 uv sync
 
-# Or install specific packages
-uv add package-name
+# Or install specific packages for data science projects
+uv add jupyterlab ipykernel
 ```
 
 ## Using Virtual Environment in Jupyter Notebooks
@@ -62,9 +74,9 @@ uv add package-name
 
 ### Method 2: Command Line
 1. Activate your virtual environment (see step 2 above)
-2. Install jupyter in the virtual environment:
+2. Install jupyter and data science packages in the virtual environment:
    ```bash
-   uv add jupyter
+   uv add jupyterlab ipykernel pandas numpy matplotlib scipy seaborn
    ```
 3. Start Jupyter:
    ```bash
@@ -81,12 +93,22 @@ uv add package-name
    ```
 3. Register the kernel:
    ```bash
-   python -m ipykernel install --user --name=your-project-name
+   python -m ipykernel install --user --name=your-project-name --display-name="Python (your-project-name)"
    ```
 4. In Jupyter, select your custom kernel from the kernel menu
 
+## Required Data Files
+
+**IMPORTANT:** Some data files are not included in this repository due to copyright restrictions.
+
+For **oblig2_2025** project:
+- Download `Ruter-data.csv` from Canvas
+- Place it in the `oblig2_2025` folder
+- The file is required for the passenger prediction assignment
+
 ## Tips for Beginners
 
+- **IMPORTANT:** Always create and activate your virtual environment BEFORE installing packages
 - Always activate your virtual environment before working on the project
 - Use `uv add package-name` instead of `pip install package-name`
 - The .venv folder contains your virtual environment - don't delete it!
@@ -96,6 +118,9 @@ uv add package-name
 ## Common Commands
 
 ```bash
+# Initialize uv project (creates pyproject.toml)
+uv init
+
 # Create virtual environment (same on both systems)
 uv venv
 
