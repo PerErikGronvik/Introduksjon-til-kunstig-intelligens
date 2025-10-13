@@ -186,7 +186,6 @@ while len(remaining_questions) > 0:
         
         # Check if all questions have been answered at least once
         if len(answered_questions) == len(valid_questions):
-            print("🔄 All questions seen! Resetting question pool...")
             remaining_questions = valid_questions.copy()
             answered_questions.clear()
             
@@ -222,7 +221,6 @@ while len(remaining_questions) > 0:
         
         # Check if all questions have been answered at least once
         if len(answered_questions) == len(valid_questions):
-            print("🔄 All questions answered! Resetting question pool...")
             remaining_questions = valid_questions.copy()
             answered_questions.clear()
         
