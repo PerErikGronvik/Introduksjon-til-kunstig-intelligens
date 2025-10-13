@@ -5,6 +5,9 @@
 .env.test.local
 .env.production.local
 
+# Copyright protected data files
+Ruter-data.csv
+
 # Python cache
 __pycache__/
 *.py[cod]
