@@ -11,7 +11,7 @@ qa_mc = [
 
  ("Many people consider Artificial Intelligence as the","Sixth industrial revolution","Fifth industrial revolution","Fourth industrial revolution","Third industrial revolution","Fourth industrial revolution","AI history","eksamen 2021"),
 
- ("Which of the following is true for General Artificial Intelligence?","Takes knowledge from one domain and transfers it to other domain","Dedicated to assist with or take over specific tasks","Machines which are an order of magnitude as intelligent or more intelligent than humans","Machines that rely on human input","Machines which are an order of magnitude as intelligent or more intelligent than humans","AI concepts","eksamen 2021"),
+ ("Which of the following is true for General Artificial Intelligence?","Takes knowledge from one domain and transfers it to other domain","Dedicated to assist with or take over specific tasks","Machines which are an order of magnitude as intelligent or more intelligent than humans","Machines that rely on human input","Takes knowledge from one domain and transfers it to other domain","AI concepts","eksamen 2021"),
 
  ("Chatbots and Voice assistants (Siri, Alexa, Google assistant) are examples of","General AI","Narrow AI","Super AI","None","Narrow AI","AI concepts","eksamen 2021"),
 
@@ -51,7 +51,7 @@ qa_mc = [
 
  ("A recommendation system (e.g. used by social media companies) usually belongs to the following category of AI:","Super A.I.","Narrow A.I.","General A.I.","None","Narrow A.I.","AI categories","eksamen 2021"),
 
- ("Has there been any software which claims to have passed the Turing test?","Yes","No","Maybe","Unknown","Yes","AI history","eksamen 2021"),
+ ("Has there been any software which claims to have passed the Turing test?","Yes","No","Maybe","Unknown","No","AI history","eksamen 2021"),
 
  ("Suppose you are given the task to predict your income for the next year. You need data for the last 15 years and you only have data for the last 5 years. How will you get that missing data?","Data warehousing","Data anonymization","Feature engineering","Synthetic data","Synthetic data","Data handling","eksamen 2021"),
 
