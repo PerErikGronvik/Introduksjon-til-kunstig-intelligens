@@ -1,4 +1,28 @@
-# Project Setup Guide
+# Project Setup Guide - FOOLPROOF INSTRUCTIONS
+
+## IMPORTANT: Navigation First!
+
+**BEFORE YOU DO ANYTHING ELSE**, you must navigate to the specific project folder:
+
+### For oblig1_2025:
+```bash
+# Windows PowerShell:
+cd "C:\Users\YourUsername\Documents\Github\Dave3625-Intro-ki\oblig1_2025"
+
+# Or if you're already in the main repo folder:
+cd oblig1_2025
+```
+
+### For oblig2_2025:
+```bash
+# Windows PowerShell:
+cd "C:\Users\YourUsername\Documents\Github\Dave3625-Intro-ki\oblig2_2025"
+
+# Or if you're already in the main repo folder:
+cd oblig2_2025
+```
+
+**⚠️ CRITICAL:** You MUST be in the project folder (oblig1_2025 or oblig2_2025) for ALL the commands below to work!
 
 ## What is uv?
 
@@ -12,90 +36,101 @@ Key benefits of uv:
 
 ## Setting up the Virtual Environment
 
-### 1. Install uv (if not already installed)
+### STEP 1: Install uv (ONLY if not already installed)
 ```bash
-# Install uv (works on both Windows and macOS)
+# Check if uv is installed first:
+uv --version
+
+# If you get an error, install uv:
 pip install uv
 
 # Alternative for macOS users with Homebrew:
 # brew install uv
 ```
 
-### 2. No pyproject.toml. Initialize uv project (creates pyproject.toml)
+### STEP 2: Navigate to YOUR PROJECT FOLDER (CRITICAL!)
 ```bash
-# Initialize a new uv project (this creates pyproject.toml)
-uv init
+# Navigate to the project you want to work on:
+# For oblig1_2025:
+cd oblig1_2025
 
-# This creates a pyproject.toml file needed for package management
+# For oblig2_2025:
+cd oblig2_2025
+
+# Verify you're in the right place - you should see pyproject.toml:
+ls *.toml
+# This should show: pyproject.toml
 ```
 
-
-### 3. Create and activate virtual environment
+### STEP 3: Install ALL Dependencies (One Command!)
 ```bash
-# Create a new virtual environment (same on both systems)
-uv venv
-
-# Activate the virtual environment:
-# On Windows (PowerShell):
-.venv\Scripts\Activate.ps1
-
-# On Windows (Command Prompt):
-.venv\Scripts\activate.bat
-
-# On macOS/Linux:
-source .venv/bin/activate
-
-# Note: You should see (.venv) at the beginning of your terminal prompt when activated
-```
-
-### 4. Install project dependencies (AFTER creating and activating venv)
-```bash
-# Make sure your virtual environment is activated first!
-# You should see (.venv) at the beginning of your terminal prompt
-
-# Install dependencies from pyproject.toml (if it exists)
+# This installs everything you need automatically:
 uv sync
 
-# Or install specific packages for data science projects
-uv add jupyterlab ipykernel
+# If you get an error "No pyproject.toml found", you're in the WRONG FOLDER!
+# Go back to STEP 2 and navigate properly!
 ```
 
-## Using Virtual Environment in Jupyter Notebooks
+### STEP 4: Set Up Jupyter Kernel (For VS Code)
+```bash
+# Register your project as a Jupyter kernel:
+uv run python -m ipykernel install --user --name PROJECT_NAME --display-name "Python (PROJECT_NAME)"
 
-### Method 1: VS Code (Recommended)
-1. Open VS Code
-2. Open a .ipynb file
-3. Click on the kernel selector (top right of notebook)
-4. Choose "Select Another Kernel"
-5. Select "Python Environments"
-4. Choose the Python interpreter from your .venv folder:
-   - Windows: `.venv\Scripts\python.exe`
-   - macOS/Linux: `.venv/bin/python`
+# Replace PROJECT_NAME with oblig1_venv or oblig2_venv
+# Example for oblig2:
+uv run python -m ipykernel install --user --name oblig2_venv --display-name "Python (oblig2_venv)"
+```
 
-### Method 2: Command Line
-1. Activate your virtual environment (see step 2 above)
-2. Install jupyter and data science packages in the virtual environment:
-   ```bash
-   uv add jupyterlab ipykernel pandas numpy matplotlib scipy seaborn
-   ```
-3. Start Jupyter:
-   ```bash
-   jupyter notebook
-   # or
-   jupyter lab
-   ```
+## Using Jupyter in VS Code (EASIEST METHOD)
 
-### Method 3: Install Kernel Manually
-1. Activate your virtual environment
-2. Install ipykernel:
-   ```bash
-   uv add ipykernel
-   ```
-3. Register the kernel:
-   ```bash
-   python -m ipykernel install --user --name=your-project-name --display-name="Python (your-project-name)"
-   ```
-4. In Jupyter, select your custom kernel from the kernel menu
+### STEP 5: Open Notebook in VS Code
+1. **Open VS Code**
+2. **Navigate to your project folder** (oblig1_2025 or oblig2_2025)
+3. **Open any .ipynb file** (or create a new one)
+4. **VS Code will ask you to select a kernel** - this is NORMAL!
+
+### STEP 6: Select the Correct Kernel
+1. **Click on "Select Kernel"** (top-right corner of notebook)
+2. **Look for your project kernel**: "Python (oblig1_venv)" or "Python (oblig2_venv)"
+3. **If you don't see it:**
+   - Click "Select Another Kernel"
+   - Choose "Python Environments" 
+   - Browse to: `YourProject\.venv\Scripts\python.exe`
+   - Example: `oblig2_2025\.venv\Scripts\python.exe`
+
+### STEP 7: Test Everything Works
+Run this in a notebook cell:
+```python
+import sys
+print(f"Python path: {sys.executable}")
+print("✅ Jupyter is working!")
+
+# Test if packages are available
+import pandas as pd
+import numpy as np
+print("✅ Data science packages loaded!")
+```
+
+## If VS Code Can't Find Your Kernel (TROUBLESHOOTING)
+
+### Option A: Force Kernel Registration
+```bash
+# Make sure you're in your project folder first!
+cd oblig2_2025  # or oblig1_2025
+
+# Register the kernel manually:
+uv run python -m ipykernel install --user --name oblig2_venv --display-name "Python (oblig2_venv)"
+
+# Restart VS Code completely
+# Open your notebook again - kernel should now appear
+```
+
+### Option B: Manual Python Path Selection
+1. In VS Code, open Command Palette (`Ctrl+Shift+P`)
+2. Type: "Python: Select Interpreter"
+3. Browse to your project's Python:
+   - `C:\Users\YourUsername\Documents\Github\Dave3625-Intro-ki\oblig2_2025\.venv\Scripts\python.exe`
+4. Open your notebook - it should use this interpreter
 
 ## Required Data Files
 
@@ -106,40 +141,68 @@ For **oblig2_2025** project:
 - Place it in the `oblig2_2025` folder
 - The file is required for the passenger prediction assignment
 
-## Tips for Beginners
+## CRITICAL TIPS (READ THIS!)
 
-- **IMPORTANT:** Always create and activate your virtual environment BEFORE installing packages
-- Always activate your virtual environment before working on the project
-- Use `uv add package-name` instead of `pip install package-name`
-- The .venv folder contains your virtual environment - don't delete it!
-- If you see import errors in Jupyter, check that you're using the correct kernel
-- Run `uv sync` to install all project dependencies after cloning the repository
+### ⚠️ MOST COMMON MISTAKES:
+1. **NOT navigating to project folder first** - ALL commands will fail!
+2. **Using pip instead of uv** - packages won't install in the right place
+3. **Wrong kernel in VS Code** - imports will fail even if packages are installed
+4. **Deleting .venv folder** - you'll lose your entire environment!
 
-## Common Commands
+### ✅ GOLDEN RULES:
+1. **ALWAYS navigate to project folder first**: `cd oblig1_2025` or `cd oblig2_2025`
+2. **Use `uv sync` to install everything** - it's automatic and fast
+3. **In VS Code, select the project kernel**: "Python (oblig1_venv)" or "Python (oblig2_venv)"
+4. **If kernel missing, run**: `uv run python -m ipykernel install --user --name PROJECT_venv`
+5. **Never delete the .venv folder** - it contains your Python environment!
 
+## Quick Reference Commands (AFTER navigating to project folder!)
+
+### Essential Commands (Use These):
 ```bash
-# Initialize uv project (creates pyproject.toml)
-uv init
+# 1. Navigate to your project (FIRST!)
+cd oblig1_2025  # or cd oblig2_2025
 
-# Create virtual environment (same on both systems)
-uv venv
-
-# Activate virtual environment
-# Windows (PowerShell): .venv\Scripts\Activate.ps1
-# macOS/Linux: source .venv/bin/activate
-
-# Install dependencies (same on both systems)
+# 2. Install everything automatically
 uv sync
 
-# Add new package (same on both systems)
+# 3. Register Jupyter kernel
+uv run python -m ipykernel install --user --name oblig2_venv --display-name "Python (oblig2_venv)"
+
+# 4. Add new packages if needed
 uv add package-name
 
-# Remove package (same on both systems)
+# 5. Run Python commands through uv
+uv run python your_script.py
+```
+
+### Advanced Commands (If Needed):
+```bash
+# Check what's installed
+uv run python -m pip list
+
+# Remove package
 uv remove package-name
 
-# Show installed packages (same on both systems)
-uv pip list
+# Get Python path (for VS Code kernel selection)
+uv run python -c "import sys; print(sys.executable)"
 
-# Deactivate virtual environment (same on both systems)
-deactivate
+# Activate venv manually (usually not needed with uv)
+.venv\Scripts\Activate.ps1  # Windows
+source .venv/bin/activate   # macOS/Linux
+```
+
+### Emergency Reset (If Everything Breaks):
+```bash
+# Navigate to project folder
+cd oblig2_2025
+
+# Delete virtual environment
+rm -rf .venv  # or rmdir /s .venv on Windows
+
+# Recreate everything
+uv sync
+uv run python -m ipykernel install --user --name oblig2_venv --display-name "Python (oblig2_venv)"
+
+# Restart VS Code
 ```
