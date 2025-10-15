@@ -141,6 +141,10 @@ qa_mc = [
  
  ("What is true about cross-validation?","It provides a more reliable estimate of model performance","It is not important","It is only used for small datasets","It always gives higher accuracy","It provides a more reliable estimate of model performance","ML evaluation","Lab"),
 
+ ("What is L1 regularization?","A technique to reduce overfitting by adding a penalty for larger coefficients","A technique to increase model complexity","A method for feature selection","A type of neural network","A technique to reduce overfitting by adding a penalty for larger coefficients","ML","Lab")
+
+
+
 
 
 ]
