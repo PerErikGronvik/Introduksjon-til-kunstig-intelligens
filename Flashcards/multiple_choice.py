@@ -111,8 +111,41 @@ qa_mc = [
 
  ("What is the curse of dimensionality?","Having too few features","Problems arising when analyzing high-dimensional data","Having too much data","Network connectivity issues","Problems arising when analyzing high-dimensional data","ML","flashcards"),
 
- ("What is Lasso regression?","Basic linear regression","Linear regression with L1 regularization","Non-linear regression","Clustering algorithm","Linear regression with L1 regularization","ML","flashcards")
+ ("What is Lasso regression?","Basic linear regression","Linear regression with L1 regularization","Non-linear regression","Clustering algorithm","Linear regression with L1 regularization","ML","flashcards"),
+
+ ("Adding a new column based on data available is considered creating a","Feature","Label","Cost Function","Function","Feature","Data engineering","Lab"),
+
+ ("What is Accuracy in ML","Percentage of correctly predicted instances out of the total instances","TP / (TP + FP)","TP / (TP + FN)","TN / (TN + FP)","Percentage of correctly predicted instances out of the total instances","ML evaluation","Lab"),
+
+ ("What is Precision in ML","TP + TN / Total","TP / (TP + FP)","TP / (TP + FN)","TN / (TN + FP)","TP / (TP + FP)","ML evaluation","Lab"),
+
+ ("What is Recall in ML","TP + TN / Total","TP / (TP + FP)","TP / (TP + FN)","TN / (TN + FP)","TP / (TP + FN)","ML evaluation","Lab"),
+
+ ("What is F1 Score in ML","2 * (Precision * Recall) / (Precision + Recall)","TP / (TP + FP)","TP / (TP + FN)","TN / (TN + FP)","2 * (Precision * Recall) / (Precision + Recall)","ML evaluation","Lab"),
+
+ ("What is correct about Log Loss?","It is used for regression","It is used for classification","It is not used in ML","It is a type of regularization","It is used for classification","ML evaluation","Lab"),
+
+ ("What does Log Loss represent?","How close the predicted probabilities are to the actual class labels","The accuracy of the model","The precision of the model","The recall of the model","How close the predicted probabilities are to the actual class labels","ML evaluation","Lab"),
+
+ ("What is the ideal value for Log Loss?","0","1","100","-1","0","ML evaluation","Lab"),
+
+ ("What is a ROC curve?","A plot of true positive rate vs false positive rate","A plot of precision vs recall","A plot of accuracy vs error rate","A plot of loss vs epochs","A plot of true positive rate vs false positive rate","ML evaluation","Lab"),
+
+ ("What does the area under the ROC curve (AUC) represent?","The model's ability to distinguish between classes","The model's accuracy","The model's precision","The model's recall","The model's ability to distinguish between classes","ML evaluation","Lab"),
+
+ ("Is there a trade-off between precision and recall","Yes","No","Sometimes","Never","Yes","ML evaluation","Lab"),
+
+ ("What is the trade-off between precision and recall?","Increasing one decreases the other","They are independent","Increasing one increases the other","They are always equal","Increasing one decreases the other","ML evaluation","Lab"),
+
+ ("What is the main goal of feature engineering?","To create new features that improve model performance","To reduce the number of features","To visualize the data","To select the best model","To create new features that improve model performance","Data engineering","Lab"),
+ 
+ ("What is true about cross-validation?","It provides a more reliable estimate of model performance","It is not important","It is only used for small datasets","It always gives higher accuracy","It provides a more reliable estimate of model performance","ML evaluation","Lab"),
+
+
+
 ]
+
+
 
 # Remove header row and empty questions
 valid_questions = [q for q in qa_mc[1:] if q[0] and q[0] != "question"]

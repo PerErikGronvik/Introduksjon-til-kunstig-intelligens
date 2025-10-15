@@ -1,3 +1,19 @@
+# Content of this file:
+
+## Multiple choice quiz for exam.
+
+#Multiple Labs
+
+1. Lab 1: Introduction to Python Labs/Lab1.ipynb
+2. Lab 2: Data Analysis with Pandas Labs/Lab2.ipynb
+3. Lab 3: Machine Learning Basics Labs/Lab3.ipynb
+4. Lab 4: Model Evaluation and Selection Labs/Lab4.ipynb
+
+# Project 1: Data Analysis and Visualization oblig1_2025
+1. oblig1_2025/MA1.ipynb
+# Project 2: Passenger Prediction with Machine Learning oblig2_2025
+1. oblig2_2025/'Mandatory Assignment 2.ipynb'
+
 # Project Setup Guide - FOOLPROOF INSTRUCTIONS
 
 ## IMPORTANT: Navigation First!
@@ -54,8 +70,6 @@ pip install uv
 # For oblig1_2025:
 cd oblig1_2025
 
-# For oblig2_2025:
-cd oblig2_2025
 
 # Verify you're in the right place - you should see pyproject.toml:
 ls *.toml
@@ -64,7 +78,7 @@ ls *.toml
 
 ### STEP 3: Install ALL Dependencies (One Command!)
 ```bash
-# This installs everything you need automatically:
+# This installs everything you need automatically if:
 uv sync
 
 # If you get an error "No pyproject.toml found", you're in the WRONG FOLDER!
