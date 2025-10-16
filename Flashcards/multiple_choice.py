@@ -91,7 +91,7 @@ qa_mc = [
 
  ("What is a decision boundary?","The edge of a dataset","A surface that separates different classes","A type of cost function","A data validation technique","A surface that separates different classes","ML","flashcards"),
 
- ("What does 96 percent accuracy mean?","The model is 96% confident","Model correctly predicted 96% of output labels","Training took 96% of expected time","96% of features were used","Model correctly predicted 96% of output labels","ML","flashcards"),
+ ("What does 96 percent accuracy mean?","The model is 96 percent confident","Model correctly predicted 96 percent of output labels","Training took 96 percent of expected time","96 percent of features were used","Model correctly predicted 96 percent     of output labels","ML","flashcards"),
 
  ("What is the logit function used for in logistic regression?","To increase model complexity","To transform probabilities to linear combinations","To validate input data","To reduce computational cost","To transform probabilities to linear combinations","GLM","flashcards"),
 
@@ -141,12 +141,21 @@ qa_mc = [
  
  ("What is true about cross-validation?","It provides a more reliable estimate of model performance","It is not important","It is only used for small datasets","It always gives higher accuracy","It provides a more reliable estimate of model performance","ML evaluation","Lab"),
 
- ("What is L1 regularization?","A technique to reduce overfitting by adding a penalty for larger coefficients","A technique to increase model complexity","A method for feature selection","A type of neural network","A technique to reduce overfitting by adding a penalty for larger coefficients","ML","Lab")
+ ("What is L1 regularization?","A technique to reduce overfitting by adding a penalty for larger coefficients","A technique to increase model complexity","A method for feature selection","A type of neural network","A technique to reduce overfitting by adding a penalty for larger coefficients","ML","Lab"),
 
+ ("What is regarded as the first ai software","Watson","Deep Blue","Logic Theorist","AlphaGo","Logic Theorist","AI history","DIKU 002"),
 
+ ("What is the first chat bot and who invented it.","Siri by Apple","Alexa by Amazon","Cortana by Microsoft","ELIZA by Joseph Weizenbaum","ELIZA by Joseph Weizenbaum","AI history","DIKU 002"),
 
+ ("When was the AI winter","1970s","1980s","1990s","Both 1970 and 1990","Both 1970 and 1990","AI history","DIKU 002"),
 
+ ("What happened in the 1980 revival of AI","The video game industry started using AI as a test bed, Japan announces a 850 millions investment in AI, first autonomous vehicle using a neural network, focus switched to narrow ai","Sweden announced a $600 million investment in computer research, AI was used in medical imaging for the first time, and companies began developing AI-powered tractors for agriculture.","Germany launched a national robotics initiative, new AI programs were built to compose music, and researchers focused on creating fully general intelligence systems.","France funded a major AI art project, universities began using AI to automate grading, and the first AI-operated subway system was tested in London. In the United States, tech companies like IBM and AT&T launched large-scale AI labs focused on creating expert systems for business automation and defense research.","The video game industry started using AI as a test bed, Japan announces a 850 millions investment in AI, first autonomous vehicle using a neural network, focus switched to narrow ai","AI history","DIKU 002"),
 
+ ("What is a key ethical requirement for Artificial Intelligence developed and used in Norway?","It should improve efficiency and reduce human labor needs","It should respect human rights and democracy","It should align with market and innovation priorities","It should adapt to European data-sharing frameworks","It should respect human rights and democracy","AI act","DIKU 002"),
+ 
+ ("Which description best matches Artificial Intelligence?","Produces insights based on data, is commonly “one-off,” and usually takes the form of a report or presentation.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","Focuses on collecting, cleaning, and storing data for later analysis, and mainly supports database infrastructure.","Provides statistical summaries to guide strategic planning, often completed once per project and presented to management.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","AI","History of AI document"),
+ 
+ ("Which description best matches Data Science?","Produces insights based on data, is commonly “one-off,” and usually takes the form of a report or presentation.","Builds neural networks that run continuously and make decisions without human input.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","Focuses on developing digital interfaces that gather user feedback for automated systems.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","AI","History of AI document"),
 ]
 
 
