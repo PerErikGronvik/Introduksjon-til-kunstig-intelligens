@@ -73,9 +73,9 @@ qa_mc = [
 
  ("What kind of problem does this statement highlight in your data: Most facial recognition systems today use a higher proportion of white faces as training data (study by IBM in 2019)","Clustered data","Data Bias","Unlabeled data","None of the above","Data Bias","Ethics / data bias","eksamen 2021"),
 
-  ("If the software follows a logical series of steps to reach a conclusion, is easy to explain and the programmer has complete control over the code, then what kind of programming is it?","Conventional programming","Artificial Intelligence programming","Machine learning","Neural networks","Conventional programming","Programming paradigms","eksamen 2021"),
+ ("If the software follows a logical series of steps to reach a conclusion, is easy to explain and the programmer has complete control over the code, then what kind of programming is it?","Conventional programming","Artificial Intelligence programming","Machine learning","Neural networks","Conventional programming","Programming paradigms","eksamen 2021"),
 
- ("The major reason behind the increased use of Artificial Intelligence today is due to","Availability of increased data","Cloud computing","Powerful processors","Increased connectivity between devices","All of the above","AI trends","eksamen 2021"),
+ ("The major reason behind the increased use of Artificial Intelligence today is due to","Powerful processors","Increased connectivity between devices and Cloud computing","Powerful processors","All of the choices","All of the choices","AI trends","eksamen 2021"),
 
  ("What is the preferred way to work with an A.I. algorithm?","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","Identify the problem -> choose algorithms -> run the algorithm -> prepare data -> train the algorithm -> export data to algorithms","Identify the problem -> choose algorithms -> train the algorithm -> run the algorithm -> prepare data -> export data to algorithms","All of the above","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","AI workflow","eksamen 2021"),
 
@@ -91,7 +91,7 @@ qa_mc = [
 
  ("What is a decision boundary?","The edge of a dataset","A surface that separates different classes","A type of cost function","A data validation technique","A surface that separates different classes","ML","flashcards"),
 
- ("What does 96 percent accuracy mean?","The model is 96 percent confident","Model correctly predicted 96 percent of output labels","Training took 96 percent of expected time","96 percent of features were used","Model correctly predicted 96 percent     of output labels","ML","flashcards"),
+ ("What does 96 percent accuracy mean?","The model is 96 percent confident","Model correctly predicted 96 percent of output labels","Training took 96 percent of expected time","96 percent of features were used","Model correctly predicted 96 percent of output labels","ML","flashcards"),
 
  ("What is the logit function used for in logistic regression?","To increase model complexity","To transform probabilities to linear combinations","To validate input data","To reduce computational cost","To transform probabilities to linear combinations","GLM","flashcards"),
 
