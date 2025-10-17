@@ -121,7 +121,7 @@ qa_mc = [
 
  ("What is Recall in ML","TP + TN / Total","TP / (TP + FP)","TP / (TP + FN)","TN / (TN + FP)","TP / (TP + FN)","ML evaluation","Lab"),
 
- ("What is F1 Score in ML","2 * (Precision * Recall) / (Precision + Recall)","TP / (TP + FP)","TP / (TP + FN)","TN / (TN + FP)","2 * (Precision * Recall) / (Precision + Recall)","ML evaluation","Lab"),
+ ("What is F1 Score in ML","2 * (Precision * Recall) / (Precision + Recall)","(Precision * Recall) / (Precision + Recall)","Precision / (Precision + Recall)","2 * (Precision + Recall) / (Precision * Recall)","2 * (Precision * Recall) / (Precision + Recall)","ML evaluation","Lab"),
 
  ("What is correct about Log Loss?","It is used for regression","It is used for classification","It is not used in ML","It is a type of regularization","It is used for classification","ML evaluation","Lab"),
 
@@ -155,7 +155,7 @@ qa_mc = [
  
  ("Which description best matches Artificial Intelligence?","Produces insights based on data, is commonly “one-off,” and usually takes the form of a report or presentation.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","Focuses on collecting, cleaning, and storing data for later analysis, and mainly supports database infrastructure.","Provides statistical summaries to guide strategic planning, often completed once per project and presented to management.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","AI","History of AI document"),
  
- ("Which description best matches Data Science?","Produces insights based on data, is commonly “one-off,” and usually takes the form of a report or presentation.","Builds neural networks that run continuously and make decisions without human input.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","Focuses on developing digital interfaces that gather user feedback for automated systems.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","AI","History of AI document"),
+ ("Which description best matches Data Science?","Produces insights based on data, is commonly “one-off,” and usually takes the form of a report or presentation.","Builds neural networks that run continuously and make decisions without human input.","Automates tasks or predicts future events based on data, is commonly used “live,” and often takes the form of software.","Focuses on developing digital interfaces that gather user feedback for automated systems.","Produces insights based on data, is commonly “one-off,” and usually takes the form of a report or presentation.","AI","History of AI document"),
 ]
 
 
