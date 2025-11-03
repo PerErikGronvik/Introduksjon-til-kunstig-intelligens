@@ -1,0 +1,243 @@
+Introduction to Artificial Intelligence applied to organizations and industries
+Core Business Data and Supervised Machine Learning
+Ola Huse Ramstad, Oslo, 6 August 2020
+Oslo Metropolitan University
+
+Core Business Data
+
+Core business data has the strongest ties to the organization’s value-generating activities. It holds the highest potential for AI-driven impact.
+
+Supervised learning is a family of machine learning algorithms that allow computers to map inputs (features) to outputs (labels) using many examples.
+
+Machine learning solves problems where traditional software engineering fails, as it relies on empirical data instead of explicit mathematical rules. Even if ML models are not perfectly accurate, metrics such as accuracy track performance.
+
+Artificial Intelligence Overview
+
+Artificial Intelligence (AI) is any machine trait similar to human intelligence.
+
+Strong/General AI: Machines that can reason across domains (research-oriented).
+
+Weak/Narrow AI: Systems that act in specific contexts, automating decision-making.
+
+Most modern applications use narrow AI—systems that perceive part of the world, process inputs, and respond intelligently.
+
+Applications of AI
+
+AI powers many processes, such as:
+
+Automation: Assembly lines, expert systems, fraud detection, self-driving vehicles, fast trading.
+
+Insight generation: Business analytics, data pattern recognition, sciences.
+
+Engagement: User interfaces, chatbots, voice assistants, entertainment systems.
+
+Data Explosion and Storage
+
+Digital storage became inexpensive around 2008, marking the “beginning of the digital age.”
+Before that, data storage limited machine learning progress.
+
+Now, data volume grows exponentially, largely due to the internet.
+Source: Hilbert & López (2011), Science, 332(6025), 60–65.
+
+The 5 V’s of Big Data
+
+Volume: Massive amounts of data (terabytes to petabytes).
+
+Velocity: Data is generated and processed rapidly.
+
+Variety: Structured, semi-structured, and unstructured data types.
+
+Veracity: Data accuracy and reliability.
+
+Value: Data usefulness for decision-making.
+
+Big Data means data too large or complex for traditional tools. Most is unstructured (e.g., text, video, social media).
+
+Data Quality and Core Business Data
+
+Poor data quality costs businesses over $3.1 trillion per year.
+
+Core business data is the data most directly tied to a company’s performance:
+
+Describes events and behaviors with measurable financial impact.
+
+Often found in transactions, reviews, complaints, reports, multimedia, and behavioral logs.
+
+High dollar density: each record (e.g., sale or lead) affects profit/loss directly.
+
+Structured vs Unstructured Data
+Structured	Unstructured
+Tabular (rows and columns)	Free-form (images, audio, video, text)
+~20% of enterprise data	~80% of enterprise data
+Easy to manage, low storage	Harder to manage, large storage
+
+Structured data suits classical databases and analytics.
+Unstructured data holds richer information but requires AI to extract value.
+
+Definition of AI
+
+A machine has artificial intelligence if it can interpret data, learn from it, adapt, and act toward goals autonomously.
+
+Types of AI
+
+Symbolic AI (GOFAI): Logic-based, rule-driven reasoning.
+
+Machine Learning: Data-driven pattern recognition.
+
+Supervised learning: Learn from labeled examples.
+
+Unsupervised learning: Discover hidden patterns.
+
+Reinforcement learning: Learn via feedback.
+
+Genetic algorithms: Use mutation and selection.
+
+Deep Learning: Neural-network-based pattern extraction from unstructured data.
+
+Symbolic AI manipulates logical symbols to represent knowledge; modern AI combines this with learning systems.
+
+Symbolic AI and Logic
+
+World modeled using symbols (nouns) and relations (verbs/adjectives).
+
+Logic (AND, OR, NOT) combines relations.
+
+Knowledge base: collection of all symbols and relations (used by expert systems like Siri).
+
+Inference: discovering new true propositions through logical reasoning.
+
+Problems: scaling, ambiguity, and dynamic concepts.
+Fuzzy logic introduced degrees of truth (values between 0 and 1) to handle uncertainty.
+Applications: home appliances, subway control (e.g., Sendai Subway fuzzy logic system).
+
+What is Learning?
+
+Learning means behavioral change from experience.
+Machines learn by building models from data.
+
+Models are simplified representations:
+
+Descriptive (current state)
+
+Predictive/Retrodictive (trends over time)
+
+Mechanistic (causal processes)
+
+Normative (optimal strategies)
+
+“All models are wrong, but some are useful.” — George Box
+
+From Data to Models
+
+Building models requires:
+
+Values (names and numbers)
+
+Variables (memory storage)
+
+Actions (transformations)
+
+Decisions (comparisons)
+
+Repetitions (loops)
+
+Abstractions (function grouping)
+
+Regression and Supervised Learning
+
+Example: predict weight from height
+
+𝑤
+𝑒
+𝑖
+𝑔
+ℎ
+𝑡
+=
+𝑏
+1
+×
+ℎ
+𝑒
+𝑖
+𝑔
+ℎ
+𝑡
++
+𝑏
+0
+weight=b
+1
+	​
+
+×height+b
+0
+	​
+
+
+𝑏
+1
+b
+1
+	​
+
+: slope, 
+𝑏
+0
+b
+0
+	​
+
+: intercept
+
+The “best-fit” line minimizes error between prediction and data.
+
+Quality of fit measured by 
+𝑅
+2
+R
+2
+ (closer to 1 = better).
+
+Regression is used for prediction, interpolation, and inference.
+Supervised learning uses labeled examples to train models on such relationships.
+
+Classification
+
+Classification divides data into categories based on known labels.
+Example: predict if a customer will buy a product.
+Requires:
+
+Labeled data (training set)
+
+Testing data (for validation)
+
+Applications: health (disease prediction), marketing, image or text classification.
+
+Model evaluation uses confusion matrices to measure true vs. false predictions.
+
+Classification boundaries can be linear or complex (curved, multidimensional).
+
+Summary
+
+Supervised Learning: Learning from labeled data to predict or classify outcomes.
+
+Regression: Predict continuous outcomes.
+
+Classification: Predict categorical outcomes.
+
+Performance: Measured by accuracy or error metrics.
+
+Exercises
+
+Identify processes where supervised ML can be used.
+
+Describe your available data:
+
+Structured data?
+
+Unstructured data?
+
+Choose methods (classification or regression).
+
+Define desired insights and potential challenges.

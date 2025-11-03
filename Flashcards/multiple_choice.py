@@ -563,6 +563,116 @@ qa_mc = [
 
  ("What is the No Free Lunch theorem in machine learning?","All algorithms are free","No algorithm is universally best for all problems","All algorithms perform equally","Free algorithms are best","No algorithm is universally best for all problems","ML theory","Lecture MachineLearning"),
 
+ ("What is the formula for a simple linear regression model?","weight = b1 + b0","weight = b1 × height + b0","weight = height / b1","weight = b0 - b1","weight = b1 × height + b0","Regression","DIKU 004 - Supervised Machine Learning"),
+
+ ("In linear regression, what does b1 represent?","The intercept value","The slope of the line","The error term","The prediction accuracy","The slope of the line","Regression","DIKU 004 - Supervised Machine Learning"),
+
+ ("In linear regression, what does b0 represent?","The slope of the line","The intercept value","The correlation coefficient","The standard deviation","The intercept value","Regression","DIKU 004 - Supervised Machine Learning"),
+
+ ("What does R² (R-squared) measure in regression?","The slope steepness","The quality of fit (closer to 1 is better)","The number of data points","The training speed","The quality of fit (closer to 1 is better)","Regression","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is the best-fit line in regression?","The line that passes through all points","The line that minimizes error between prediction and data","The line with the steepest slope","The line with zero intercept","The line that minimizes error between prediction and data","Regression","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is regression used for in supervised learning?","Only for categorizing data","Prediction, interpolation, and inference of continuous values","Only for clustering data","Only for dimensionality reduction","Prediction, interpolation, and inference of continuous values","Regression","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is classification in supervised learning?","Predicting continuous numerical values","Dividing data into categories based on known labels","Finding patterns in unlabeled data","Reducing the number of features","Dividing data into categories based on known labels","Classification","DIKU 004 - Supervised Machine Learning"),
+
+ ("What does classification require for training?","Only unlabeled data","Labeled data (training set) and testing data","Only test data","No data at all","Labeled data (training set) and testing data","Classification","DIKU 004 - Supervised Machine Learning"),
+
+ ("What tool is used to evaluate classification model performance?","Regression line","Confusion matrix","Scatter plot","Histogram","Confusion matrix","Classification","DIKU 004 - Supervised Machine Learning"),
+
+ ("Classification boundaries can be which of the following?","Only linear","Linear or complex (curved, multidimensional)","Only circular","Only straight vertical lines","Linear or complex (curved, multidimensional)","Classification","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is core business data?","Any random data collected","Data most directly tied to company's value-generating activities","Only financial statements","Only employee records","Data most directly tied to company's value-generating activities","Business data","DIKU 004 - Supervised Machine Learning"),
+
+ ("What characterizes core business data?","Low dollar density","High dollar density with measurable financial impact per record","No connection to profit","Only historical data","High dollar density with measurable financial impact per record","Business data","DIKU 004 - Supervised Machine Learning"),
+
+ ("What percentage of enterprise data is typically structured?","Around 80%","Around 20%","Around 50%","Around 5%","Around 20%","Data types","DIKU 004 - Supervised Machine Learning"),
+
+ ("What percentage of enterprise data is typically unstructured?","Around 20%","Around 80%","Around 50%","Around 10%","Around 80%","Data types","DIKU 004 - Supervised Machine Learning"),
+
+ ("Which type of data is easier to manage?","Unstructured data","Structured data (tabular)","Both are equally difficult","Neither can be managed","Structured data (tabular)","Data types","DIKU 004 - Supervised Machine Learning"),
+
+ ("What type of data holds richer information but requires AI to extract value?","Structured data only","Unstructured data (images, audio, video, text)","Numerical data only","Spreadsheet data","Unstructured data (images, audio, video, text)","Data types","DIKU 004 - Supervised Machine Learning"),
+
+ ("According to the 5 V's of Big Data, what does 'Volume' refer to?","Speed of data generation","Massive amounts of data (terabytes to petabytes)","Data accuracy","Data usefulness","Massive amounts of data (terabytes to petabytes)","Big Data","DIKU 004 - Supervised Machine Learning"),
+
+ ("According to the 5 V's of Big Data, what does 'Velocity' refer to?","Amount of data","Data is generated and processed rapidly","Data accuracy","Data variety","Data is generated and processed rapidly","Big Data","DIKU 004 - Supervised Machine Learning"),
+
+ ("According to the 5 V's of Big Data, what does 'Variety' refer to?","Only structured data","Structured, semi-structured, and unstructured data types","Only numerical data","Only text data","Structured, semi-structured, and unstructured data types","Big Data","DIKU 004 - Supervised Machine Learning"),
+
+ ("According to the 5 V's of Big Data, what does 'Veracity' refer to?","Data volume","Data accuracy and reliability","Data speed","Data storage","Data accuracy and reliability","Big Data","DIKU 004 - Supervised Machine Learning"),
+
+ ("According to the 5 V's of Big Data, what does 'Value' refer to?","Data size","Data usefulness for decision-making","Data speed","Data format","Data usefulness for decision-making","Big Data","DIKU 004 - Supervised Machine Learning"),
+
+ ("When did digital storage become inexpensive, marking the beginning of the digital age?","Around 1990","Around 2008","Around 2015","Around 2000","Around 2008","AI history","DIKU 004 - Supervised Machine Learning"),
+
+ ("What costs businesses over $3.1 trillion per year?","Hardware costs","Poor data quality","Training costs","Storage costs","Poor data quality","Data quality","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is symbolic AI also known as?","Deep Learning","GOFAI (Good Old-Fashioned AI)","Neural networks","Genetic algorithms","GOFAI (Good Old-Fashioned AI)","AI types","DIKU 004 - Supervised Machine Learning"),
+
+ ("What does symbolic AI use to represent knowledge?","Only numbers","Symbols (nouns) and relations (verbs/adjectives)","Only images","Only text","Symbols (nouns) and relations (verbs/adjectives)","AI types","DIKU 004 - Supervised Machine Learning"),
+
+ ("What logic operations does symbolic AI use?","Only multiplication","AND, OR, NOT","Only addition","Only division","AND, OR, NOT","AI types","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is fuzzy logic used for?","Binary true/false only","Handling uncertainty with degrees of truth (values between 0 and 1)","Only integer values","Only text processing","Handling uncertainty with degrees of truth (values between 0 and 1)","AI types","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is an example application of fuzzy logic?","Only image recognition","Home appliances and subway control systems","Only text analysis","Only speech recognition","Home appliances and subway control systems","AI types","DIKU 004 - Supervised Machine Learning"),
+
+ ("According to George Box, what is true about models?","All models are perfect","All models are wrong, but some are useful","All models are useless","Models are always accurate","All models are wrong, but some are useful","ML theory","DIKU 004 - Supervised Machine Learning"),
+
+ ("What does learning mean in the context of machine learning?","Memorizing all data","Behavioral change from experience","Deleting old data","Increasing storage","Behavioral change from experience","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+
+ ("How do machines learn?","By copying humans","By building models from data","By guessing randomly","By following fixed rules only","By building models from data","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+
+ ("What are the main types of models?","Only mathematical models","Descriptive, predictive, mechanistic, and normative","Only statistical models","Only graphical models","Descriptive, predictive, mechanistic, and normative","ML theory","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is a descriptive model?","Predicts future events","Represents current state","Optimizes strategies","Shows causal processes","Represents current state","ML theory","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is a predictive model?","Shows current state only","Shows trends over time","Shows optimal strategies","Shows logical relations","Shows trends over time","ML theory","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is a mechanistic model?","Shows current state","Shows causal processes","Shows optimal strategies","Shows trends only","Shows causal processes","ML theory","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is a normative model?","Shows current state","Shows optimal strategies","Shows causal processes","Shows trends only","Shows optimal strategies","ML theory","DIKU 004 - Supervised Machine Learning"),
+
+ ("In supervised learning, what does 'supervised' refer to?","The algorithm supervises itself","Learning from labeled examples with known outputs","No human involvement","Random learning","Learning from labeled examples with known outputs","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+
+ ("What are the two main types of supervised learning problems?","Clustering and association","Regression and classification","Only neural networks","Only decision trees","Regression and classification","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+
+ ("What type of output does regression predict?","Categories only","Continuous numerical values","Binary only","Text only","Continuous numerical values","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+
+ ("What type of output does classification predict?","Continuous values","Categorical outcomes","Only numbers","Only images","Categorical outcomes","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+
+ ("How is supervised learning performance measured?","Only by speed","By accuracy or error metrics","Only by cost","Only by time","By accuracy or error metrics","ML evaluation","DIKU 004 - Supervised Machine Learning"),
+
+ ("What is machine learning according to DAVE3625?","Manual programming of all rules","Application of AI that allows systems to automatically learn and improve from experience without explicit programming","Only statistical analysis","Only data collection","Application of AI that allows systems to automatically learn and improve from experience without explicit programming","ML fundamentals","DAVE3625-MachineLearning1"),
+
+ ("In the ML algorithm building process, what is the first step?","Test the model","Collect data","Train the model","Deploy the model","Collect data","ML fundamentals","DAVE3625-MachineLearning1"),
+
+ ("How does a reinforcement learning agent learn?","Only from labeled examples","By interacting with environment via trial and error","By clustering data","By reducing dimensions","By interacting with environment via trial and error","Reinforcement learning","DAVE3625-MachineLearning1"),
+
+ ("What feedback system does reinforcement learning use?","No feedback","Reward if correct, penalty if wrong","Only penalties","Only rewards","Reward if correct, penalty if wrong","Reinforcement learning","DAVE3625-MachineLearning1"),
+
+ ("What is the purpose of recommender systems?","To classify images","Suggest relevant items to users and predict products likely to interest them","Only for search engines","Only for social media","Suggest relevant items to users and predict products likely to interest them","Recommender systems","DAVE3625-MachineLearning1"),
+
+ ("When should you use machine learning?","Always for every problem","When rules are not explicitly known, but patterns can be inferred from data","Only for image processing","Only for text processing","When rules are not explicitly known, but patterns can be inferred from data","ML fundamentals","DAVE3625-MachineLearning1"),
+
+ ("When was the Dartmouth Conference that founded AI?","1950","1956","1960","1970","1956","AI history","DIKU 002 - History of AI-p2"),
+
+ ("Who were among the founding fathers of AI at Dartmouth?","Only John McCarthy","John McCarthy, Marvin Minsky, Claude Shannon, and others","Only Alan Turing","Only Marvin Minsky","John McCarthy, Marvin Minsky, Claude Shannon, and others","AI history","DIKU 002 - History of AI-p2"),
+
+ ("What was SNARC?","The first computer","First neural network machine developed by Marvin Minsky in 1951","A programming language","A database system","First neural network machine developed by Marvin Minsky in 1951","AI history","DIKU 002 - History of AI-p2"),
+
+ ("What was Logic Theorist designed to operate on?","Only numbers","Symbols rather than numbers","Only text","Only images","Symbols rather than numbers","AI history","DIKU 002 - History of AI-p2"),
+
+ ("Who developed the Perceptron?","Marvin Minsky","Frank Rosenblatt","John McCarthy","Claude Shannon","Frank Rosenblatt","AI history","DIKU 002 - History of AI-p2"),
+
+ ("What was the Perceptron?","A programming language","An electronic device following biological principles, capable of learning","A database system","A mechanical calculator","An electronic device following biological principles, capable of learning","AI history","DIKU 002 - History of AI-p2"),
+
+ ("What is the structure of Rosenblatt's Perceptron model?","inputs → outputs","inputs → weights → activation function → output","only activation function","weights only","inputs → weights → activation function → output","Neural networks","DIKU 002 - History of AI-p2"),
+
+ ("Who developed early versions of deep learning models in the 1960s?","Frank Rosenblatt","Alexey G. Ivakhnenko","John McCarthy","Marvin Minsky","Alexey G. Ivakhnenko","AI history","DIKU 002 - History of AI-p2"),
+
  
 ]
 

@@ -1,0 +1,136 @@
+Machine Learning — DAVE3625
+Umair Mehmood Imam
+Intro to A.I — DAVE3625 by Umair M.I
+
+Core concepts
+
+Probability
+
+How likely something is to happen.
+
+𝑃
+(
+𝐻
+)
+=
+number of ways it can happen
+total number of outcomes
+P(H)=
+total number of outcomes
+number of ways it can happen
+	​
+
+
+Example: Coin flipping → 
+𝑃
+(
+𝐻
+)
+=
+½
+=
+0.5
+=
+50
+%
+P(H)=½=0.5=50%
+
+Example: Rolling a die → Probability of rolling 1 or 6.
+
+Uses of Probability
+Used to analyze likelihood and uncertainty.
+
+Statistics
+
+Branch of mathematics dealing with data collection, organization, analysis, interpretation, and presentation.
+Example dataset: Titanic dataset
+
+Most passengers boarded at Southampton (S).
+
+60% of passengers who boarded at Southampton died.
+
+60% who boarded at Cherbourg (C) survived.
+
+Almost all males from Queenstown (Q) died.
+
+Few females from Queenstown (Q), most survived.
+
+Visualization
+
+Scatter plots used to visualize relationships between variables.
+
+What is Machine Learning
+
+Application of AI that allows systems to automatically learn and improve from experience without explicit programming.
+
+Uses of Machine Learning
+
+Example: Search for cats on Google
+
+Collect many labeled examples (“cat”).
+
+Algorithm detects patterns of pixels and colors.
+
+Model guesses, humans adjust errors.
+
+Model improves and predicts correctly over time.
+
+Building an ML algorithm
+
+Collect data
+
+Label data
+
+Train the model — learn patterns
+
+Test the model — evaluate predictions
+
+Typical ML Flow
+
+Data → Model → Training → Evaluation → Prediction
+
+Types of Machine Learning
+
+Supervised learning
+
+Unsupervised learning
+
+Reinforcement learning
+
+Recommender systems
+
+Reinforcement Learning
+
+Agent learns by interacting with environment via trial and error.
+
+Feedback system: reward if correct, penalty if wrong.
+
+Challenges:
+
+Building simulation environments.
+
+Scaling neural networks.
+
+Limited communication except via rewards.
+
+Example: OpenAI agents optimizing rewards without completing tasks.
+
+Atari examples:
+
+Breakout game: performance improves after 15 and 30 minutes of training.
+
+Assault game: similar improvement after iterative training.
+
+Try reinforcement learning in games: OpenAI Gym
+
+Recommender Systems
+
+Suggest relevant items to users.
+
+Predict products most likely to interest or be purchased by users.
+
+When to use Machine Learning
+
+When rules are not explicitly known, but patterns can be inferred from data.
+
+Vil du at jeg skal gjøre transkriptet om til et strukturert sammendrag eller et fullstendig tekstlig referat (uten punktform)?
