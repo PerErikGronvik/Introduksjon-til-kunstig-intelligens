@@ -83,9 +83,7 @@ qa_mc = [
 
  ("What is the difference between a generative and discriminative model?","No difference, they are the same","Discriminative learns joint probability, generative learns conditional","Generative learns joint probability, discriminative learns conditional","Both learn only conditional probability","Generative learns joint probability, discriminative learns conditional","ML","flashcards"),
 
- ("What is the purpose of regularization in machine learning?","To make models more complex","To prevent overfitting by adding penalty terms","To increase training speed","To reduce the number of features","To prevent overfitting by adding penalty terms","ML","flashcards"),
 
- ("What is the difference between L1 and L2 regularization?","No difference","L1 uses absolute values, L2 uses squared values","L2 uses absolute values, L1 uses squared values","Both use the same penalty method","L1 uses absolute values, L2 uses squared values","ML","flashcards"),
 
  ("What is gradient descent?","A data preprocessing technique","An optimization algorithm to minimize cost functions","A type of neural network","A feature selection method","An optimization algorithm to minimize cost functions","ML","flashcards"),
 
@@ -136,12 +134,6 @@ qa_mc = [
  ("Is there a trade-off between precision and recall","Yes","No","Sometimes","Never","Yes","ML evaluation","Lab"),
 
  ("What is the trade-off between precision and recall?","Increasing one decreases the other","They are independent","Increasing one increases the other","They are always equal","Increasing one decreases the other","ML evaluation","Lab"),
-
- ("What is the main goal of feature engineering?","To create new features that improve model performance","To reduce the number of features","To visualize the data","To select the best model","To create new features that improve model performance","Data engineering","Lab"),
- 
- ("What is true about cross-validation?","It provides a more reliable estimate of model performance","It is not important","It is only used for small datasets","It always gives higher accuracy","It provides a more reliable estimate of model performance","ML evaluation","Lab"),
-
- ("What is L1 regularization?","A technique to reduce overfitting by adding a penalty for larger coefficients","A technique to increase model complexity","A method for feature selection","A type of neural network","A technique to reduce overfitting by adding a penalty for larger coefficients","ML","Lab"),
 
  ("What is regarded as the first ai software","Watson","Deep Blue","Logic Theorist","AlphaGo","Logic Theorist","AI history","DIKU 002"),
 
@@ -301,19 +293,13 @@ qa_mc = [
 
  ("What is the key characteristic of reinforcement learning?","Learning from labeled examples","Finding clusters in data","Learning through trial and error with rewards and penalties","Reducing dimensionality","Learning through trial and error with rewards and penalties","ML fundamentals","studocu"),
 
- ("What is overfitting in machine learning?","Model performs well on training data but poorly on new data","Model performs poorly on all data","Model is too simple","Model trains too quickly","Model performs well on training data but poorly on new data","ML concepts","studocu"),
 
- ("What is underfitting in machine learning?","Model is too complex","Model fails to capture the underlying pattern in the data","Model has perfect accuracy","Model only works on test data","Model fails to capture the underlying pattern in the data","ML concepts","studocu"),
 
  ("What is the purpose of a validation set?","To train the model","To tune hyperparameters and prevent overfitting","To replace the test set","To label data","To tune hyperparameters and prevent overfitting","ML concepts","studocu"),
 
- ("What is cross-validation used for?","To increase training speed","To assess model performance more reliably by using multiple train/test splits","To reduce dataset size","To eliminate outliers","To assess model performance more reliably by using multiple train/test splits","ML evaluation","studocu"),
 
- ("What is the bias-variance tradeoff?","Balance between model complexity and generalization ability","Balance between speed and accuracy","Balance between cost and performance","Balance between training and testing time","Balance between model complexity and generalization ability","ML theory","studocu"),
 
- ("What does high bias indicate in a model?","The model is overfitting","The model is underfitting and too simple","The model is perfect","The model is too complex","The model is underfitting and too simple","ML theory","studocu"),
 
- ("What does high variance indicate in a model?","The model is underfitting","The model is overfitting and too sensitive to training data","The model is balanced","The model needs more features","The model is overfitting and too sensitive to training data","ML theory","studocu"),
 
  ("What is a confusion matrix used for?","To confuse the model","To evaluate classification model performance by showing true/false positives and negatives","To visualize training loss","To select features","To evaluate classification model performance by showing true/false positives and negatives","ML evaluation","studocu"),
 
@@ -433,9 +419,7 @@ qa_mc = [
 
  ("What is a neural network layer?","A physical component of the computer","A collection of neurons that process inputs together","A type of data format","A training algorithm for optimization","A collection of neurons that process inputs together","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is the purpose of the activation function in a neural network?","To slow training down","To introduce non-linearity and enable learning complex patterns","To reduce data size","To save memory usage","To introduce non-linearity and enable learning complex patterns","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is batch normalization in neural networks?","Removing bad data from batches","Normalizing inputs of each layer to stabilize and speed up training","Reducing batch size for efficiency","Increasing accuracy through larger batches","Normalizing inputs of each layer to stabilize and speed up training","Neural networks","Lecture MachineLearning-p3-1"),
 
  ("What is the vanishing gradient problem in deep learning?","Gradients becoming too large during training","Gradients becoming too small in early layers, preventing learning","Gradients disappearing completely from network","Loss function increasing during training","Gradients becoming too small in early layers, preventing learning","Neural networks","Lecture MachineLearning-p3-1"),
 
@@ -447,9 +431,7 @@ qa_mc = [
 
  ("What is concept drift in machine learning?","Model getting better over time","When the statistical properties of the target variable change over time","Model staying the same forever","Training getting faster over time","When the statistical properties of the target variable change over time","ML deployment","Lecture MachineLearning"),
 
- ("What is the purpose of feature engineering?","To remove features from dataset","To create or transform features to improve model performance","To reduce training time significantly","To increase data size artificially","To create or transform features to improve model performance","ML techniques","Lecture MachineLearning"),
 
- ("What is one-hot encoding used for?","To encode numerical values","To convert categorical variables into binary vectors","To normalize data values","To reduce dimensions in data","To convert categorical variables into binary vectors","Data preprocessing","Lecture MachineLearning"),
 
  ("What is the purpose of data augmentation?","To delete unnecessary data","To artificially increase training data by creating modified versions","To compress data for storage","To visualize data patterns","To artificially increase training data by creating modified versions","Data preprocessing","Lecture MachineLearning"),
 
@@ -519,17 +501,13 @@ qa_mc = [
 
  ("What is the purpose of the softmax function?","To make training harder","To convert outputs to probability distribution for multi-class classification","To normalize inputs","To reduce dimensions","To convert outputs to probability distribution for multi-class classification","Neural networks","Lecture MachineLearning-p2"),
 
- ("What is precision in classification?","Total correct predictions","True Positives divided by all predicted positives","True Positives divided by all actual positives","True Negatives divided by total","True Positives divided by all predicted positives","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What is recall (sensitivity) in classification?","False positives rate","True Positives divided by all actual positives","True Positives divided by predicted positives","Total accuracy","True Positives divided by all actual positives","ML evaluation","Lecture MachineLearning-p2"),
 
  ("What does high precision but low recall indicate?","Model is perfect","Model is conservative, misses many positives but rarely wrong when it predicts positive","Model is random","Model always predicts positive","Model is conservative, misses many positives but rarely wrong when it predicts positive","ML evaluation","Lecture MachineLearning-p2"),
 
  ("What does high recall but low precision indicate?","Model is perfect","Model catches most positives but has many false alarms","Model is conservative","Model predicts nothing","Model catches most positives but has many false alarms","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What is the F1 score?","Average of precision and recall","Harmonic mean of precision and recall","Product of precision and recall","Difference between precision and recall","Harmonic mean of precision and recall","ML evaluation","Lecture MachineLearning-p2"),
 
- ("When should you use F1 score?","Never","When you need to balance precision and recall, especially with imbalanced classes","Only for regression","Only for clustering","When you need to balance precision and recall, especially with imbalanced classes","ML evaluation","Lecture MachineLearning-p2"),
 
  ("What is a true negative (TN) in classification?","Correctly predicted positive","Correctly predicted negative","Incorrectly predicted positive","Incorrectly predicted negative","Correctly predicted negative","ML evaluation","Lecture MachineLearning-p2"),
 
@@ -672,6 +650,112 @@ qa_mc = [
  ("What is the structure of Rosenblatt's Perceptron model?","inputs → outputs","inputs → weights → activation function → output","only activation function","weights only","inputs → weights → activation function → output","Neural networks","DIKU 002 - History of AI-p2"),
 
  ("Who developed early versions of deep learning models in the 1960s?","Frank Rosenblatt","Alexey G. Ivakhnenko","John McCarthy","Marvin Minsky","Alexey G. Ivakhnenko","AI history","DIKU 002 - History of AI-p2"),
+
+ ("Which lambda function correctly creates a binary classification from grades (pass if >=10)?","df['passed'] = df['final_grade'].apply(lambda x: 1 if x >= 10 else 0)","df['passed'] = df['final_grade'].apply(lambda x: 1 if x > 10 else 0)","df['passed'] = df['final_grade'].apply(lambda x: True if x < 10 else False)","df['passed'] = df['final_grade'].apply(lambda x: 0 if x >= 10 else 1)","df['passed'] = df['final_grade'].apply(lambda x: 1 if x >= 10 else 0)","Lambda functions","Lab6"),
+
+ ("Which code correctly applies StandardScaler to normalize features in scikit-learn?","scaler = StandardScaler(); X_scaled = scaler.fit_transform(X_train)","scaler = StandardScaler(); X_scaled = scaler.transform(X_train)","scaler = StandardScaler(); X_scaled = scaler.fit(X_train)","scaler = StandardScaler(); X_scaled = scaler.normalize(X_train)","scaler = StandardScaler(); X_scaled = scaler.fit_transform(X_train)","Feature scaling","Lab5"),
+
+ ("What does np.where(df['quality'] >= 7, 1, 0) do?","Returns 1 where quality >= 7 and 0 otherwise","Returns 0 where quality >= 7 and 1 otherwise","Returns True where quality >= 7 and False otherwise","Returns quality value if >= 7, otherwise 0","Returns 1 where quality >= 7 and 0 otherwise","NumPy operations","Lab5"),
+
+ ("Which lambda function filters rows where studytime > 2 in a pandas dataframe?","df_filtered = df[df['studytime'].apply(lambda x: x > 2)]","df_filtered = df[df['studytime'].map(lambda x: x > 2)]","df_filtered = df[df.apply(lambda x: x['studytime'] > 2, axis=1)]","df_filtered = df.filter(lambda x: x['studytime'] > 2)","df_filtered = df[df['studytime'].apply(lambda x: x > 2)]","Lambda functions","Lab6"),
+
+ ("What does train_test_split(X, y, test_size=0.3, random_state=42) do?","Splits data 70% training / 30% testing with seed 42 for reproducibility","Splits data 30% training / 70% testing with seed 42 for reproducibility","Splits data 70% training / 30% testing with random splits each time","Splits data equally 50/50 with seed 42 for reproducibility","Splits data 70% training / 30% testing with seed 42 for reproducibility","Train-test split","Lab5"),
+
+ ("Which code checks for missing values in each column of a pandas dataframe?","missing_values = df.isnull().sum()","missing_values = df.isna().count()","missing_values = df.null_count()","missing_values = df.missing().sum()","missing_values = df.isnull().sum()","Data cleaning","Lab5"),
+
+ ("What does GridSearchCV(knn, param_grid, cv=5) do?","Tests parameter combinations with 5-fold cross-validation","Tests 5 different models with grid parameters","Validates model 5 times on same test set","Splits data into 5 equal parts for training","Tests parameter combinations with 5-fold cross-validation","Hyperparameter tuning","Lab5"),
+
+ ("Which lambda expression correctly categorizes ages into groups?","df['age_group'] = df['age'].apply(lambda x: 'young' if x < 20 else 'old')","df['age_group'] = df['age'].map(lambda x: 'young' if x < 20 else 'old')","df['age_group'] = df.apply(lambda x: 'young' if x['age'] < 20 else 'old')","df['age_group'] = lambda x: df['age'] < 20 ? 'young' : 'old'","df['age_group'] = df['age'].apply(lambda x: 'young' if x < 20 else 'old')","Lambda functions","Lab6"),
+
+ ("What does df.select_dtypes(include=[np.number]).columns.tolist() return?","List of numerical column names from the dataframe","List of all column names including non-numerical","List of numerical values from first row","List of column types for all columns","List of numerical column names from the dataframe","Pandas operations","Lab6"),
+
+ ("Which code snippet correctly implements K-Nearest Neighbors with optimal K?","knn = KNeighborsClassifier(n_neighbors=5); knn.fit(X_train, y_train)","knn = KNN(neighbors=5); knn.train(X_train, y_train)","knn = KNeighborsClassifier(k=5); knn.fit(X_train, y_train)","knn = KNeighborsRegressor(n_neighbors=5); knn.fit(X_train, y_train)","knn = KNeighborsClassifier(n_neighbors=5); knn.fit(X_train, y_train)","KNN implementation","Lab5"),
+
+ ("What does SVC(kernel='rbf') create compared to SVC(kernel='linear')?","Non-linear decision boundary vs linear hyperplane","Linear hyperplane vs non-linear decision boundary","Both create identical linear boundaries","Both create identical non-linear boundaries","Non-linear decision boundary vs linear hyperplane","SVM kernels","Lab5"),
+
+ ("Which lambda function creates a new feature combining two columns?","df['total'] = df.apply(lambda row: row['A'] + row['B'], axis=1)","df['total'] = df.apply(lambda row: row['A'] + row['B'], axis=0)","df['total'] = df.map(lambda row: row['A'] + row['B'])","df['total'] = lambda row: df['A'] + df['B']","df['total'] = df.apply(lambda row: row['A'] + row['B'], axis=1)","Lambda functions","Lab6"),
+
+ ("What does df.rename(columns={'G1': 'period_1_grades'}, inplace=True) do?","Renames column 'G1' to 'period_1_grades' and modifies original dataframe","Creates new dataframe with renamed column 'G1' to 'period_1_grades'","Renames row 'G1' to 'period_1_grades' and modifies original dataframe","Renames all columns to 'period_1_grades' in original dataframe","Renames column 'G1' to 'period_1_grades' and modifies original dataframe","Pandas operations","Lab6"),
+
+ ("Which code correctly creates a Random Forest classifier with 100 trees?","rf = RandomForestClassifier(n_estimators=100); rf.fit(X_train, y_train)","rf = RandomForest(trees=100); rf.fit(X_train, y_train)","rf = RandomForestClassifier(n_trees=100); rf.train(X_train, y_train)","rf = ForestClassifier(estimators=100); rf.fit(X_train, y_train)","rf = RandomForestClassifier(n_estimators=100); rf.fit(X_train, y_train)","Random Forest","Lab6"),
+
+ ("What does DecisionTreeClassifier(max_depth=5) limit?","Maximum depth of tree to 5 levels","Maximum number of features to 5","Maximum number of samples to 5","Maximum number of branches to 5","Maximum depth of tree to 5 levels","Decision Trees","Lab6"),
+
+ ("Which lambda function correctly filters dataframe for absences <= 5?","filtered = df[df['absences'].apply(lambda x: x <= 5)]","filtered = df[df.apply(lambda x: x['absences'] <= 5)]","filtered = df.filter(lambda x: x['absences'] <= 5)","filtered = df[lambda x: df['absences'] <= 5]","filtered = df[df['absences'].apply(lambda x: x <= 5)]","Lambda functions","Lab6"),
+
+ ("What does GaussianNB() assume about feature distributions?","Features follow Gaussian (normal) distribution within each class","Features follow uniform distribution across all classes","Features follow Poisson distribution within each class","Features follow exponential distribution across all classes","Features follow Gaussian (normal) distribution within each class","Naive Bayes","Lab6"),
+
+ ("Which code snippet correctly calculates confusion matrix in scikit-learn?","cm = confusion_matrix(y_test, y_pred)","cm = confusion_matrix(y_pred, y_test)","cm = accuracy_score(y_test, y_pred)","cm = classification_report(y_test, y_pred)","cm = confusion_matrix(y_test, y_pred)","Model evaluation","Lab5"),
+
+ ("What does df['quality'].value_counts() return?","Frequency count of each unique value in 'quality' column","Sum of all values in 'quality' column","Number of non-null values in 'quality' column","Statistical summary of 'quality' column values","Frequency count of each unique value in 'quality' column","Pandas operations","Lab5"),
+
+ ("Which lambda expression creates age categories (child/teen/adult)?","df['category'] = df['age'].apply(lambda x: 'child' if x<13 else ('teen' if x<20 else 'adult'))","df['category'] = df['age'].map(lambda x: 'child' if x<13 else ('teen' if x<20 else 'adult'))","df['category'] = lambda x: 'child' if df['age']<13 else ('teen' if df['age']<20 else 'adult')","df['category'] = df.apply(lambda x: 'child' if x<13 else ('teen' if x<20 else 'adult'))","df['category'] = df['age'].apply(lambda x: 'child' if x<13 else ('teen' if x<20 else 'adult'))","Lambda functions","Lab6"),
+
+ ("What does accuracy_score(y_test, y_pred) calculate?","Proportion of correct predictions out of total predictions","Sum of true positives and true negatives","Difference between predicted and actual values","Average of precision and recall","Proportion of correct predictions out of total predictions","Model evaluation","Lab5"),
+
+ ("Which code creates a countplot to visualize class distribution?","sns.countplot(x='quality_binary', data=df)","sns.barplot(x='quality_binary', data=df)","sns.scatterplot(x='quality_binary', data=df)","sns.lineplot(x='quality_binary', data=df)","sns.countplot(x='quality_binary', data=df)","Data visualization","Lab5"),
+
+ ("What does df.drop(['quality', 'quality_binary'], axis=1) do?","Removes columns 'quality' and 'quality_binary' from dataframe","Removes rows 'quality' and 'quality_binary' from dataframe","Removes all columns except 'quality' and 'quality_binary'","Removes all rows except 'quality' and 'quality_binary'","Removes columns 'quality' and 'quality_binary' from dataframe","Pandas operations","Lab5"),
+
+ ("Which lambda function correctly converts Celsius to Fahrenheit?","df['fahrenheit'] = df['celsius'].apply(lambda x: (x * 9/5) + 32)","df['fahrenheit'] = df['celsius'].map(lambda x: (x * 9/5) + 32)","df['fahrenheit'] = df.apply(lambda x: (x['celsius'] * 9/5) + 32)","df['fahrenheit'] = lambda x: (df['celsius'] * 9/5) + 32","df['fahrenheit'] = df['celsius'].apply(lambda x: (x * 9/5) + 32)","Lambda functions","Lab6"),
+
+ ("What does SVC(kernel='linear').decision_function(X_test) return?","Signed distance from samples to hyperplane","Probability predictions for each class","Binary predictions (0 or 1)","Accuracy score of the model","Signed distance from samples to hyperplane","SVM operations","Lab5"),
+
+ ("Which code correctly splits features and target variable?","X = df.drop(columns=['passed']); y = df['passed']","X = df.remove(['passed']); y = df['passed']","X = df.drop('passed'); y = df.select('passed')","X = df.exclude(['passed']); y = df.get('passed')","X = df.drop(columns=['passed']); y = df['passed']","Data preparation","Lab6"),
+
+ ("What does roc_curve(y_test, y_pred_proba) calculate?","False positive rate and true positive rate at various thresholds","Only accuracy at different thresholds","Only precision at different thresholds","Only recall at different thresholds","False positive rate and true positive rate at various thresholds","Model evaluation","Lab5"),
+
+ ("Which lambda filters students with failures > 0 OR absences > 10?","filtered = df[df.apply(lambda x: x['failures'] > 0 or x['absences'] > 10, axis=1)]","filtered = df[df['failures'].apply(lambda x: x > 0 or df['absences'] > 10)]","filtered = df.filter(lambda x: x['failures'] > 0 or x['absences'] > 10)","filtered = lambda x: df[df['failures'] > 0 or df['absences'] > 10]","filtered = df[df.apply(lambda x: x['failures'] > 0 or x['absences'] > 10, axis=1)]","Lambda functions","Lab6"),
+
+ ("What does pd.read_csv('data/wine.csv', sep=';') do?","Reads CSV file using semicolon as delimiter","Reads CSV file using comma as delimiter","Reads CSV file using space as delimiter","Reads CSV file using tab as delimiter","Reads CSV file using semicolon as delimiter","Data loading","Lab5"),
+
+ ("Which code correctly implements Gaussian Naive Bayes?","nb = GaussianNB(); nb.fit(X_train, y_train)","nb = NaiveBayes(); nb.fit(X_train, y_train)","nb = GaussianNB(); nb.train(X_train, y_train)","nb = BayesClassifier(); nb.fit(X_train, y_train)","nb = GaussianNB(); nb.fit(X_train, y_train)","Naive Bayes","Lab6"),
+
+ ("What does df.describe() provide for numerical columns?","Statistical summary including mean, std, min, max, and quartiles","Only mean and median values","Only count of non-null values","Only maximum and minimum values","Statistical summary including mean, std, min, max, and quartiles","Data exploration","Lab5"),
+
+ ("Which lambda creates a grade trend feature (difference between periods)?","df['trend'] = df.apply(lambda x: x['period_2_grades'] - x['period_1_grades'], axis=1)","df['trend'] = df.apply(lambda x: x['period_2_grades'] - x['period_1_grades'], axis=0)","df['trend'] = df.map(lambda x: x['period_2_grades'] - x['period_1_grades'])","df['trend'] = lambda x: df['period_2_grades'] - df['period_1_grades']","df['trend'] = df.apply(lambda x: x['period_2_grades'] - x['period_1_grades'], axis=1)","Lambda functions","Lab6"),
+
+ ("What parameter in KNeighborsClassifier determines the number of neighbors?","n_neighbors","k_value","num_neighbors","neighbors_count","n_neighbors","KNN parameters","Lab5"),
+
+ ("Which code plots ROC curves for multiple models?","plt.plot(fpr, tpr, label='Model')","plt.scatter(fpr, tpr, label='Model')","plt.bar(fpr, tpr, label='Model')","plt.hist(fpr, tpr, label='Model')","plt.plot(fpr, tpr, label='Model')","Data visualization","Lab5"),
+
+ ("What does df.info() display about a dataframe?","Column names, data types, non-null counts, and memory usage","Only column names","Only data types","Only non-null counts","Column names, data types, non-null counts, and memory usage","Data exploration","Lab6"),
+
+ ("Which lambda function correctly bins continuous age into categories?","df['age_bin'] = df['age'].apply(lambda x: '0-20' if x<=20 else ('21-40' if x<=40 else '41+'))","df['age_bin'] = df['age'].map(lambda x: '0-20' if x<=20 else ('21-40' if x<=40 else '41+'))","df['age_bin'] = lambda x: '0-20' if df['age']<=20 else ('21-40' if df['age']<=40 else '41+')","df['age_bin'] = df.apply(lambda x: '0-20' if x<=20 else ('21-40' if x<=40 else '41+'))","df['age_bin'] = df['age'].apply(lambda x: '0-20' if x<=20 else ('21-40' if x<=40 else '41+'))","Lambda functions","Lab6"),
+
+ ("What does RandomForestClassifier(n_estimators=100, max_depth=10) create?","Random forest with 100 trees, each limited to depth 10","Random forest with 10 trees, each limited to depth 100","Decision tree with 100 nodes and depth 10","Neural network with 100 neurons and 10 layers","Random forest with 100 trees, each limited to depth 10","Random Forest","Lab6"),
+
+ ("Which code correctly computes feature importance from Random Forest?","importances = rf.feature_importances_","importances = rf.get_feature_importance()","importances = rf.compute_importances()","importances = rf.importance_scores()","importances = rf.feature_importances_","Random Forest","Lab6"),
+
+ ("What does classification_report(y_test, y_pred) provide?","Precision, recall, F1-score, and support for each class","Only accuracy score","Only confusion matrix","Only ROC-AUC score","Precision, recall, F1-score, and support for each class","Model evaluation","Lab6"),
+
+ ("Which lambda applies a discount based on quantity purchased?","df['price'] = df.apply(lambda x: x['base_price'] * 0.9 if x['qty'] > 10 else x['base_price'], axis=1)","df['price'] = df['base_price'].apply(lambda x: x * 0.9 if df['qty'] > 10 else x)","df['price'] = lambda x: df['base_price'] * 0.9 if df['qty'] > 10 else df['base_price']","df['price'] = df.map(lambda x: x['base_price'] * 0.9 if x['qty'] > 10 else x['base_price'])","df['price'] = df.apply(lambda x: x['base_price'] * 0.9 if x['qty'] > 10 else x['base_price'], axis=1)","Lambda functions","Lab6"),
+
+ ("Why is StandardScaler important for KNN and SVM algorithms?","Features with larger scales dominate distance calculations without scaling","Scaling increases model accuracy by 100%","Scaling is required by pandas operations","Scaling reduces computation time significantly","Features with larger scales dominate distance calculations without scaling","Feature scaling","Lab5"),
+
+ ("What does df.head(n) return?","First n rows of the dataframe","Last n rows of the dataframe","n random rows from dataframe","Summary statistics of n columns","First n rows of the dataframe","Pandas operations","Lab5"),
+
+ ("Which lambda categorizes students by study time and absences?","df['risk'] = df.apply(lambda x: 'high' if x['studytime']<2 and x['absences']>10 else 'low', axis=1)","df['risk'] = df['studytime'].apply(lambda x: 'high' if x<2 and df['absences']>10 else 'low')","df['risk'] = lambda x: 'high' if df['studytime']<2 and df['absences']>10 else 'low'","df['risk'] = df.map(lambda x: 'high' if x['studytime']<2 and x['absences']>10 else 'low')","df['risk'] = df.apply(lambda x: 'high' if x['studytime']<2 and x['absences']>10 else 'low', axis=1)","Lambda functions","Lab6"),
+
+ ("What is the purpose of random_state=42 in train_test_split?","Ensures reproducible splits across different runs","Sets training size to 42%","Limits random samples to 42","Creates 42 different splits","Ensures reproducible splits across different runs","Data splitting","Lab5"),
+
+ ("Which code correctly creates binary target from continuous grades?","df['pass'] = np.where(df['grade'] >= 10, 1, 0)","df['pass'] = df['grade'].map(lambda x: 1 if x >= 10 else 0)","df['pass'] = np.if_else(df['grade'] >= 10, 1, 0)","df['pass'] = df['grade'].where(df['grade'] >= 10, 1, 0)","df['pass'] = np.where(df['grade'] >= 10, 1, 0)","Feature engineering","Lab5"),
+
+ ("What does param_grid = {'n_neighbors': np.arange(1, 31)} create?","Dictionary with array of integers from 1 to 30 for grid search","Dictionary with array of integers from 0 to 31 for grid search","List with array of integers from 1 to 30 for testing","Dictionary with single value 31 for grid search","Dictionary with array of integers from 1 to 30 for grid search","Hyperparameter tuning","Lab5"),
+
+ ("Which lambda calculates BMI from weight and height?","df['bmi'] = df.apply(lambda x: x['weight'] / (x['height'] ** 2), axis=1)","df['bmi'] = df.apply(lambda x: x['weight'] / (x['height'] ** 2), axis=0)","df['bmi'] = lambda x: df['weight'] / (df['height'] ** 2)","df['bmi'] = df.map(lambda x: x['weight'] / (x['height'] ** 2))","df['bmi'] = df.apply(lambda x: x['weight'] / (x['height'] ** 2), axis=1)","Lambda functions","Lab6"),
+
+ ("What does auc(fpr, tpr) calculate?","Area under the ROC curve","Area under precision-recall curve","Total number of predictions","Average classification accuracy","Area under the ROC curve","Model evaluation","Lab5"),
+
+ ("Which code correctly handles missing values by filling with mean?","df['age'].fillna(df['age'].mean(), inplace=True)","df['age'].replace(np.nan, df['age'].mean())","df['age'].fill(df['age'].mean(), inplace=True)","df['age'].substitute(np.nan, df['age'].mean())","df['age'].fillna(df['age'].mean(), inplace=True)","Data cleaning","Lab6"),
+
+ ("What does df.apply(lambda x: x.max() - x.min(), axis=0) calculate?","Range (max - min) for each column","Range (max - min) for each row","Sum of max and min for each column","Mean of max and min for each row","Range (max - min) for each column","Lambda functions","Lab6"),
+
+ ("Which visualization shows the relationship between two continuous variables?","plt.scatter(x, y)","plt.bar(x, y)","plt.hist(x)","plt.pie(x)","plt.scatter(x, y)","Data visualization","Lab5"),
+
+ ("What does DecisionTreeClassifier(criterion='gini') use for splits?","Gini impurity to measure split quality","Entropy to measure split quality","Accuracy to measure split quality","Variance to measure split quality","Gini impurity to measure split quality","Decision Trees","Lab6"),
+
+ ("Which lambda creates a full name column from first and last names?","df['full_name'] = df.apply(lambda x: x['first_name'] + ' ' + x['last_name'], axis=1)","df['full_name'] = df.apply(lambda x: x['first_name'] + ' ' + x['last_name'], axis=0)","df['full_name'] = lambda x: df['first_name'] + ' ' + df['last_name']","df['full_name'] = df.map(lambda x: x['first_name'] + ' ' + x['last_name'])","df['full_name'] = df.apply(lambda x: x['first_name'] + ' ' + x['last_name'], axis=1)","Lambda functions","Lab6"),
 
  
 ]

@@ -24,6 +24,10 @@
 [Lab 3]( Labs/Lab3/Lab3.ipynb )
 4. Lab 4: Model Evaluation and Selection Labs/Lab4.ipynb
 [Lab 4]( Labs/Lab4/Lab4.ipynb )
+5. Lab 5: Wine Quality Classification with KNN and SVM Labs/Lab5.ipynb
+[Lab 5]( Labs/Lab5/Lab5.ipynb )
+6. Lab 6: Student Performance Prediction with Decision Trees, Random Forest, and Naive Bayes Labs/Lab6.ipynb
+[Lab 6]( Labs/Lab6/Lab6.ipynb )
 
 ## Quiz for the exam
 [Quiz for the exam](Flashcards/README.md) # Different sources ai generatet includes report 2025. This was made pre exam 2025, based on lectures, labs and corricular material.
