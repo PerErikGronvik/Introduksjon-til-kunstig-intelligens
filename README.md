@@ -30,6 +30,8 @@
 https://take.quiz-maker.com/QKHAGZ63N # Eksamen 2023
 https://bruc3w4yne.github.io/ai-quiz/ # Ai genererte spørsmål
 https://wayground.com/admin/quiz/6742575f92a6fd574cead61c/dave3625-intro-to-ai # Karianne Glent spørsmål
+https://www.youtube.com/watch?v=D03EJhztsHQ # Ai report youtube video.
+https://www.youtube.com/watch?v=yn_7dovmEJ4 # Machine learning yearning sammendrag ai greie.
 
 
 
