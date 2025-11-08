@@ -4,6 +4,16 @@
 
 ## Content of this Repository:
 
+
+## Projects
+
+### Project 1: Jupyter Notebook with Data Analysis and Visualization oblig1_2025
+[oblig1_2025](oblig1_2025/MA1.ipynb)
+### Project 2: Jupyter Notebook with Passenger Prediction with Machine Learning oblig2_2025
+[oblig2_2025](oblig2_2025/Mandatory Assignment 2.ipynb)
+### Project 3: Vibe coding essay about vibe coding and prectical example.
+[Vibe coding](oblig3_2025/Oblig3.pdf)
+
 ## Multiple Labs
 
 1. Lab 1: Introduction to Python Labs/Lab1.ipynb
@@ -13,15 +23,7 @@
 3. Lab 3: Machine Learning Basics Labs/Lab3.ipynb
 [Lab 3]( Labs/Lab3/Lab3.ipynb )
 4. Lab 4: Model Evaluation and Selection Labs/Lab4.ipynb
-
-## Projects
-
-### Project 1: Jupyter Notebook with Data Analysis and Visualization oblig1_2025
-[oblig1_2025/MA1.ipynb](oblig1_2025/MA1.ipynb)
-### Project 2: Jupyter Notebook with Passenger Prediction with Machine Learning oblig2_2025
-[oblig2_2025/'Mandatory Assignment 2.ipynb'](oblig2_2025/'Mandatory Assignment 2.ipynb')
-### Project 3: Vibe coding essay about vibe coding and prectical example.
-[Vibe coding](oblig3_2025/Oblig3.pdf)
+[Lab 4]( Labs/Lab4/Lab4.ipynb )
 
 ## Quiz for the exam
 [Quiz for the exam](Flashcards/README.md) # Different sources ai generatet includes report 2025. This was made pre exam 2025, based on lectures, labs and corricular material.
