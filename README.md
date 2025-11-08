@@ -14,7 +14,7 @@ oblig1_2025/MA1.ipynb
 # Project 2: Passenger Prediction with Machine Learning oblig2_2025
 oblig2_2025/'Mandatory Assignment 2.ipynb'
 # Project 3: Vibe coding
-oblig3_2025/'README.md'
+[Vibe coding](oblig3_2025/'README.md')
 
 
 
