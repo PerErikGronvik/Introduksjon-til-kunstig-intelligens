@@ -1,23 +1,35 @@
 # Content of this file:
 
-## Multiple choice quiz for exam.
 
-#Multiple Labs
+## Multiple Labs
 
 1. Lab 1: Introduction to Python Labs/Lab1.ipynb
+[Lab 1]( Labs/Lab1.ipynb )
 2. Lab 2: Data Analysis with Pandas Labs/Lab2.ipynb
+[Lab 2]( Labs/Lab2.ipynb )
 3. Lab 3: Machine Learning Basics Labs/Lab3.ipynb
+[Lab 3]( Labs/Lab3.ipynb )
 4. Lab 4: Model Evaluation and Selection Labs/Lab4.ipynb
 
-# Project 1: Data Analysis and Visualization oblig1_2025
-oblig1_2025/MA1.ipynb
-# Project 2: Passenger Prediction with Machine Learning oblig2_2025
-oblig2_2025/'Mandatory Assignment 2.ipynb'
-# Project 3: Vibe coding
-[Vibe coding](oblig3_2025/'README.md')
+## Projects
 
+### Project 1: Data Analysis and Visualization oblig1_2025
+[oblig1_2025/MA1.ipynb](oblig1_2025/MA1.ipynb)
+### Project 2: Passenger Prediction with Machine Learning oblig2_2025
+[oblig2_2025/'Mandatory Assignment 2.ipynb'](oblig2_2025/'Mandatory Assignment 2.ipynb')
+### Project 3: Vibe coding
+[Vibe coding](oblig3_2025/Oblig3.pdf)
 
+## Quiz for the exam
+[Quiz for the exam](Flashcards/multiple_choice.py) # Different sources ai generatet includes report 2025. This was made pre exam 2025, based on lectures, labs and corricular material.
 
+## Documents from the course
+[Course material](Course-material/)
+
+## Other materials
+https://take.quiz-maker.com/QKHAGZ63N # Eksamen 2023
+https://bruc3w4yne.github.io/ai-quiz/ # Ai genererte spørsmål
+https://wayground.com/admin/quiz/6742575f92a6fd574cead61c/dave3625-intro-to-ai # Karianne Glent spørsmål
 
 
 
