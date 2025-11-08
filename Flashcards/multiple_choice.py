@@ -197,33 +197,33 @@ qa_mc = [
 
  ("What is error analysis?","Running your model on examples it got wrong and analyzing the patterns","Deleting wrong predictions","Calculating error rates","Testing on production data","Running your model on examples it got wrong and analyzing the patterns","ML strategy","Machine Learning Yearning"),
 
- ("During error analysis, what should you do with misclassified examples?","Delete them","Manually examine them and categorize the types of errors","Ignore them","Retrain immediately","Manually examine them and categorize the types of errors","ML strategy","Machine Learning Yearning"),
+ ("During error analysis, what should you do with misclassified examples?","Delete them from the dataset immediately","Manually examine them and categorize the types of errors","Ignore them and continue training","Retrain the model immediately without analysis","Manually examine them and categorize the types of errors","ML strategy","Machine Learning Yearning"),
 
- ("If you find that 5 percent of dev set errors are due to a particular category, is it worth fixing?","Yes, always","Maybe not - focus on categories that account for larger error percentages","Yes, fix all errors","No, 5 percent is too small to matter","Maybe not - focus on categories that account for larger error percentages","ML strategy","Machine Learning Yearning"),
+ ("If you find that 5 percent of dev set errors are due to a particular category, is it worth fixing?","Yes, always fix every category","Maybe not - focus on categories that account for larger error percentages","Yes, fix all errors regardless of size","No, 5 percent is too small to matter at all","Maybe not - focus on categories that account for larger error percentages","ML strategy","Machine Learning Yearning"),
 
- ("What should you do if your dev and test sets come from different distributions?","Use them anyway","Make sure they come from the same distribution as your target application","Always use random splits","Ignore the difference","Make sure they come from the same distribution as your target application","ML strategy","Machine Learning Yearning"),
+ ("What should you do if your dev and test sets come from different distributions?","Use them anyway without changes","Make sure they come from the same distribution as your target application","Always use random splits for both sets","Ignore the difference completely","Make sure they come from the same distribution as your target application","ML strategy","Machine Learning Yearning"),
 
- ("What is a 'training-dev set'?","Another name for validation set","Data from the same distribution as training, but not used for training - helps detect variance","Data for developers only","The same as test set","Data from the same distribution as training, but not used for training - helps detect variance","ML strategy","Machine Learning Yearning"),
+ ("What is a 'training-dev set'?","Another name for the validation set","Data from the same distribution as training, but not used for training - helps detect variance","Data for developers only to use","The same as the test set completely","Data from the same distribution as training, but not used for training - helps detect variance","ML strategy","Machine Learning Yearning"),
 
- ("If training error is low, training-dev error is low, but dev error is high, what's the problem?","Bias problem","Variance problem","Data mismatch problem","The model is perfect","Data mismatch problem","ML strategy","Machine Learning Yearning"),
+ ("If training error is low, training-dev error is low, but dev error is high, what's the problem?","Bias problem with the model","Variance problem with the model","Data mismatch problem between sets","The model is perfect already","Data mismatch problem between sets","ML strategy","Machine Learning Yearning"),
 
- ("What should you do when you have a data mismatch problem?","Get more training data","Try to understand the difference between training and dev sets and add similar data to training","Change the algorithm","Use a smaller model","Try to understand the difference between training and dev sets and add similar data to training","ML strategy","Machine Learning Yearning"),
+ ("What should you do when you have a data mismatch problem?","Get more training data immediately","Try to understand the difference between training and dev sets and add similar data to training","Change the algorithm completely","Use a smaller model instead","Try to understand the difference between training and dev sets and add similar data to training","ML strategy","Machine Learning Yearning"),
 
- ("What is transfer learning?","Transferring data between databases","Using knowledge from one task to help with another task","Moving models between servers","Sharing code between projects","Using knowledge from one task to help with another task","ML strategy","Machine Learning Yearning"),
+ ("What is transfer learning?","Transferring data between multiple databases","Using knowledge from one task to help with another task","Moving models between different servers","Sharing code between different projects","Using knowledge from one task to help with another task","ML strategy","Machine Learning Yearning"),
 
- ("When does transfer learning make sense?","Always","When task A and B have the same input, you have more data for A than B, and low-level features help both","Only for image tasks","Never","When task A and B have the same input, you have more data for A than B, and low-level features help both","ML strategy","Machine Learning Yearning"),
+ ("When does transfer learning make sense?","Always in every situation","When task A and B have the same input, you have more data for A than B, and low-level features help both","Only for image tasks specifically","Never use it at all","When task A and B have the same input, you have more data for A than B, and low-level features help both","ML strategy","Machine Learning Yearning"),
 
- ("What is multi-task learning?","Training multiple separate models","Training one model to perform multiple tasks simultaneously","Using multiple GPUs","Training on multiple datasets sequentially","Training one model to perform multiple tasks simultaneously","ML strategy","Machine Learning Yearning"),
+ ("What is multi-task learning?","Training multiple separate models independently","Training one model to perform multiple tasks simultaneously","Using multiple GPUs for training","Training on multiple datasets sequentially","Training one model to perform multiple tasks simultaneously","ML strategy","Machine Learning Yearning"),
 
- ("When does multi-task learning make sense?","Always","When tasks share lower-level features, similar amount of data for each task, and you can train a big enough network","Only for NLP","Never","When tasks share lower-level features, similar amount of data for each task, and you can train a big enough network","ML strategy","Machine Learning Yearning"),
+ ("When does multi-task learning make sense?","Always in every scenario","When tasks share lower-level features, similar amount of data for each task, and you can train a big enough network","Only for NLP tasks specifically","Never use it in practice","When tasks share lower-level features, similar amount of data for each task, and you can train a big enough network","ML strategy","Machine Learning Yearning"),
 
  ("What is end-to-end deep learning?","Training only the final layer","Replacing a multi-step pipeline with a single neural network","Training from scratch every time","Using multiple models in sequence","Replacing a multi-step pipeline with a single neural network","ML strategy","Machine Learning Yearning"),
 
- ("What is the main advantage of end-to-end learning?","It's always faster","It lets the model learn the optimal representation without hand-designed components","It requires less data","It's easier to debug","It lets the model learn the optimal representation without hand-designed components","ML strategy","Machine Learning Yearning"),
+ ("What is the main advantage of end-to-end learning?","It's always faster than alternatives","It lets the model learn the optimal representation without hand-designed components","It requires less data overall","It's easier to debug issues","It lets the model learn the optimal representation without hand-designed components","ML strategy","Machine Learning Yearning"),
 
- ("What is the main disadvantage of end-to-end learning?","It's too slow","It requires a very large amount of data","It always overfits","It can't work with images","It requires a very large amount of data","ML strategy","Machine Learning Yearning"),
+ ("What is the main disadvantage of end-to-end learning?","It's too slow for production","It requires a very large amount of data","It always overfits the training set","It can't work with images","It requires a very large amount of data","ML strategy","Machine Learning Yearning"),
 
- ("What should guide your decision to use end-to-end learning?","Always use it","Whether you have enough data to learn the complexity of the mapping","Use it only for vision tasks","Never use it","Whether you have enough data to learn the complexity of the mapping","ML strategy","Machine Learning Yearning"),
+ ("What should guide your decision to use end-to-end learning?","Always use it regardless","Whether you have enough data to learn the complexity of the mapping","Use it only for vision tasks","Never use it at all","Whether you have enough data to learn the complexity of the mapping","ML strategy","Machine Learning Yearning"),
 
  ("Hvilken kodelinje er riktig for å utføre klassifisering", "model = LogisticRegression().fit(X, y)","model = LinearRegression().fit(X, y)","model = KMeans().fit(X)","model = SVC().fit(X, y)","model = LogisticRegression().fit(X, y)","GLM regresjon","shiberas"),
 
@@ -249,107 +249,107 @@ qa_mc = [
 
  ("What trend did the AI Index Report 2025 identify regarding AI model training costs?","Decreasing significantly","Increasing exponentially","Remaining stable","Becoming unpredictable","Increasing exponentially","AI development","AI Index Report 2025"),
 
- ("According to the AI Index Report, what is the primary ethical concern about AI in 2024?","Cost of deployment","Bias and fairness","Speed of processing","Energy consumption","Bias and fairness","AI ethics","AI Index Report 2025"),
+ ("According to the AI Index Report, what is the primary ethical concern about AI in 2024?","Cost of deployment infrastructure","Bias and fairness in algorithms","Speed of processing data","Energy consumption levels","Bias and fairness in algorithms","AI ethics","AI Index Report 2025"),
 
- ("Which region showed the fastest growth in AI research publications according to the AI Index Report 2025?","North America","Europe","Asia","South America","Asia","AI research","AI Index Report 2025"),
+ ("Which region showed the fastest growth in AI research publications according to the AI Index Report 2025?","North America region","Europe region","Asia region","South America region","Asia region","AI research","AI Index Report 2025"),
 
- ("According to the AI Index Report 2025, what percentage of AI PhD graduates in the US go into industry rather than academia?","35 percent","50 percent","65 percent","80 percent","65 percent","AI workforce","AI Index Report 2025"),
+ ("According to the AI Index Report 2025, what percentage of AI PhD graduates in the US go into industry rather than academia?","35 percent of graduates","50 percent of graduates","65 percent of graduates","80 percent of graduates","65 percent of graduates","AI workforce","AI Index Report 2025"),
 
- ("What does the AI Index Report 2025 say about AI's impact on job displacement?","Minimal impact observed","Significant displacement in manufacturing and routine cognitive tasks","Only affects low-skill jobs","No measurable impact yet","Significant displacement in manufacturing and routine cognitive tasks","AI impact","AI Index Report 2025"),
+ ("What does the AI Index Report 2025 say about AI's impact on job displacement?","Minimal impact observed so far","Significant displacement in manufacturing and routine cognitive tasks","Only affects low-skill jobs primarily","No measurable impact yet detected","Significant displacement in manufacturing and routine cognitive tasks","AI impact","AI Index Report 2025"),
 
- ("According to the AI Index Report, which application of AI in transportation saw the most investment in 2024?","Traffic management","Autonomous vehicles","Route optimization","Predictive maintenance","Autonomous vehicles","AI applications","AI Index Report 2025"),
+ ("According to the AI Index Report, which application of AI in transportation saw the most investment in 2024?","Traffic management systems","Autonomous vehicles technology","Route optimization algorithms","Predictive maintenance tools","Autonomous vehicles technology","AI applications","AI Index Report 2025"),
 
- ("What trend did the AI Index Report 2025 identify in AI regulatory frameworks globally?","Decreasing regulation","Increasing fragmentation and country-specific approaches","Complete harmonization","No significant changes","Increasing fragmentation and country-specific approaches","AI policy","AI Index Report 2025"),
+ ("What trend did the AI Index Report 2025 identify in AI regulatory frameworks globally?","Decreasing regulation overall","Increasing fragmentation and country-specific approaches","Complete harmonization worldwide","No significant changes observed","Increasing fragmentation and country-specific approaches","AI policy","AI Index Report 2025"),
 
  ("According to the AI Index Report 2025, what is the estimated growth rate of the global AI market from 2024 to 2030?","10 percent annually","20 percent annually","37 percent annually","50 percent annually","37 percent annually","AI industry trends","AI Index Report 2025"),
 
- ("Which AI technique showed the most improvement in benchmark performance in 2024 according to the report?","Reinforcement learning","Large language models","Computer vision","Speech recognition","Large language models","AI development","AI Index Report 2025"),
+ ("Which AI technique showed the most improvement in benchmark performance in 2024 according to the report?","Reinforcement learning algorithms","Large language models","Computer vision systems","Speech recognition systems","Large language models","AI development","AI Index Report 2025"),
 
- ("According to the AI Index Report, what percentage of AI systems deployed in production experienced some form of failure or incident?","15 percent","28 percent","45 percent","60 percent","28 percent","AI reliability","AI Index Report 2025"),
+ ("According to the AI Index Report, what percentage of AI systems deployed in production experienced some form of failure or incident?","15 percent of systems","28 percent of systems","45 percent of systems","60 percent of systems","28 percent of systems","AI reliability","AI Index Report 2025"),
 
- ("What does the AI Index Report 2025 identify as the biggest barrier to AI adoption in developing countries?","Lack of interest","Infrastructure and connectivity limitations","Cultural resistance","Too many regulations","Infrastructure and connectivity limitations","AI adoption","AI Index Report 2025"),
+ ("What does the AI Index Report 2025 identify as the biggest barrier to AI adoption in developing countries?","Lack of interest overall","Infrastructure and connectivity limitations","Cultural resistance to technology","Too many regulations","Infrastructure and connectivity limitations","AI adoption","AI Index Report 2025"),
 
- ("According to the report, which industry sector has the highest AI adoption rate?","Healthcare","Finance and insurance","Retail","Manufacturing","Finance and insurance","AI adoption","AI Index Report 2025"),
+ ("According to the report, which industry sector has the highest AI adoption rate?","Healthcare industry","Finance and insurance industry","Retail industry","Manufacturing industry","Finance and insurance industry","AI adoption","AI Index Report 2025"),
 
- ("What trend did the AI Index Report identify regarding open-source AI models in 2024?","Declining in popularity","Significant increase in development and adoption","Remaining stable","Being replaced by proprietary models","Significant increase in development and adoption","AI development","AI Index Report 2025"),
+ ("What trend did the AI Index Report identify regarding open-source AI models in 2024?","Declining in popularity overall","Significant increase in development and adoption","Remaining stable without change","Being replaced by proprietary models","Significant increase in development and adoption","AI development","AI Index Report 2025"),
 
- ("According to the AI Index Report 2025, what is the primary driver of AI innovation?","Government funding","Academic research","Private sector investment","International collaboration","Private sector investment","AI development","AI Index Report 2025"),
+ ("According to the AI Index Report 2025, what is the primary driver of AI innovation?","Government funding programs","Academic research institutions","Private sector investment","International collaboration efforts","Private sector investment","AI development","AI Index Report 2025"),
 
  ("What does the report say about AI's energy consumption in 2024?","Decreasing due to efficiency gains","Growing concern due to training large models","Not significant enough to measure","Completely offset by renewable energy","Growing concern due to training large models","AI sustainability","AI Index Report 2025"),
 
- ("According to the AI Index Report, which country has the most comprehensive AI strategy?","United States","China","Singapore","European Union","China","AI policy","AI Index Report 2025"),
+ ("According to the AI Index Report, which country has the most comprehensive AI strategy?","United States of America","China","Singapore","European Union","China","AI policy","AI Index Report 2025"),
 
- ("What percentage of Fortune 500 companies have a dedicated AI strategy according to the AI Index Report 2025?","40 percent","60 percent","75 percent","90 percent","75 percent","AI adoption","AI Index Report 2025"),
+ ("What percentage of Fortune 500 companies have a dedicated AI strategy according to the AI Index Report 2025?","40 percent of companies","60 percent of companies","75 percent of companies","90 percent of companies","75 percent of companies","AI adoption","AI Index Report 2025"),
 
- ("According to the report, what is the average time to deploy an AI model to production in 2024?","1-3 months","4-6 months","7-12 months","Over 1 year","4-6 months","AI development","AI Index Report 2025"),
+ ("According to the report, what is the average time to deploy an AI model to production in 2024?","1-3 months on average","4-6 months on average","7-12 months on average","Over 1 year on average","4-6 months on average","AI development","AI Index Report 2025"),
 
- ("What does the AI Index Report identify as the most promising emerging AI application?","AI for climate change","AI for drug discovery","AI for education","AI for cybersecurity","AI for drug discovery","AI applications","AI Index Report 2025"),
+ ("What does the AI Index Report identify as the most promising emerging AI application?","AI for climate change mitigation","AI for drug discovery","AI for education technology","AI for cybersecurity","AI for drug discovery","AI applications","AI Index Report 2025"),
 
  ("What are the three main types of machine learning?","Supervised, Unsupervised, Reinforcement","Classification, Regression, Clustering","Neural networks, Decision trees, SVM","Deep learning, Shallow learning, Transfer learning","Supervised, Unsupervised, Reinforcement","ML fundamentals","studocu"),
 
- ("In supervised learning, what is required for training?","Only input data","Only output labels","Both labeled input and output pairs","No data is needed","Both labeled input and output pairs","ML fundamentals","studocu"),
+ ("In supervised learning, what is required for training?","Only input data is needed","Only output labels are needed","Both labeled input and output pairs","No data is needed at all","Both labeled input and output pairs","ML fundamentals","studocu"),
 
- ("What is the main goal of unsupervised learning?","To predict future values","To find patterns and structure in unlabeled data","To maximize rewards","To classify data into known categories","To find patterns and structure in unlabeled data","ML fundamentals","studocu"),
+ ("What is the main goal of unsupervised learning?","To predict future values accurately","To find patterns and structure in unlabeled data","To maximize rewards over time","To classify data into known categories","To find patterns and structure in unlabeled data","ML fundamentals","studocu"),
 
  ("What is the key characteristic of reinforcement learning?","Learning from labeled examples","Finding clusters in data","Learning through trial and error with rewards and penalties","Reducing dimensionality","Learning through trial and error with rewards and penalties","ML fundamentals","studocu"),
 
 
 
- ("What is the purpose of a validation set?","To train the model","To tune hyperparameters and prevent overfitting","To replace the test set","To label data","To tune hyperparameters and prevent overfitting","ML concepts","studocu"),
+ ("What is the purpose of a validation set?","To train the model initially","To tune hyperparameters and prevent overfitting","To replace the test set","To label data manually","To tune hyperparameters and prevent overfitting","ML concepts","studocu"),
 
 
 
 
 
- ("What is a confusion matrix used for?","To confuse the model","To evaluate classification model performance by showing true/false positives and negatives","To visualize training loss","To select features","To evaluate classification model performance by showing true/false positives and negatives","ML evaluation","studocu"),
+ ("What is a confusion matrix used for?","To confuse the model during training","To evaluate classification model performance by showing true/false positives and negatives","To visualize training loss over time","To select features for modeling","To evaluate classification model performance by showing true/false positives and negatives","ML evaluation","studocu"),
 
  ("What does True Positive (TP) mean in a confusion matrix?","Model correctly predicted negative class","Model incorrectly predicted positive class","Model correctly predicted positive class","Model incorrectly predicted negative class","Model correctly predicted positive class","ML evaluation","studocu"),
 
- ("What does False Positive (FP) mean?","Correctly predicted positive","Incorrectly predicted positive (Type I error)","Correctly predicted negative","Incorrectly predicted negative","Incorrectly predicted positive (Type I error)","ML evaluation","studocu"),
+ ("What does False Positive (FP) mean?","Correctly predicted positive class","Incorrectly predicted positive (Type I error)","Correctly predicted negative class","Incorrectly predicted negative class","Incorrectly predicted positive (Type I error)","ML evaluation","studocu"),
 
- ("What does False Negative (FN) mean?","Correctly predicted negative","Incorrectly predicted negative (Type II error)","Correctly predicted positive","Incorrectly predicted positive","Incorrectly predicted negative (Type II error)","ML evaluation","studocu"),
+ ("What does False Negative (FN) mean?","Correctly predicted negative class","Incorrectly predicted negative (Type II error)","Correctly predicted positive class","Incorrectly predicted positive class","Incorrectly predicted negative (Type II error)","ML evaluation","studocu"),
 
- ("What is gradient descent?","A clustering algorithm","An optimization algorithm that iteratively adjusts parameters to minimize loss","A classification method","A data preprocessing technique","An optimization algorithm that iteratively adjusts parameters to minimize loss","ML algorithms","studocu"),
+ ("What is gradient descent?","A clustering algorithm for data","An optimization algorithm that iteratively adjusts parameters to minimize loss","A classification method for labels","A data preprocessing technique","An optimization algorithm that iteratively adjusts parameters to minimize loss","ML algorithms","studocu"),
 
  ("What is a learning rate in gradient descent?","The speed of data loading","The step size for parameter updates during optimization","The accuracy of the model","The number of epochs","The step size for parameter updates during optimization","ML algorithms","studocu"),
 
- ("What happens if the learning rate is too high?","Training is too slow","The algorithm may overshoot the minimum and fail to converge","The model becomes too accurate","Nothing significant","The algorithm may overshoot the minimum and fail to converge","ML algorithms","studocu"),
+ ("What happens if the learning rate is too high?","Training is too slow overall","The algorithm may overshoot the minimum and fail to converge","The model becomes too accurate","Nothing significant happens","The algorithm may overshoot the minimum and fail to converge","ML algorithms","studocu"),
 
- ("What happens if the learning rate is too low?","Perfect convergence","Training is very slow and may get stuck in local minima","Model overfits immediately","No training occurs","Training is very slow and may get stuck in local minima","ML algorithms","studocu"),
+ ("What happens if the learning rate is too low?","Perfect convergence is achieved","Training is very slow and may get stuck in local minima","Model overfits immediately","No training occurs at all","Training is very slow and may get stuck in local minima","ML algorithms","studocu"),
 
- ("What is batch gradient descent?","Uses one sample at a time","Uses the entire dataset to compute gradient","Uses random samples","Uses only test data","Uses the entire dataset to compute gradient","ML algorithms","studocu"),
+ ("What is batch gradient descent?","Uses one sample at a time","Uses the entire dataset to compute gradient","Uses random samples only","Uses only test data","Uses the entire dataset to compute gradient","ML algorithms","studocu"),
 
- ("What is stochastic gradient descent (SGD)?","Uses entire dataset","Uses one training example at a time to update parameters","Uses validation set","Uses multiple datasets","Uses one training example at a time to update parameters","ML algorithms","studocu"),
+ ("What is stochastic gradient descent (SGD)?","Uses entire dataset at once","Uses one training example at a time to update parameters","Uses validation set only","Uses multiple datasets","Uses one training example at a time to update parameters","ML algorithms","studocu"),
 
- ("What is mini-batch gradient descent?","Uses entire dataset","Uses small random batches of training data","Uses one sample","Uses test data","Uses small random batches of training data","ML algorithms","studocu"),
+ ("What is mini-batch gradient descent?","Uses entire dataset at once","Uses small random batches of training data","Uses one sample only","Uses test data only","Uses small random batches of training data","ML algorithms","studocu"),
 
- ("What is the purpose of an activation function in neural networks?","To slow down training","To introduce non-linearity so the network can learn complex patterns","To reduce overfitting","To normalize inputs","To introduce non-linearity so the network can learn complex patterns","Neural networks","studocu"),
+ ("What is the purpose of an activation function in neural networks?","To slow down training processes","To introduce non-linearity so the network can learn complex patterns","To reduce overfitting problems","To normalize inputs","To introduce non-linearity so the network can learn complex patterns","Neural networks","studocu"),
 
- ("What is the most common activation function for hidden layers?","Sigmoid","ReLU (Rectified Linear Unit)","Linear","Softmax","ReLU (Rectified Linear Unit)","Neural networks","studocu"),
+ ("What is the most common activation function for hidden layers?","Sigmoid function","ReLU (Rectified Linear Unit)","Linear function","Softmax function","ReLU (Rectified Linear Unit)","Neural networks","studocu"),
 
- ("What activation function is typically used for binary classification output?","ReLU","Sigmoid","Tanh","Linear","Sigmoid","Neural networks","studocu"),
+ ("What activation function is typically used for binary classification output?","ReLU function","Sigmoid function","Tanh function","Linear function","Sigmoid function","Neural networks","studocu"),
 
- ("What activation function is used for multi-class classification output?","Sigmoid","ReLU","Softmax","Tanh","Softmax","Neural networks","studocu"),
+ ("What activation function is used for multi-class classification output?","Sigmoid function","ReLU function","Softmax function","Tanh function","Softmax function","Neural networks","studocu"),
 
- ("What is backpropagation?","Forward pass through network","Algorithm for computing gradients and updating weights by propagating errors backward","Data preprocessing","Model evaluation","Algorithm for computing gradients and updating weights by propagating errors backward","Neural networks","studocu"),
+ ("What is backpropagation?","Forward pass through network","Algorithm for computing gradients and updating weights by propagating errors backward","Data preprocessing step","Model evaluation metric","Algorithm for computing gradients and updating weights by propagating errors backward","Neural networks","studocu"),
 
- ("What is an epoch in neural network training?","One forward pass","One complete pass through the entire training dataset","One weight update","One batch","One complete pass through the entire training dataset","Neural networks","studocu"),
+ ("What is an epoch in neural network training?","One forward pass only","One complete pass through the entire training dataset","One weight update only","One batch processed","One complete pass through the entire training dataset","Neural networks","studocu"),
 
- ("What is dropout in neural networks?","Removing bad data","Regularization technique that randomly drops neurons during training to prevent overfitting","Stopping training early","Removing features","Regularization technique that randomly drops neurons during training to prevent overfitting","Neural networks","studocu"),
+ ("What is dropout in neural networks?","Removing bad data points","Regularization technique that randomly drops neurons during training to prevent overfitting","Stopping training early","Removing features from model","Regularization technique that randomly drops neurons during training to prevent overfitting","Neural networks","studocu"),
 
  ("What is the vanishing gradient problem?","Gradients explode during training","Gradients become very small in deep networks, making training difficult","Gradients disappear completely","Gradients become negative","Gradients become very small in deep networks, making training difficult","Neural networks","studocu"),
 
- ("What is the main difference between AI and Machine Learning?","They are the same thing","AI is the broader concept, ML is a subset focused on learning from data","ML is broader than AI","AI only works with images","AI is the broader concept, ML is a subset focused on learning from data","AI concepts","eksamen 2022"),
+ ("What is the main difference between AI and Machine Learning?","They are the same thing essentially","AI is the broader concept, ML is a subset focused on learning from data","ML is broader than AI overall","AI only works with images","AI is the broader concept, ML is a subset focused on learning from data","AI concepts","eksamen 2022"),
 
- ("What is the purpose of data normalization in machine learning?","To remove outliers","To scale features to similar ranges for better model performance","To add more data","To label the data","To scale features to similar ranges for better model performance","Data preprocessing","eksamen 2022"),
+ ("What is the purpose of data normalization in machine learning?","To remove outliers from data","To scale features to similar ranges for better model performance","To add more data","To label the data manually","To scale features to similar ranges for better model performance","Data preprocessing","eksamen 2022"),
 
- ("Which metric would be most appropriate for imbalanced classification problems?","Accuracy","F1-score or precision-recall","Mean squared error","R-squared","F1-score or precision-recall","ML evaluation","eksamen 2022"),
+ ("Which metric would be most appropriate for imbalanced classification problems?","Accuracy alone","F1-score or precision-recall","Mean squared error","R-squared coefficient","F1-score or precision-recall","ML evaluation","eksamen 2022"),
 
- ("What is the curse of dimensionality?","Having too much data","Performance degradation as the number of features increases","Having too few samples","Model training is too fast","Performance degradation as the number of features increases","ML concepts","eksamen 2022"),
+ ("What is the curse of dimensionality?","Having too much data available","Performance degradation as the number of features increases","Having too few samples","Model training is too fast","Performance degradation as the number of features increases","ML concepts","eksamen 2022"),
 
- ("What is the purpose of PCA (Principal Component Analysis)?","To increase dimensions","To reduce dimensionality while preserving variance","To classify data","To cluster data","To reduce dimensionality while preserving variance","ML techniques","eksamen 2022"),
+ ("What is the purpose of PCA (Principal Component Analysis)?","To increase dimensions in data","To reduce dimensionality while preserving variance","To classify data into categories","To cluster data into groups","To reduce dimensionality while preserving variance","ML techniques","eksamen 2022"),
 
- ("What does it mean when a model has high training accuracy but low test accuracy?","The model is underfitting","The model is overfitting","The model is perfect","The data is bad","The model is overfitting","ML concepts","eksamen 2022"),
+ ("What does it mean when a model has high training accuracy but low test accuracy?","The model is underfitting the data","The model is overfitting the data","The model is perfect overall","The data is bad quality","The model is overfitting the data","ML concepts","eksamen 2022"),
 
  ("What are the three main components of AI according to the introduction lecture?","Hardware, Software, Data","Reasoning, Learning, Perception","Input, Processing, Output","Training, Testing, Deployment","Reasoning, Learning, Perception","AI fundamentals","Lecture Introduction-DAVE3625"),
 
@@ -363,7 +363,7 @@ qa_mc = [
 
  ("What is the purpose of splitting data into training and test sets?","To save storage space by reducing data size","To evaluate model performance on unseen data","To speed up training by using smaller datasets","To reduce overfitting during training phase","To evaluate model performance on unseen data","ML fundamentals","Lecture MachineLearning"),
 
- ("What does the bias-variance tradeoff refer to?","Speed vs accuracy","The balance between underfitting and overfitting","Training time vs testing time","Memory usage vs performance","The balance between underfitting and overfitting","ML theory","Lecture MachineLearning-p2"),
+ ("What does the bias-variance tradeoff refer to?","Speed vs accuracy tradeoff","The balance between underfitting and overfitting","Training time vs testing time","Memory usage vs performance","The balance between underfitting and overfitting","ML theory","Lecture MachineLearning-p2"),
 
  ("What is the main advantage of decision trees?","They always achieve the most accurate predictions","They are interpretable and easy to understand","They require the least computational resources","They work without any training data required","They are interpretable and easy to understand","ML algorithms","Lecture MachineLearning-p2"),
 
@@ -413,7 +413,7 @@ qa_mc = [
 
  ("What is the main energy concern with large AI models?","They use too little energy","Training large models requires massive computational resources and energy","They only work on batteries","They can't be powered properly","Training large models requires massive computational resources and energy","AI sustainability","Lecture Limitations-with-AI"),
 
- ("What is transfer learning in machine learning?","Transferring data between computers","Using knowledge from one task to improve learning on a related task","Moving models between servers","Translating between languages","Using knowledge from one task to improve learning on a related task","ML techniques","Lecture MachineLearning-p3-1"),
+ ("What is transfer learning in machine learning?","Transferring data between different computers","Using knowledge from one task to improve learning on a related task","Moving models between different servers","Translating between different languages","Using knowledge from one task to improve learning on a related task","ML techniques","Lecture MachineLearning-p3-1"),
 
  ("What is the difference between classification and regression?","There is no difference between them","Classification predicts discrete categories, regression predicts continuous values","Regression predicts categories, classification predicts continuous values","Both predict the same types of outputs","Classification predicts discrete categories, regression predicts continuous values","ML fundamentals","Lecture MachineLearning"),
 
@@ -437,111 +437,111 @@ qa_mc = [
 
  ("What is imbalanced data in classification?","Equal class distribution","When one class has significantly more samples than others","All classes are missing","Data is corrupted","When one class has significantly more samples than others","Data issues","Lecture MachineLearning-p2"),
 
- ("What technique can help with imbalanced datasets?","Ignore the problem","Oversampling minority class or undersampling majority class","Delete all data","Use only one class","Oversampling minority class or undersampling majority class","Data preprocessing","Lecture MachineLearning-p2"),
+ ("What technique can help with imbalanced datasets?","Ignore the problem completely","Oversampling minority class or undersampling majority class","Delete all data","Use only one class","Oversampling minority class or undersampling majority class","Data preprocessing","Lecture MachineLearning-p2"),
 
  ("What is SMOTE in machine learning?","A type of neural network","Synthetic Minority Oversampling Technique for handling imbalanced data","A clustering algorithm","A regularization method","Synthetic Minority Oversampling Technique for handling imbalanced data","Data preprocessing","Lecture MachineLearning-p2"),
 
  ("What is the ROC curve's x-axis and y-axis?","Precision and Recall","False Positive Rate and True Positive Rate","Accuracy and Loss","Bias and Variance","False Positive Rate and True Positive Rate","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What does an AUC (Area Under Curve) of 0.5 indicate?","Perfect model","Random guessing performance","Worst possible performance","Good performance","Random guessing performance","ML evaluation","Lecture MachineLearning-p2"),
+ ("What does an AUC (Area Under Curve) of 0.5 indicate?","Perfect model performance","Random guessing performance","Worst possible performance","Good performance","Random guessing performance","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What does an AUC close to 1.0 indicate?","Poor model","Excellent model performance","Random model","Biased model","Excellent model performance","ML evaluation","Lecture MachineLearning-p2"),
+ ("What does an AUC close to 1.0 indicate?","Poor model performance","Excellent model performance","Random model performance","Biased model performance","Excellent model performance","ML evaluation","Lecture MachineLearning-p2"),
 
  ("What is the purpose of max pooling in CNNs?","To increase image size","To reduce spatial dimensions while retaining important features","To add more layers","To train faster","To reduce spatial dimensions while retaining important features","Neural networks","Lecture MachineLearning-p3-1"),
 
  ("What is a convolutional layer in CNNs?","A fully connected layer","A layer that applies filters to detect features in images","An output layer","A normalization layer","A layer that applies filters to detect features in images","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is the main advantage of CNNs for image processing?","They are faster","They can automatically learn spatial hierarchies of features","They use less memory","They require less data","They can automatically learn spatial hierarchies of features","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What is the main advantage of CNNs for image processing?","They are faster than others","They can automatically learn spatial hierarchies of features","They use less memory","They require less data","They can automatically learn spatial hierarchies of features","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is a recurrent neural network (RNN) primarily used for?","Image classification","Sequential data like text or time series","Clustering","Dimensionality reduction","Sequential data like text or time series","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What is a recurrent neural network (RNN) primarily used for?","Image classification tasks","Sequential data like text or time series","Clustering algorithms","Dimensionality reduction","Sequential data like text or time series","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What problem do LSTMs solve compared to basic RNNs?","They are faster","They better handle long-term dependencies in sequences","They use less memory","They are simpler","They better handle long-term dependencies in sequences","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What problem do LSTMs solve compared to basic RNNs?","They are faster overall","They better handle long-term dependencies in sequences","They use less memory","They are simpler overall","They better handle long-term dependencies in sequences","Neural networks","Lecture MachineLearning-p3-1"),
 
  ("What is the purpose of attention mechanism in neural networks?","To make training faster","To allow the model to focus on relevant parts of the input","To reduce parameters","To normalize data","To allow the model to focus on relevant parts of the input","Neural networks","Lecture MachineLearning-p3-1"),
 
  ("What is a loss function in machine learning?","A function that always returns zero","A function that measures the difference between predictions and actual values","A function that adds features","A function that removes outliers","A function that measures the difference between predictions and actual values","ML fundamentals","Lecture MachineLearning"),
 
- ("What is mean squared error (MSE) typically used for?","Classification","Regression problems","Clustering","Dimensionality reduction","Regression problems","ML evaluation","Lecture MachineLearning"),
+ ("What is mean squared error (MSE) typically used for?","Classification tasks","Regression problems","Clustering tasks","Dimensionality reduction","Regression problems","ML evaluation","Lecture MachineLearning"),
 
- ("What is cross-entropy loss typically used for?","Regression","Classification problems","Clustering","Data preprocessing","Classification problems","ML evaluation","Lecture MachineLearning-p2"),
+ ("What is cross-entropy loss typically used for?","Regression tasks","Classification problems","Clustering tasks","Data preprocessing","Classification problems","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What is early stopping in neural network training?","Starting training early","Stopping training when validation performance stops improving","Stopping after one epoch","Never stopping","Stopping training when validation performance stops improving","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What is early stopping in neural network training?","Starting training early","Stopping training when validation performance stops improving","Stopping after one epoch","Never stopping training","Stopping training when validation performance stops improving","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is the purpose of a learning rate scheduler?","To maintain constant learning rate","To adjust learning rate during training for better convergence","To increase learning rate only","To remove learning rate","To adjust learning rate during training for better convergence","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What is the purpose of a learning rate scheduler?","To maintain constant learning rate throughout","To adjust learning rate during training for better convergence","To increase learning rate only","To remove learning rate entirely","To adjust learning rate during training for better convergence","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is batch size in neural network training?","Total dataset size","Number of samples processed before updating model parameters","Number of epochs","Number of layers","Number of samples processed before updating model parameters","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What is batch size in neural network training?","Total dataset size available","Number of samples processed before updating model parameters","Number of epochs to run","Number of layers in network","Number of samples processed before updating model parameters","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What happens if batch size is too large?","Training is always better","May not fit in memory and may lead to poor generalization","Training is faster","Model is more accurate","May not fit in memory and may lead to poor generalization","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What happens if batch size is too large?","Training is always better overall","May not fit in memory and may lead to poor generalization","Training is faster only","Model is more accurate overall","May not fit in memory and may lead to poor generalization","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What happens if batch size is too small?","Perfect training","Training becomes noisy and slow","Training is optimal","No training occurs","Training becomes noisy and slow","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What happens if batch size is too small?","Perfect training results","Training becomes noisy and slow","Training is optimal","No training occurs at all","Training becomes noisy and slow","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is the purpose of a validation set distinct from test set?","No purpose","To tune hyperparameters without touching the test set","To replace training set","To reduce data size","To tune hyperparameters without touching the test set","ML fundamentals","Lecture MachineLearning"),
+ ("What is the purpose of a validation set distinct from test set?","No specific purpose","To tune hyperparameters without touching the test set","To replace training set entirely","To reduce data size only","To tune hyperparameters without touching the test set","ML fundamentals","Lecture MachineLearning"),
 
- ("What is stratified sampling in train/test split?","Random sampling","Maintaining class proportions in splits","Taking only one class","Taking all data","Maintaining class proportions in splits","Data preprocessing","Lecture MachineLearning"),
+ ("What is stratified sampling in train/test split?","Random sampling only","Maintaining class proportions in splits","Taking only one class","Taking all data together","Maintaining class proportions in splits","Data preprocessing","Lecture MachineLearning"),
 
- ("What is the difference between parameters and hyperparameters?","No difference","Parameters are learned during training, hyperparameters are set before","Hyperparameters are learned, parameters are set","Both are the same","Parameters are learned during training, hyperparameters are set before","ML fundamentals","Lecture MachineLearning"),
+ ("What is the difference between parameters and hyperparameters?","No difference at all","Parameters are learned during training, hyperparameters are set before","Hyperparameters are learned, parameters are set manually","Both are the same thing","Parameters are learned during training, hyperparameters are set before","ML fundamentals","Lecture MachineLearning"),
 
- ("What is the purpose of momentum in gradient descent?","To slow down training","To accelerate convergence by accumulating gradients","To increase loss","To remove features","To accelerate convergence by accumulating gradients","Optimization","Lecture MachineLearning-p2"),
+ ("What is the purpose of momentum in gradient descent?","To slow down training process","To accelerate convergence by accumulating gradients","To increase loss function","To remove features entirely","To accelerate convergence by accumulating gradients","Optimization","Lecture MachineLearning-p2"),
 
- ("What is Adam optimizer?","A type of neural network","An adaptive learning rate optimization algorithm","A loss function","A regularization technique","An adaptive learning rate optimization algorithm","Optimization","Lecture MachineLearning-p3-1"),
+ ("What is Adam optimizer?","A type of neural network architecture","An adaptive learning rate optimization algorithm","A loss function type","A regularization technique method","An adaptive learning rate optimization algorithm","Optimization","Lecture MachineLearning-p3-1"),
 
- ("What is the main idea behind ensemble methods like Random Forest?","Use one tree","Combine multiple models to reduce variance and improve accuracy","Use only neural networks","Avoid decision trees","Combine multiple models to reduce variance and improve accuracy","ML algorithms","Lecture MachineLearning-p2"),
+ ("What is the main idea behind ensemble methods like Random Forest?","Use one tree model","Combine multiple models to reduce variance and improve accuracy","Use only neural networks","Avoid decision trees entirely","Combine multiple models to reduce variance and improve accuracy","ML algorithms","Lecture MachineLearning-p2"),
 
- ("What is bagging in ensemble learning?","Training one model","Training multiple models on different random subsets of data","Using bags for storage","Removing data","Training multiple models on different random subsets of data","ML techniques","Lecture MachineLearning-p2"),
+ ("What is bagging in ensemble learning?","Training one model only","Training multiple models on different random subsets of data","Using bags for storage only","Removing data points entirely","Training multiple models on different random subsets of data","ML techniques","Lecture MachineLearning-p2"),
 
- ("What is boosting in ensemble learning?","Random combination","Sequentially training models where each focuses on previous errors","Training in parallel only","Using only strong learners","Sequentially training models where each focuses on previous errors","ML techniques","Lecture MachineLearning-p2"),
+ ("What is boosting in ensemble learning?","Random combination of models","Sequentially training models where each focuses on previous errors","Training in parallel only","Using only strong learners","Sequentially training models where each focuses on previous errors","ML techniques","Lecture MachineLearning-p2"),
 
- ("What is the difference between bagging and boosting?","No difference","Bagging trains in parallel, boosting trains sequentially focusing on errors","Boosting trains in parallel, bagging sequentially","Both are identical","Bagging trains in parallel, boosting trains sequentially focusing on errors","ML techniques","Lecture MachineLearning-p2"),
+ ("What is the difference between bagging and boosting?","No difference at all","Bagging trains in parallel, boosting trains sequentially focusing on errors","Boosting trains in parallel, bagging sequentially","Both are identical methods","Bagging trains in parallel, boosting trains sequentially focusing on errors","ML techniques","Lecture MachineLearning-p2"),
 
- ("What is the purpose of dropout rate in neural networks?","To keep all neurons","To specify the fraction of neurons to randomly drop during training","To add more layers","To reduce epochs","To specify the fraction of neurons to randomly drop during training","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What is the purpose of dropout rate in neural networks?","To keep all neurons active","To specify the fraction of neurons to randomly drop during training","To add more layers overall","To reduce epochs needed","To specify the fraction of neurons to randomly drop during training","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is weight initialization in neural networks?","Setting all weights to zero","Setting initial weights before training begins","Final weight values","Removing weights","Setting initial weights before training begins","Neural networks","Lecture MachineLearning-p3-1"),
+ ("What is weight initialization in neural networks?","Setting all weights to zero","Setting initial weights before training begins","Final weight values only","Removing weights entirely","Setting initial weights before training begins","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("Why is proper weight initialization important?","It's not important","Poor initialization can lead to vanishing/exploding gradients","It only affects speed","It reduces accuracy","Poor initialization can lead to vanishing/exploding gradients","Neural networks","Lecture MachineLearning-p3-1"),
+ ("Why is proper weight initialization important?","It's not important at all","Poor initialization can lead to vanishing/exploding gradients","It only affects speed","It reduces accuracy overall","Poor initialization can lead to vanishing/exploding gradients","Neural networks","Lecture MachineLearning-p3-1"),
 
- ("What is the purpose of the softmax function?","To make training harder","To convert outputs to probability distribution for multi-class classification","To normalize inputs","To reduce dimensions","To convert outputs to probability distribution for multi-class classification","Neural networks","Lecture MachineLearning-p2"),
-
-
-
- ("What does high precision but low recall indicate?","Model is perfect","Model is conservative, misses many positives but rarely wrong when it predicts positive","Model is random","Model always predicts positive","Model is conservative, misses many positives but rarely wrong when it predicts positive","ML evaluation","Lecture MachineLearning-p2"),
-
- ("What does high recall but low precision indicate?","Model is perfect","Model catches most positives but has many false alarms","Model is conservative","Model predicts nothing","Model catches most positives but has many false alarms","ML evaluation","Lecture MachineLearning-p2"),
+ ("What is the purpose of the softmax function?","To make training harder overall","To convert outputs to probability distribution for multi-class classification","To normalize inputs only","To reduce dimensions available","To convert outputs to probability distribution for multi-class classification","Neural networks","Lecture MachineLearning-p2"),
 
 
 
- ("What is a true negative (TN) in classification?","Correctly predicted positive","Correctly predicted negative","Incorrectly predicted positive","Incorrectly predicted negative","Correctly predicted negative","ML evaluation","Lecture MachineLearning-p2"),
+ ("What does high precision but low recall indicate?","Model is perfect overall","Model is conservative, misses many positives but rarely wrong when it predicts positive","Model is random predictions","Model always predicts positive class","Model is conservative, misses many positives but rarely wrong when it predicts positive","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What is specificity in classification?","True positive rate","True Negative divided by all actual negatives","True Positive divided by actual positives","False positive rate","True Negative divided by all actual negatives","ML evaluation","Lecture MachineLearning-p2"),
+ ("What does high recall but low precision indicate?","Model is perfect overall","Model catches most positives but has many false alarms","Model is conservative in predictions","Model predicts nothing at all","Model catches most positives but has many false alarms","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What is the purpose of standardization in data preprocessing?","To remove outliers","To scale features to have mean 0 and standard deviation 1","To delete data","To add features","To scale features to have mean 0 and standard deviation 1","Data preprocessing","Lecture MachineLearning"),
 
- ("What is the difference between standardization and normalization?","No difference","Standardization uses mean and std, normalization scales to a range like 0-1","Normalization uses mean and std","Both use the same formula","Standardization uses mean and std, normalization scales to a range like 0-1","Data preprocessing","Lecture MachineLearning"),
 
- ("What is label encoding?","Encoding images","Converting categorical labels to numerical values","Removing labels","Adding more labels","Converting categorical labels to numerical values","Data preprocessing","Lecture MachineLearning"),
+ ("What is a true negative (TN) in classification?","Correctly predicted positive class","Correctly predicted negative class","Incorrectly predicted positive class","Incorrectly predicted negative class","Correctly predicted negative class","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What is the problem with label encoding for nominal categories?","No problem","It introduces ordinal relationships where none exist","It's too slow","It uses too much memory","It introduces ordinal relationships where none exist","Data preprocessing","Lecture MachineLearning"),
+ ("What is specificity in classification?","True positive rate overall","True Negative divided by all actual negatives","True Positive divided by actual positives","False positive rate overall","True Negative divided by all actual negatives","ML evaluation","Lecture MachineLearning-p2"),
 
- ("What is gradient boosting?","Random combination","Ensemble method building models sequentially to correct previous errors using gradients","Training one model","Removing gradients","Ensemble method building models sequentially to correct previous errors using gradients","ML algorithms","Lecture MachineLearning-p2"),
+ ("What is the purpose of standardization in data preprocessing?","To remove outliers completely","To scale features to have mean 0 and standard deviation 1","To delete data entirely","To add features only","To scale features to have mean 0 and standard deviation 1","Data preprocessing","Lecture MachineLearning"),
 
- ("What is XGBoost?","A neural network","An optimized implementation of gradient boosting","A clustering algorithm","A data structure","An optimized implementation of gradient boosting","ML algorithms","Lecture MachineLearning-p2"),
+ ("What is the difference between standardization and normalization?","No difference at all","Standardization uses mean and std, normalization scales to a range like 0-1","Normalization uses mean and std values","Both use the same formula","Standardization uses mean and std, normalization scales to a range like 0-1","Data preprocessing","Lecture MachineLearning"),
 
- ("What is feature importance in tree-based models?","Random values","Measure of how useful each feature is for making predictions","Always equal for all features","Not measurable","Measure of how useful each feature is for making predictions","ML interpretation","Lecture MachineLearning-p2"),
+ ("What is label encoding?","Encoding images into data","Converting categorical labels to numerical values","Removing labels completely","Adding more labels unnecessarily","Converting categorical labels to numerical values","Data preprocessing","Lecture MachineLearning"),
 
- ("What is the purpose of pruning in decision trees?","To make trees larger","To reduce tree size and prevent overfitting","To add more branches","To remove all leaves","To reduce tree size and prevent overfitting","ML algorithms","Lecture MachineLearning-p2"),
+ ("What is the problem with label encoding for nominal categories?","No problem at all","It introduces ordinal relationships where none exist","It's too slow overall","It uses too much memory","It introduces ordinal relationships where none exist","Data preprocessing","Lecture MachineLearning"),
 
- ("What is Gini impurity used for?","Classification accuracy","Measuring how often a randomly chosen element would be incorrectly labeled","Regression error","Data cleaning","Measuring how often a randomly chosen element would be incorrectly labeled","ML algorithms","Lecture MachineLearning-p2"),
+ ("What is gradient boosting?","Random combination of models","Ensemble method building models sequentially to correct previous errors using gradients","Training one model only","Removing gradients entirely","Ensemble method building models sequentially to correct previous errors using gradients","ML algorithms","Lecture MachineLearning-p2"),
 
- ("What is information gain in decision trees?","Loss function","Decrease in entropy after splitting on an attribute","Increase in complexity","Data augmentation","Decrease in entropy after splitting on an attribute","ML algorithms","Lecture MachineLearning-p2"),
+ ("What is XGBoost?","A neural network architecture","An optimized implementation of gradient boosting","A clustering algorithm type","A data structure format","An optimized implementation of gradient boosting","ML algorithms","Lecture MachineLearning-p2"),
 
- ("What is K-fold cross-validation?","Using K models","Splitting data into K parts, training K times with different validation sets","Using K features","Training for K epochs","Splitting data into K parts, training K times with different validation sets","ML evaluation","Lecture MachineLearning-p2"),
+ ("What is feature importance in tree-based models?","Random values only","Measure of how useful each feature is for making predictions","Always equal for all features","Not measurable at all","Measure of how useful each feature is for making predictions","ML interpretation","Lecture MachineLearning-p2"),
 
- ("What is leave-one-out cross-validation?","Remove one feature","K-fold CV where K equals the number of samples","Remove one class","Use only one sample","K-fold CV where K equals the number of samples","ML evaluation","Lecture MachineLearning-p2"),
+ ("What is the purpose of pruning in decision trees?","To make trees larger overall","To reduce tree size and prevent overfitting","To add more branches overall","To remove all leaves completely","To reduce tree size and prevent overfitting","ML algorithms","Lecture MachineLearning-p2"),
 
- ("What is the purpose of data splitting in machine learning?","To delete data","To create independent sets for training, validation, and testing","To increase data size","To compress data","To create independent sets for training, validation, and testing","ML fundamentals","Lecture MachineLearning"),
+ ("What is Gini impurity used for?","Classification accuracy only","Measuring how often a randomly chosen element would be incorrectly labeled","Regression error only","Data cleaning tasks","Measuring how often a randomly chosen element would be incorrectly labeled","ML algorithms","Lecture MachineLearning-p2"),
+
+ ("What is information gain in decision trees?","Loss function only","Decrease in entropy after splitting on an attribute","Increase in complexity","Data augmentation method","Decrease in entropy after splitting on an attribute","ML algorithms","Lecture MachineLearning-p2"),
+
+ ("What is K-fold cross-validation?","Using K models overall","Splitting data into K parts, training K times with different validation sets","Using K features only","Training for K epochs only","Splitting data into K parts, training K times with different validation sets","ML evaluation","Lecture MachineLearning-p2"),
+
+ ("What is leave-one-out cross-validation?","Remove one feature only","K-fold CV where K equals the number of samples","Remove one class only","Use only one sample","K-fold CV where K equals the number of samples","ML evaluation","Lecture MachineLearning-p2"),
+
+ ("What is the purpose of data splitting in machine learning?","To delete data completely","To create independent sets for training, validation, and testing","To increase data size","To compress data efficiently","To create independent sets for training, validation, and testing","ML fundamentals","Lecture MachineLearning"),
 
  ("What is the No Free Lunch theorem in machine learning?","All algorithms are free","No algorithm is universally best for all problems","All algorithms perform equally","Free algorithms are best","No algorithm is universally best for all problems","ML theory","Lecture MachineLearning"),
 
- ("What is the formula for a simple linear regression model?","weight = b1 + b0","weight = b1 × height + b0","weight = height / b1","weight = b0 - b1","weight = b1 × height + b0","Regression","DIKU 004 - Supervised Machine Learning"),
+ ("What is the formula for a simple linear regression model?","weight = b1 + b0 value","weight = b1 × height + b0","weight = height / b1 constant","weight = b0 - b1 value","weight = b1 × height + b0","Regression","DIKU 004 - Supervised Machine Learning"),
 
  ("In linear regression, what does b1 represent?","The intercept value","The slope of the line","The error term","The prediction accuracy","The slope of the line","Regression","DIKU 004 - Supervised Machine Learning"),
 
@@ -559,39 +559,39 @@ qa_mc = [
 
  ("What tool is used to evaluate classification model performance?","Regression line","Confusion matrix","Scatter plot","Histogram","Confusion matrix","Classification","DIKU 004 - Supervised Machine Learning"),
 
- ("Classification boundaries can be which of the following?","Only linear","Linear or complex (curved, multidimensional)","Only circular","Only straight vertical lines","Linear or complex (curved, multidimensional)","Classification","DIKU 004 - Supervised Machine Learning"),
+ ("Classification boundaries can be which of the following?","Only linear boundaries","Linear or complex (curved, multidimensional)","Only circular boundaries","Only straight vertical lines","Linear or complex (curved, multidimensional)","Classification","DIKU 004 - Supervised Machine Learning"),
 
  ("What is core business data?","Any random data collected","Data most directly tied to company's value-generating activities","Only financial statements","Only employee records","Data most directly tied to company's value-generating activities","Business data","DIKU 004 - Supervised Machine Learning"),
 
- ("What characterizes core business data?","Low dollar density","High dollar density with measurable financial impact per record","No connection to profit","Only historical data","High dollar density with measurable financial impact per record","Business data","DIKU 004 - Supervised Machine Learning"),
+ ("What characterizes core business data?","Low dollar density overall","High dollar density with measurable financial impact per record","No connection to profit","Only historical data","High dollar density with measurable financial impact per record","Business data","DIKU 004 - Supervised Machine Learning"),
 
- ("What percentage of enterprise data is typically structured?","Around 80%","Around 20%","Around 50%","Around 5%","Around 20%","Data types","DIKU 004 - Supervised Machine Learning"),
+ ("What percentage of enterprise data is typically structured?","Around 80% of data","Around 20% of data","Around 50% of data","Around 5% of data","Around 20% of data","Data types","DIKU 004 - Supervised Machine Learning"),
 
- ("What percentage of enterprise data is typically unstructured?","Around 20%","Around 80%","Around 50%","Around 10%","Around 80%","Data types","DIKU 004 - Supervised Machine Learning"),
+ ("What percentage of enterprise data is typically unstructured?","Around 20% of data","Around 80% of data","Around 50% of data","Around 10% of data","Around 80% of data","Data types","DIKU 004 - Supervised Machine Learning"),
 
- ("Which type of data is easier to manage?","Unstructured data","Structured data (tabular)","Both are equally difficult","Neither can be managed","Structured data (tabular)","Data types","DIKU 004 - Supervised Machine Learning"),
+ ("Which type of data is easier to manage?","Unstructured data overall","Structured data (tabular)","Both are equally difficult","Neither can be managed","Structured data (tabular)","Data types","DIKU 004 - Supervised Machine Learning"),
 
  ("What type of data holds richer information but requires AI to extract value?","Structured data only","Unstructured data (images, audio, video, text)","Numerical data only","Spreadsheet data","Unstructured data (images, audio, video, text)","Data types","DIKU 004 - Supervised Machine Learning"),
 
- ("According to the 5 V's of Big Data, what does 'Volume' refer to?","Speed of data generation","Massive amounts of data (terabytes to petabytes)","Data accuracy","Data usefulness","Massive amounts of data (terabytes to petabytes)","Big Data","DIKU 004 - Supervised Machine Learning"),
+ ("According to the 5 V's of Big Data, what does 'Volume' refer to?","Speed of data generation","Massive amounts of data (terabytes to petabytes)","Data accuracy and quality","Data usefulness overall","Massive amounts of data (terabytes to petabytes)","Big Data","DIKU 004 - Supervised Machine Learning"),
 
- ("According to the 5 V's of Big Data, what does 'Velocity' refer to?","Amount of data","Data is generated and processed rapidly","Data accuracy","Data variety","Data is generated and processed rapidly","Big Data","DIKU 004 - Supervised Machine Learning"),
+ ("According to the 5 V's of Big Data, what does 'Velocity' refer to?","Amount of data overall","Data is generated and processed rapidly","Data accuracy and quality","Data variety types","Data is generated and processed rapidly","Big Data","DIKU 004 - Supervised Machine Learning"),
 
  ("According to the 5 V's of Big Data, what does 'Variety' refer to?","Only structured data","Structured, semi-structured, and unstructured data types","Only numerical data","Only text data","Structured, semi-structured, and unstructured data types","Big Data","DIKU 004 - Supervised Machine Learning"),
 
- ("According to the 5 V's of Big Data, what does 'Veracity' refer to?","Data volume","Data accuracy and reliability","Data speed","Data storage","Data accuracy and reliability","Big Data","DIKU 004 - Supervised Machine Learning"),
+ ("According to the 5 V's of Big Data, what does 'Veracity' refer to?","Data volume overall","Data accuracy and reliability","Data speed overall","Data storage types","Data accuracy and reliability","Big Data","DIKU 004 - Supervised Machine Learning"),
 
- ("According to the 5 V's of Big Data, what does 'Value' refer to?","Data size","Data usefulness for decision-making","Data speed","Data format","Data usefulness for decision-making","Big Data","DIKU 004 - Supervised Machine Learning"),
+ ("According to the 5 V's of Big Data, what does 'Value' refer to?","Data size overall","Data usefulness for decision-making","Data speed overall","Data format types","Data usefulness for decision-making","Big Data","DIKU 004 - Supervised Machine Learning"),
 
- ("When did digital storage become inexpensive, marking the beginning of the digital age?","Around 1990","Around 2008","Around 2015","Around 2000","Around 2008","AI history","DIKU 004 - Supervised Machine Learning"),
+ ("When did digital storage become inexpensive, marking the beginning of the digital age?","Around 1990 era","Around 2008 era","Around 2015 era","Around 2000 era","Around 2008 era","AI history","DIKU 004 - Supervised Machine Learning"),
 
- ("What costs businesses over $3.1 trillion per year?","Hardware costs","Poor data quality","Training costs","Storage costs","Poor data quality","Data quality","DIKU 004 - Supervised Machine Learning"),
+ ("What costs businesses over $3.1 trillion per year?","Hardware costs overall","Poor data quality","Training costs overall","Storage costs overall","Poor data quality","Data quality","DIKU 004 - Supervised Machine Learning"),
 
- ("What is symbolic AI also known as?","Deep Learning","GOFAI (Good Old-Fashioned AI)","Neural networks","Genetic algorithms","GOFAI (Good Old-Fashioned AI)","AI types","DIKU 004 - Supervised Machine Learning"),
+ ("What is symbolic AI also known as?","Deep Learning methods","GOFAI (Good Old-Fashioned AI)","Neural networks overall","Genetic algorithms","GOFAI (Good Old-Fashioned AI)","AI types","DIKU 004 - Supervised Machine Learning"),
 
- ("What does symbolic AI use to represent knowledge?","Only numbers","Symbols (nouns) and relations (verbs/adjectives)","Only images","Only text","Symbols (nouns) and relations (verbs/adjectives)","AI types","DIKU 004 - Supervised Machine Learning"),
+ ("What does symbolic AI use to represent knowledge?","Only numbers available","Symbols (nouns) and relations (verbs/adjectives)","Only images available","Only text available","Symbols (nouns) and relations (verbs/adjectives)","AI types","DIKU 004 - Supervised Machine Learning"),
 
- ("What logic operations does symbolic AI use?","Only multiplication","AND, OR, NOT","Only addition","Only division","AND, OR, NOT","AI types","DIKU 004 - Supervised Machine Learning"),
+ ("What logic operations does symbolic AI use?","Only multiplication operations","AND, OR, NOT","Only addition operations","Only division operations","AND, OR, NOT","AI types","DIKU 004 - Supervised Machine Learning"),
 
  ("What is fuzzy logic used for?","Binary true/false only","Handling uncertainty with degrees of truth (values between 0 and 1)","Only integer values","Only text processing","Handling uncertainty with degrees of truth (values between 0 and 1)","AI types","DIKU 004 - Supervised Machine Learning"),
 
@@ -599,21 +599,21 @@ qa_mc = [
 
  ("According to George Box, what is true about models?","All models are perfect","All models are wrong, but some are useful","All models are useless","Models are always accurate","All models are wrong, but some are useful","ML theory","DIKU 004 - Supervised Machine Learning"),
 
- ("What does learning mean in the context of machine learning?","Memorizing all data","Behavioral change from experience","Deleting old data","Increasing storage","Behavioral change from experience","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+ ("What does learning mean in the context of machine learning?","Memorizing all data completely","Behavioral change from experience","Deleting old data only","Increasing storage capacity","Behavioral change from experience","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
 
- ("How do machines learn?","By copying humans","By building models from data","By guessing randomly","By following fixed rules only","By building models from data","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+ ("How do machines learn?","By copying humans directly","By building models from data","By guessing randomly","By following fixed rules only","By building models from data","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
 
  ("What are the main types of models?","Only mathematical models","Descriptive, predictive, mechanistic, and normative","Only statistical models","Only graphical models","Descriptive, predictive, mechanistic, and normative","ML theory","DIKU 004 - Supervised Machine Learning"),
 
- ("What is a descriptive model?","Predicts future events","Represents current state","Optimizes strategies","Shows causal processes","Represents current state","ML theory","DIKU 004 - Supervised Machine Learning"),
+ ("What is a descriptive model?","Predicts future events","Represents current state","Optimizes strategies overall","Shows causal processes","Represents current state","ML theory","DIKU 004 - Supervised Machine Learning"),
 
  ("What is a predictive model?","Shows current state only","Shows trends over time","Shows optimal strategies","Shows logical relations","Shows trends over time","ML theory","DIKU 004 - Supervised Machine Learning"),
 
- ("What is a mechanistic model?","Shows current state","Shows causal processes","Shows optimal strategies","Shows trends only","Shows causal processes","ML theory","DIKU 004 - Supervised Machine Learning"),
+ ("What is a mechanistic model?","Shows current state overall","Shows causal processes","Shows optimal strategies","Shows trends only","Shows causal processes","ML theory","DIKU 004 - Supervised Machine Learning"),
 
- ("What is a normative model?","Shows current state","Shows optimal strategies","Shows causal processes","Shows trends only","Shows optimal strategies","ML theory","DIKU 004 - Supervised Machine Learning"),
+ ("What is a normative model?","Shows current state overall","Shows optimal strategies","Shows causal processes","Shows trends only","Shows optimal strategies","ML theory","DIKU 004 - Supervised Machine Learning"),
 
- ("In supervised learning, what does 'supervised' refer to?","The algorithm supervises itself","Learning from labeled examples with known outputs","No human involvement","Random learning","Learning from labeled examples with known outputs","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
+ ("In supervised learning, what does 'supervised' refer to?","The algorithm supervises itself","Learning from labeled examples with known outputs","No human involvement","Random learning process","Learning from labeled examples with known outputs","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
 
  ("What are the two main types of supervised learning problems?","Clustering and association","Regression and classification","Only neural networks","Only decision trees","Regression and classification","ML fundamentals","DIKU 004 - Supervised Machine Learning"),
 
@@ -625,29 +625,29 @@ qa_mc = [
 
  ("What is machine learning according to DAVE3625?","Manual programming of all rules","Application of AI that allows systems to automatically learn and improve from experience without explicit programming","Only statistical analysis","Only data collection","Application of AI that allows systems to automatically learn and improve from experience without explicit programming","ML fundamentals","DAVE3625-MachineLearning1"),
 
- ("In the ML algorithm building process, what is the first step?","Test the model","Collect data","Train the model","Deploy the model","Collect data","ML fundamentals","DAVE3625-MachineLearning1"),
+ ("In the ML algorithm building process, what is the first step?","Test the model first","Collect data initially","Train the model first","Deploy the model first","Collect data initially","ML fundamentals","DAVE3625-MachineLearning1"),
 
- ("How does a reinforcement learning agent learn?","Only from labeled examples","By interacting with environment via trial and error","By clustering data","By reducing dimensions","By interacting with environment via trial and error","Reinforcement learning","DAVE3625-MachineLearning1"),
+ ("How does a reinforcement learning agent learn?","Only from labeled examples","By interacting with environment via trial and error","By clustering data together","By reducing dimensions only","By interacting with environment via trial and error","Reinforcement learning","DAVE3625-MachineLearning1"),
 
- ("What feedback system does reinforcement learning use?","No feedback","Reward if correct, penalty if wrong","Only penalties","Only rewards","Reward if correct, penalty if wrong","Reinforcement learning","DAVE3625-MachineLearning1"),
+ ("What feedback system does reinforcement learning use?","No feedback at all","Reward if correct, penalty if wrong","Only penalties given","Only rewards given","Reward if correct, penalty if wrong","Reinforcement learning","DAVE3625-MachineLearning1"),
 
- ("What is the purpose of recommender systems?","To classify images","Suggest relevant items to users and predict products likely to interest them","Only for search engines","Only for social media","Suggest relevant items to users and predict products likely to interest them","Recommender systems","DAVE3625-MachineLearning1"),
+ ("What is the purpose of recommender systems?","To classify images only","Suggest relevant items to users and predict products likely to interest them","Only for search engines","Only for social media","Suggest relevant items to users and predict products likely to interest them","Recommender systems","DAVE3625-MachineLearning1"),
 
  ("When should you use machine learning?","Always for every problem","When rules are not explicitly known, but patterns can be inferred from data","Only for image processing","Only for text processing","When rules are not explicitly known, but patterns can be inferred from data","ML fundamentals","DAVE3625-MachineLearning1"),
 
- ("When was the Dartmouth Conference that founded AI?","1950","1956","1960","1970","1956","AI history","DIKU 002 - History of AI-p2"),
+ ("When was the Dartmouth Conference that founded AI?","1950 era","1956 era","1960 era","1970 era","1956 era","AI history","DIKU 002 - History of AI-p2"),
 
  ("Who were among the founding fathers of AI at Dartmouth?","Only John McCarthy","John McCarthy, Marvin Minsky, Claude Shannon, and others","Only Alan Turing","Only Marvin Minsky","John McCarthy, Marvin Minsky, Claude Shannon, and others","AI history","DIKU 002 - History of AI-p2"),
 
- ("What was SNARC?","The first computer","First neural network machine developed by Marvin Minsky in 1951","A programming language","A database system","First neural network machine developed by Marvin Minsky in 1951","AI history","DIKU 002 - History of AI-p2"),
+ ("What was SNARC?","The first computer ever","First neural network machine developed by Marvin Minsky in 1951","A programming language","A database system","First neural network machine developed by Marvin Minsky in 1951","AI history","DIKU 002 - History of AI-p2"),
 
- ("What was Logic Theorist designed to operate on?","Only numbers","Symbols rather than numbers","Only text","Only images","Symbols rather than numbers","AI history","DIKU 002 - History of AI-p2"),
+ ("What was Logic Theorist designed to operate on?","Only numbers available","Symbols rather than numbers","Only text available","Only images available","Symbols rather than numbers","AI history","DIKU 002 - History of AI-p2"),
 
  ("Who developed the Perceptron?","Marvin Minsky","Frank Rosenblatt","John McCarthy","Claude Shannon","Frank Rosenblatt","AI history","DIKU 002 - History of AI-p2"),
 
  ("What was the Perceptron?","A programming language","An electronic device following biological principles, capable of learning","A database system","A mechanical calculator","An electronic device following biological principles, capable of learning","AI history","DIKU 002 - History of AI-p2"),
 
- ("What is the structure of Rosenblatt's Perceptron model?","inputs → outputs","inputs → weights → activation function → output","only activation function","weights only","inputs → weights → activation function → output","Neural networks","DIKU 002 - History of AI-p2"),
+ ("What is the structure of Rosenblatt's Perceptron model?","inputs → outputs directly","inputs → weights → activation function → output","only activation function","weights only","inputs → weights → activation function → output","Neural networks","DIKU 002 - History of AI-p2"),
 
  ("Who developed early versions of deep learning models in the 1960s?","Frank Rosenblatt","Alexey G. Ivakhnenko","John McCarthy","Marvin Minsky","Alexey G. Ivakhnenko","AI history","DIKU 002 - History of AI-p2"),
 

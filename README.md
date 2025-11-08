@@ -1,4 +1,3 @@
-
 # DAVE3625 Introduction to Artificial Intelligence
 [Emnebeskrivelse](https://student.oslomet.no/en/studier/-/studieinfo/emne/DAVE3625/2025/H%C3%98ST)
 
@@ -33,7 +32,7 @@
 [Quiz for the exam](Flashcards/README.md) # Different sources ai generatet includes report 2025. This was made pre exam 2025, based on lectures, labs and corricular material.
 
 ## Documents from the course
-[Course material](Course-material/)
+[Course material](course%material/)
 
 ## Other materials
 https://take.quiz-maker.com/QKHAGZ63N # Eksamen 2023
