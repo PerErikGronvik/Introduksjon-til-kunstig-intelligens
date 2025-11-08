@@ -10,9 +10,17 @@
 4. Lab 4: Model Evaluation and Selection Labs/Lab4.ipynb
 
 # Project 1: Data Analysis and Visualization oblig1_2025
-1. oblig1_2025/MA1.ipynb
+oblig1_2025/MA1.ipynb
 # Project 2: Passenger Prediction with Machine Learning oblig2_2025
-1. oblig2_2025/'Mandatory Assignment 2.ipynb'
+oblig2_2025/'Mandatory Assignment 2.ipynb'
+# Project 3: Vibe coding
+oblig3_2025/'README.md'
+
+
+
+
+
+
 
 # Project Setup Guide - FOOLPROOF INSTRUCTIONS
 
