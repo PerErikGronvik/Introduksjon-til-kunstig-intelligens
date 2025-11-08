@@ -1,5 +1,8 @@
-# Content of this file:
 
+# DAVE3625 Introduction to Artificial Intelligence
+[Emnebeskrivelse](https://student.oslomet.no/en/studier/-/studieinfo/emne/DAVE3625/2025/H%C3%98ST)
+
+## Content of this Repository:
 
 ## Multiple Labs
 
@@ -21,7 +24,7 @@
 [Vibe coding](oblig3_2025/Oblig3.pdf)
 
 ## Quiz for the exam
-[Quiz for the exam](Flashcards/multiple_choice.py) # Different sources ai generatet includes report 2025. This was made pre exam 2025, based on lectures, labs and corricular material.
+[Quiz for the exam](Flashcards/README.md) # Different sources ai generatet includes report 2025. This was made pre exam 2025, based on lectures, labs and corricular material.
 
 ## Documents from the course
 [Course material](Course-material/)
@@ -33,7 +36,7 @@ https://wayground.com/admin/quiz/6742575f92a6fd574cead61c/dave3625-intro-to-ai #
 https://www.youtube.com/watch?v=D03EJhztsHQ # Ai report youtube video.
 https://www.youtube.com/watch?v=yn_7dovmEJ4 # Machine learning yearning sammendrag ai greie.
 
-
+   
 
 
 # Project Setup Guide - FOOLPROOF INSTRUCTIONS
