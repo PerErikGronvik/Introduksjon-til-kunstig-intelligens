@@ -10,7 +10,7 @@
 ### Project 1: Jupyter Notebook with Data Analysis and Visualization oblig1_2025
 [oblig1_2025](oblig1_2025/MA1.ipynb)
 ### Project 2: Jupyter Notebook with Passenger Prediction with Machine Learning oblig2_2025
-[oblig2_2025](oblig2_2025/Mandatory Assignment 2.ipynb)
+[oblig2_2025](oblig2_2025/Mandatory%20Assignment%202.ipynb)
 ### Project 3: Vibe coding essay about vibe coding and prectical example.
 [Vibe coding](oblig3_2025/Oblig3.pdf)
 
