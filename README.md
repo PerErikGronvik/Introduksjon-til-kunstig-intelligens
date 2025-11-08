@@ -7,20 +7,20 @@
 ## Multiple Labs
 
 1. Lab 1: Introduction to Python Labs/Lab1.ipynb
-[Lab 1]( Labs/Lab1.ipynb )
+[Lab 1]( Labs/Lab1/Lab1.ipynb )
 2. Lab 2: Data Analysis with Pandas Labs/Lab2.ipynb
-[Lab 2]( Labs/Lab2.ipynb )
+[Lab 2]( Labs/Lab2/Lab2.ipynb )
 3. Lab 3: Machine Learning Basics Labs/Lab3.ipynb
-[Lab 3]( Labs/Lab3.ipynb )
+[Lab 3]( Labs/Lab3/Lab3.ipynb )
 4. Lab 4: Model Evaluation and Selection Labs/Lab4.ipynb
 
 ## Projects
 
-### Project 1: Data Analysis and Visualization oblig1_2025
+### Project 1: Jupyter Notebook with Data Analysis and Visualization oblig1_2025
 [oblig1_2025/MA1.ipynb](oblig1_2025/MA1.ipynb)
-### Project 2: Passenger Prediction with Machine Learning oblig2_2025
+### Project 2: Jupyter Notebook with Passenger Prediction with Machine Learning oblig2_2025
 [oblig2_2025/'Mandatory Assignment 2.ipynb'](oblig2_2025/'Mandatory Assignment 2.ipynb')
-### Project 3: Vibe coding
+### Project 3: Vibe coding essay about vibe coding and prectical example.
 [Vibe coding](oblig3_2025/Oblig3.pdf)
 
 ## Quiz for the exam
