@@ -1,0 +1,309 @@
+The largest and fastest growing sector for AI-related global investment in twenty eighteen to twenty nineteen was autonomous driving.
+The country with the most private investments in artificial intelligence per capita in twenty eighteen was Israel.
+Many people consider artificial intelligence as the fourth industrial revolution.
+General artificial intelligence takes knowledge from one domain and transfers it to other domains.
+Chatbots and voice assistants like Siri Alexa and Google assistant are examples of narrow AI.
+A Turing test is a method for determining whether or not a computer is capable of thinking like a human being.
+AI programmers spend most of their time on data processing including cleaning and labeling.
+A data point which differs significantly from other observed data points is called an outlier.
+The process of manually adding tags or categories to data points is called data labeling.
+The process of using domain knowledge of a data set to create new attributes from existing data points is called feature engineering.
+Supervised learning uses labeled training data with input-output pairs.
+In reinforcement learning an agent can learn in an interactive environment by trial and error using feedback from its own actions and experiences.
+Logistic regression is a classification algorithm.
+The output of a sigmoid function for classification algorithms has a range from zero to one.
+To predict how much tax individuals will submit next year you would use a regression algorithm.
+Naive Bayes algorithm assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.
+You can use maximum n dimensional hyperplanes.
+To understand how angry or happy students are in labeled complaints you would use classification algorithms.
+To identify if a patient has covid from unlabeled X ray images you would use clustering algorithms.
+To show customers what they should buy based on previous purchases you would use association algorithms.
+An equation that describes a relationship between two quantities that show a constant rate of change is called linear regression.
+A regression model where the relationship between variables follows a curved line is an example of polynomial regression.
+A recommendation system used by social media companies usually belongs to the narrow AI category.
+No software has truly passed the Turing test.
+To get missing data for previous years you would use synthetic data.
+In supervised learning you need to use data labeling.
+In machine learning linear regression falls within the category of supervised learning.
+Regression models are used with continuous data.
+You can use hyperplanes in n dimensions not just two.
+The nature of the problem determines how outliers are used.
+Individuals that have worked for the company the longest have higher salaries when the correlation between years worked and salary is zero point seven five.
+It is harder to train the remaining last ten percent of a machine learning algorithm than the first ninety percent.
+You may also like or recommended for you applications can be implemented by using Apriori algorithm.
+When most facial recognition systems use a higher proportion of white faces as training data this highlights data bias.
+If software follows a logical series of steps to reach a conclusion and is easy to explain then it is conventional programming.
+The major reason behind the increased use of artificial intelligence today is all of the choices including powerful processors and increased connectivity.
+The preferred way to work with an AI algorithm is to identify the problem then prepare data then choose algorithms then train the algorithm then run the algorithm.
+A sigmoid function is a mathematical function that produces an S-shaped curve used in machine learning.
+Generative models learn joint probability while discriminative models learn conditional probability.
+Gradient descent is an optimization algorithm to minimize cost functions.
+A decision boundary is a surface that separates different classes.
+Ninety six percent accuracy means the model correctly predicted ninety six percent of output labels.
+The logit function is used to transform probabilities to linear combinations in logistic regression.
+Naive Bayes is a probabilistic classifier using Bayes theorem with independence assumptions.
+Naive Bayes is particularly good at spam detection and text sentiment analysis.
+Deep learning is a subset of machine learning using neural networks with many layers.
+Support vector machine is a supervised algorithm finding optimal hyperplane for classification.
+SVM is typically used for small datasets requiring high accuracy.
+K-means is an unsupervised clustering algorithm partitioning data into K clusters.
+The purpose of feature scaling is to normalize the range of features for better model performance.
+The curse of dimensionality refers to problems arising when analyzing high-dimensional data.
+Lasso regression is linear regression with L1 regularization.
+Adding a new column based on data available is considered creating a feature.
+Accuracy in machine learning is the percentage of correctly predicted instances out of the total instances.
+Precision in machine learning is true positives divided by true positives plus false positives.
+Recall in machine learning is true positives divided by true positives plus false negatives.
+F1 score in machine learning is two times precision times recall divided by precision plus recall.
+Log loss is used for classification.
+Log loss represents how close the predicted probabilities are to the actual class labels.
+The ideal value for log loss is zero.
+A ROC curve is a plot of true positive rate versus false positive rate.
+The area under the ROC curve represents the model's ability to distinguish between classes.
+There is a trade-off between precision and recall.
+The trade-off between precision and recall is that increasing one decreases the other.
+The first AI software was Logic Theorist.
+The first chat bot was ELIZA invented by Joseph Weizenbaum.
+The AI winter happened in both nineteen seventy and nineteen ninety.
+In the nineteen eighty revival of AI the video game industry started using AI as a test bed and Japan announced an eight hundred fifty million investment in AI and the first autonomous vehicle using a neural network was created and focus switched to narrow AI.
+A key ethical requirement for artificial intelligence developed and used in Norway is that it should respect human rights and democracy.
+Artificial intelligence automates tasks or predicts future events based on data and is commonly used live and often takes the form of software.
+Data science produces insights based on data and is commonly one-off and usually takes the form of a report or presentation.
+A holdout set in machine learning is a portion of the dataset set aside for final model evaluation.
+Numpy is used for data manipulation and numerical computations.
+Pandas is used for data manipulation and analysis.
+The difference between numpy and pandas is that numpy is for numerical computations while pandas is for data manipulation and analysis.
+Scikit-learn is a machine learning library in python used for building and training machine learning models.
+Matplotlib is used for creating visualizations and plots.
+The main purpose of a single-number evaluation metric is to help quickly compare different models and choose the best one.
+If you have multiple metrics you care about you should pick one as the optimizing metric and others as satisficing metrics.
+The recommended split ratio for dev and test sets in modern machine learning with large datasets is ninety eight one one for train dev test.
+The key principle about dev and test set distribution is they should come from the same distribution as what you want to do well on.
+Your dev and test sets should be large enough to give high confidence in the overall performance of your system.
+You should change dev test sets or metrics when your metric is no longer measuring what is most important to you.
+The first thing to setup before starting a machine learning project is to set up dev test sets and metrics.
+Avoidable bias refers to the difference between training error and human-level performance.
+Variance indicates the model is overfitting meaning doing well on training but not on dev or test.
+If training error is fifteen percent and dev error is sixteen percent and human-level error is zero percent you should focus on reducing bias.
+If training error is one percent and dev error is eleven percent and human-level error is zero percent you should focus on reducing variance.
+The most reliable way to reduce bias in your model is to train a bigger model.
+The most reliable way to reduce variance in your model is to get more training data or add regularization.
+Bayes error is the error rate of the best possible function.
+Human-level performance is often used as a proxy for Bayes error because for tasks humans are good at human-level performance is close to Bayes error.
+You should stop trying to reduce bias when training error reaches human-level performance.
+Error analysis is running your model on examples it got wrong and analyzing the patterns.
+During error analysis you should manually examine misclassified examples and categorize the types of errors.
+If you find that five percent of dev set errors are due to a particular category maybe it is not worth fixing and you should focus on categories that account for larger error percentages.
+If your dev and test sets come from different distributions you should make sure they come from the same distribution as your target application.
+A training-dev set is data from the same distribution as training but not used for training and helps detect variance.
+If training error is low and training-dev error is low but dev error is high you have a data mismatch problem between sets.
+When you have a data mismatch problem you should try to understand the difference between training and dev sets and add similar data to training.
+Transfer learning is using knowledge from one task to help with another task.
+Transfer learning makes sense when task A and B have the same input and you have more data for A than B and low-level features help both.
+Multi-task learning is training one model to perform multiple tasks simultaneously.
+Multi-task learning makes sense when tasks share lower-level features and you have similar amount of data for each task and you can train a big enough network.
+End-to-end deep learning is replacing a multi-step pipeline with a single neural network.
+The main advantage of end-to-end learning is it lets the model learn the optimal representation without hand-designed components.
+The main disadvantage of end-to-end learning is it requires a very large amount of data.
+Your decision to use end-to-end learning should be guided by whether you have enough data to learn the complexity of the mapping.
+According to the AI Index Report twenty twenty five the sector that saw the highest AI private investment in twenty twenty four was data management and processing.
+The approximate total global AI private investment in twenty twenty four was ninety seven point two billion dollars.
+The country that led in AI private investment in twenty twenty four was the United States.
+According to the AI Index Report twenty twenty five forty two percent of companies reported adopting at least one AI capability.
+The main reason companies cited for not adopting AI was lack of skilled personnel.
+According to the AI Index Report twenty twenty five natural language processing saw the most significant growth in twenty twenty four.
+The AI Index Report twenty twenty five identified that AI model training costs are increasing exponentially.
+The primary ethical concern about AI in twenty twenty four was bias and fairness in algorithms.
+The region that showed the fastest growth in AI research publications was Asia.
+According to the AI Index Report twenty twenty five sixty five percent of AI PhD graduates in the US go into industry rather than academia.
+The AI Index Report twenty twenty five says AI's impact on job displacement shows significant displacement in manufacturing and routine cognitive tasks.
+The application of AI in transportation that saw the most investment in twenty twenty four was autonomous vehicles technology.
+The AI Index Report twenty twenty five identified that AI regulatory frameworks globally show increasing fragmentation and country-specific approaches.
+The estimated growth rate of the global AI market from twenty twenty four to twenty thirty is thirty seven percent annually.
+Large language models showed the most improvement in benchmark performance in twenty twenty four.
+According to the AI Index Report twenty eight percent of AI systems deployed in production experienced some form of failure or incident.
+The biggest barrier to AI adoption in developing countries is infrastructure and connectivity limitations.
+The industry sector with the highest AI adoption rate is finance and insurance.
+The trend regarding open-source AI models in twenty twenty four was significant increase in development and adoption.
+The primary driver of AI innovation is private sector investment.
+The report says about AI's energy consumption in twenty twenty four that it is a growing concern due to training large models.
+The country with the most comprehensive AI strategy is China.
+Seventy five percent of Fortune 500 companies have a dedicated AI strategy.
+The average time to deploy an AI model to production in twenty twenty four is four to six months.
+The most promising emerging AI application is AI for drug discovery.
+The three main types of machine learning are supervised unsupervised and reinforcement.
+In supervised learning both labeled input and output pairs are required for training.
+The main goal of unsupervised learning is to find patterns and structure in unlabeled data.
+The key characteristic of reinforcement learning is learning through trial and error with rewards and penalties.
+The purpose of a validation set is to tune hyperparameters and prevent overfitting.
+A confusion matrix is used to evaluate classification model performance by showing true and false positives and negatives.
+True positive means the model correctly predicted positive class.
+False positive means the model incorrectly predicted positive which is a type one error.
+False negative means the model incorrectly predicted negative which is a type two error.
+Gradient descent is an optimization algorithm that iteratively adjusts parameters to minimize loss.
+A learning rate in gradient descent is the step size for parameter updates during optimization.
+If the learning rate is too high the algorithm may overshoot the minimum and fail to converge.
+If the learning rate is too low training is very slow and may get stuck in local minima.
+Batch gradient descent uses the entire dataset to compute gradient.
+Stochastic gradient descent uses one training example at a time to update parameters.
+Mini-batch gradient descent uses small random batches of training data.
+The purpose of an activation function in neural networks is to introduce non-linearity so the network can learn complex patterns.
+The most common activation function for hidden layers is ReLU which is rectified linear unit.
+The activation function typically used for binary classification output is sigmoid function.
+The activation function used for multi-class classification output is softmax function.
+Backpropagation is an algorithm for computing gradients and updating weights by propagating errors backward.
+An epoch in neural network training is one complete pass through the entire training dataset.
+Dropout in neural networks is a regularization technique that randomly drops neurons during training to prevent overfitting.
+The vanishing gradient problem is when gradients become very small in deep networks making training difficult.
+The main difference between AI and machine learning is that AI is the broader concept and machine learning is a subset focused on learning from data.
+The purpose of data normalization in machine learning is to scale features to similar ranges for better model performance.
+The most appropriate metric for imbalanced classification problems is F1-score or precision-recall.
+The curse of dimensionality is performance degradation as the number of features increases.
+The purpose of PCA which is principal component analysis is to reduce dimensionality while preserving variance.
+When a model has high training accuracy but low test accuracy the model is overfitting the data.
+The three main components of AI according to the introduction lecture are reasoning learning and perception.
+The main limitation of rule-based AI systems is they cannot handle uncertainty and require explicit programming for all scenarios.
+The main difference between strong AI and weak AI is that strong AI has general intelligence like humans while weak AI is task-specific.
+The primary goal of supervised learning is to learn a mapping from inputs to outputs using labeled examples.
+In the context of machine learning a feature is an individual measurable property or characteristic of the data.
+The purpose of splitting data into training and test sets is to evaluate model performance on unseen data.
+The bias-variance tradeoff refers to the balance between underfitting and overfitting.
+The main advantage of decision trees is they are interpretable and easy to understand.
+Ensemble learning is combining multiple models to improve performance.
+The purpose of the kernel trick in SVM is to map data to higher dimensions for linear separation.
+A confusion matrix is used to evaluate classification model performance and accuracy.
+Cross-validation is primarily used to get a more reliable estimate of model performance.
+The main purpose of regularization in machine learning is to prevent overfitting by penalizing complex models.
+The difference between L1 and L2 regularization is that L1 can zero out coefficients for feature selection while L2 shrinks them.
+The K in K-Nearest Neighbors is the number of nearest neighbors to consider.
+A hyperparameter in machine learning is a parameter set before training that controls the learning process.
+Grid search is used to systematically search for optimal hyperparameters.
+The elbow method is used to find the optimal K value in K-means clustering.
+The main goal of dimensionality reduction is to reduce the number of features while preserving important information.
+PCA which is principal component analysis is primarily used for dimensionality reduction by finding principal components.
+In unsupervised learning the main difference from supervised learning is that no labeled data is used for training.
+Hierarchical clustering is a method that creates a tree of clusters.
+The silhouette score is used to evaluate clustering quality and cohesion.
+Anomaly detection is used to identify unusual data points that don't fit normal patterns.
+When we say AI has a black box problem it means it's difficult to understand how AI makes decisions.
+Algorithmic bias in AI is systematic errors in AI systems due to biased training data or design.
+AI explainability or interpretability means the ability to understand and explain how an AI system makes decisions.
+The main concern with AI systems making critical decisions in healthcare or justice is lack of transparency and potential for bias affecting human lives.
+Data poisoning in the context of AI security is deliberately manipulating training data to compromise the model.
+Adversarial attack in AI is crafting inputs designed to fool the AI model.
+The main energy concern with large AI models is that training large models requires massive computational resources and energy.
+Transfer learning in machine learning is using knowledge from one task to improve learning on a related task.
+The difference between classification and regression is that classification predicts discrete categories while regression predicts continuous values.
+A neural network layer is a collection of neurons that process inputs together.
+The vanishing gradient problem in deep learning is when gradients become too small in early layers preventing learning.
+Model deployment in machine learning means putting the trained model into production for real-world use.
+A B testing in the context of machine learning deployment is comparing two model versions with real users to see which performs better.
+Model monitoring in production is continuously tracking model performance to detect degradation or issues.
+Concept drift in machine learning is when the statistical properties of the target variable change over time.
+The purpose of data augmentation is to artificially increase training data by creating modified versions.
+Imbalanced data in classification is when one class has significantly more samples than others.
+A technique that can help with imbalanced datasets is oversampling minority class or undersampling majority class.
+SMOTE in machine learning is synthetic minority oversampling technique for handling imbalanced data.
+The ROC curve's x-axis and y-axis are false positive rate and true positive rate.
+An AUC which is area under curve of zero point five indicates random guessing performance.
+An AUC close to one point zero indicates excellent model performance.
+The purpose of max pooling in CNNs is to reduce spatial dimensions while retaining important features.
+A convolutional layer in CNNs is a layer that applies filters to detect features in images.
+The main advantage of CNNs for image processing is they can automatically learn spatial hierarchies of features.
+A recurrent neural network which is RNN is primarily used for sequential data like text or time series.
+LSTMs solve the problem of better handling long-term dependencies in sequences compared to basic RNNs.
+The purpose of attention mechanism in neural networks is to allow the model to focus on relevant parts of the input.
+A loss function in machine learning is a function that measures the difference between predictions and actual values.
+Mean squared error which is MSE is typically used for regression problems.
+Cross-entropy loss is typically used for classification problems.
+Early stopping in neural network training is stopping training when validation performance stops improving.
+The purpose of a learning rate scheduler is to adjust learning rate during training for better convergence.
+Batch size in neural network training is the number of samples processed before updating model parameters.
+If batch size is too large it may not fit in memory and may lead to poor generalization.
+If batch size is too small training becomes noisy and slow.
+The purpose of a validation set distinct from test set is to tune hyperparameters without touching the test set.
+Stratified sampling in train test split is maintaining class proportions in splits.
+The difference between parameters and hyperparameters is that parameters are learned during training while hyperparameters are set before.
+The purpose of momentum in gradient descent is to accelerate convergence by accumulating gradients.
+Adam optimizer is an adaptive learning rate optimization algorithm.
+The main idea behind ensemble methods like random forest is to combine multiple models to reduce variance and improve accuracy.
+Bagging in ensemble learning is training multiple models on different random subsets of data.
+Boosting in ensemble learning is sequentially training models where each focuses on previous errors.
+The difference between bagging and boosting is that bagging trains in parallel while boosting trains sequentially focusing on errors.
+The purpose of dropout rate in neural networks is to specify the fraction of neurons to randomly drop during training.
+Weight initialization in neural networks is setting initial weights before training begins.
+Proper weight initialization is important because poor initialization can lead to vanishing or exploding gradients.
+The purpose of the softmax function is to convert outputs to probability distribution for multi-class classification.
+High precision but low recall indicates the model is conservative and misses many positives but is rarely wrong when it predicts positive.
+High recall but low precision indicates the model catches most positives but has many false alarms.
+A true negative in classification is correctly predicted negative class.
+Specificity in classification is true negative divided by all actual negatives.
+The purpose of standardization in data preprocessing is to scale features to have mean zero and standard deviation one.
+The difference between standardization and normalization is standardization uses mean and standard deviation while normalization scales to a range like zero to one.
+Label encoding is converting categorical labels to numerical values.
+The problem with label encoding for nominal categories is it introduces ordinal relationships where none exist.
+Gradient boosting is an ensemble method building models sequentially to correct previous errors using gradients.
+XGBoost is an optimized implementation of gradient boosting.
+Feature importance in tree-based models is a measure of how useful each feature is for making predictions.
+The purpose of pruning in decision trees is to reduce tree size and prevent overfitting.
+Gini impurity is used for measuring how often a randomly chosen element would be incorrectly labeled.
+Information gain in decision trees is the decrease in entropy after splitting on an attribute.
+K-fold cross-validation is splitting data into K parts and training K times with different validation sets.
+Leave-one-out cross-validation is K-fold CV where K equals the number of samples.
+The purpose of data splitting in machine learning is to create independent sets for training validation and testing.
+The No Free Lunch theorem in machine learning states that no algorithm is universally best for all problems.
+In linear regression b1 represents the slope of the line.
+In linear regression b0 represents the intercept value.
+R squared measures the quality of fit in regression and closer to one is better.
+The best-fit line in regression is the line that minimizes error between prediction and data.
+Regression is used for prediction interpolation and inference of continuous values in supervised learning.
+Classification in supervised learning is dividing data into categories based on known labels.
+Classification requires labeled data which is a training set and testing data.
+The tool used to evaluate classification model performance is a confusion matrix.
+Classification boundaries can be linear or complex such as curved or multidimensional.
+Core business data is data most directly tied to a company's value-generating activities.
+Core business data is characterized by high dollar density with measurable financial impact per record.
+Around twenty percent of enterprise data is typically structured.
+Around eighty percent of enterprise data is typically unstructured.
+Structured data which is tabular is easier to manage than unstructured data.
+Unstructured data such as images audio video and text holds richer information but requires AI to extract value.
+According to the five V's of big data volume refers to massive amounts of data from terabytes to petabytes.
+According to the five V's of big data velocity refers to data being generated and processed rapidly.
+According to the five V's of big data variety refers to structured semi-structured and unstructured data types.
+According to the five V's of big data veracity refers to data accuracy and reliability.
+According to the five V's of big data value refers to data usefulness for decision-making.
+Digital storage became inexpensive around two thousand eight marking the beginning of the digital age.
+Poor data quality costs businesses over three point one trillion dollars per year.
+Symbolic AI is also known as GOFAI which stands for good old-fashioned AI.
+Symbolic AI uses symbols which are nouns and relations which are verbs and adjectives to represent knowledge.
+Symbolic AI uses AND OR and NOT logic operations.
+Fuzzy logic is used for handling uncertainty with degrees of truth which are values between zero and one.
+An example application of fuzzy logic is home appliances and subway control systems.
+According to George Box all models are wrong but some are useful.
+Learning in the context of machine learning means behavioral change from experience.
+Machines learn by building models from data.
+The main types of models are descriptive predictive mechanistic and normative.
+A descriptive model represents current state.
+A predictive model shows trends over time.
+A mechanistic model shows causal processes.
+A normative model shows optimal strategies.
+In supervised learning supervised refers to learning from labeled examples with known outputs.
+The two main types of supervised learning problems are regression and classification.
+Regression predicts continuous numerical values.
+Classification predicts categorical outcomes.
+Supervised learning performance is measured by accuracy or error metrics.
+Machine learning according to DAVE3625 is the application of AI that allows systems to automatically learn and improve from experience without explicit programming.
+In the machine learning algorithm building process the first step is to collect data.
+A reinforcement learning agent learns by interacting with environment via trial and error.
+Reinforcement learning uses a feedback system of reward if correct and penalty if wrong.
+The purpose of recommender systems is to suggest relevant items to users and predict products likely to interest them.
+You should use machine learning when rules are not explicitly known but patterns can be inferred from data.
+The Dartmouth Conference that founded AI was in nineteen fifty six.
+Among the founding fathers of AI at Dartmouth were John McCarthy Marvin Minsky Claude Shannon and others.
+SNARC was the first neural network machine developed by Marvin Minsky in nineteen fifty one.
+Logic Theorist was designed to operate on symbols rather than numbers.
+Frank Rosenblatt developed the Perceptron.
+The Perceptron was an electronic device following biological principles capable of learning.
+The structure of Rosenblatt's Perceptron model is inputs to weights to activation function to output.
+Alexey G Ivakhnenko developed early versions of deep learning models in the nineteen sixties.
+StandardScaler is important for KNN and SVM algorithms because features with larger scales dominate distance calculations without scaling.

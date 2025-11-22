@@ -29,7 +29,7 @@
 [Lab 6]( Labs/Lab6/Lab6.ipynb )
 
 ## Quiz for the exam
-[Quiz for the exam](Flashcards/README.md) # Different sources ai generatet includes report 2025. This was made pre exam 2025, based on lectures, labs and corricular material.
+[Quiz for the exam](TrainingMaterial/README.md) # Different sources ai generatet includes report 2025. This was made pre exam 2025, based on lectures, labs and corricular material.
 
 ## Documents from the course
 [Course material](course%material/)
