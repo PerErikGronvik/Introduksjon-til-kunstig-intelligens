@@ -236,7 +236,7 @@ qa_mc = [
 
  ("According to the AI Index Report 2025, which sector saw the highest AI private investment in 2024?","Healthcare applications","Data management and processing","Transportation systems","Retail and e-commerce overall","Data management and processing","AI industry trends","AI Index Report 2025"),
 
- ("What was the approximate total global AI private investment in 2024 according to the AI Index Report?","$50 billion","$97.2 billion","$150 billion","$25 billion","$97.2 billion","AI industry trends","AI Index Report 2025"),
+ ("What was the approximate total global AI private investment in 2024 according to the AI Index Report 2025?","$50 billion","$97.2 billion","$150 billion","$25 billion","$97.2 billion","AI industry trends","AI Index Report 2025"),
 
  ("Which country led in AI private investment in 2024? according to the 2025 AI Index Report","China overall","United Kingdom","United States","Germany total","United States","AI industry trends","AI Index Report 2025"),
 
@@ -264,17 +264,17 @@ qa_mc = [
 
  ("Which AI technique showed the most improvement in benchmark performance in 2024 according to the report?","Reinforcement learning","Large language models","Computer vision systems","Speech recognition tech","Large language models","AI development","AI Index Report 2025"),
 
- ("According to the AI Index Report, what percentage of AI systems deployed in production experienced some form of failure or incident?","15 percent of systems","28 percent of systems","45 percent of systems","60 percent of systems","28 percent of systems","AI reliability","AI Index Report 2025"),
+ ("According to the AI Index Report 2025, what percentage of AI systems deployed in production experienced some form of failure or incident?","15 percent of systems","28 percent of systems","45 percent of systems","60 percent of systems","28 percent of systems","AI reliability","AI Index Report 2025"),
 
  ("What does the AI Index Report 2025 identify as the biggest barrier to AI adoption in developing countries?","Lack of interest overall in AI technology","Infrastructure and connectivity limitations","Cultural resistance to technology adoption","Too many regulations in place domestically","Infrastructure and connectivity limitations","AI adoption","AI Index Report 2025"),
 
- ("According to the 2025 report, which industry sector has the highest AI adoption rate?","Healthcare industry sector","Finance and insurance industry","Retail industry sector","Manufacturing industry sector","Finance and insurance industry","AI adoption","AI Index Report 2025"),
+ ("According to the AI Index Report 2025, which industry sector has the highest AI adoption rate?","Healthcare industry sector","Finance and insurance industry","Retail industry sector","Manufacturing industry sector","Finance and insurance industry","AI adoption","AI Index Report 2025"),
 
- ("What trend did the AI Index Report identify regarding open-source AI models in 2024?","Declining in popularity overall trend","Significant increase in development and adoption","Remaining stable without change overall","Being replaced by proprietary models","Significant increase in development and adoption","AI development","AI Index Report 2025"),
+ ("What trend did the AI Index Report 2025 identify regarding open-source AI models in 2024?","Declining in popularity overall trend","Significant increase in development and adoption","Remaining stable without change overall","Being replaced by proprietary models","Significant increase in development and adoption","AI development","AI Index Report 2025"),
 
  ("According to the AI Index Report 2025, what is the primary driver of AI innovation?","Government funding programs","Private sector investment","Academic research overall","International collaboration","Private sector investment","AI development","AI Index Report 2025"),
 
- ("What does the report say about AI's energy consumption in 2024?","Decreasing due to efficiency gains","Growing concern due to training large models","Not significant enough to measure","Completely offset by renewable energy","Growing concern due to training large models","AI sustainability","AI Index Report 2025"),
+ ("What does the AI Index Report 2025 say about AI's energy consumption in 2024?","Decreasing due to efficiency gains","Growing concern due to training large models","Not significant enough to measure","Completely offset by renewable energy","Growing concern due to training large models","AI sustainability","AI Index Report 2025"),
 
  ("According to the AI Index Report 2025, which country has the most comprehensive AI strategy?","USA","China","Singapore","EU","China","AI policy","AI Index Report 2025"),
 
