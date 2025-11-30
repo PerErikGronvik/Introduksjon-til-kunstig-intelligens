@@ -238,17 +238,17 @@ qa_mc = [
 
  ("What was the approximate total global AI private investment in 2024 according to the AI Index Report?","$50 billion","$97.2 billion","$150 billion","$25 billion","$97.2 billion","AI industry trends","AI Index Report 2025"),
 
- ("Which country led in AI private investment in 2024?","China overall","United Kingdom","United States","Germany total","United States","AI industry trends","AI Index Report 2025"),
+ ("Which country led in AI private investment in 2024? according to the 2025 AI Index Report","China overall","United Kingdom","United States","Germany total","United States","AI industry trends","AI Index Report 2025"),
 
  ("According to the AI Index Report 2025, what percentage of companies reported adopting at least one AI capability?","25 percent","42 percent","55 percent","72 percent","55 percent","AI adoption","AI Index Report 2025"),
 
- ("What is the main reason companies cited for not adopting AI according to the AI Index Report?","Too expensive overall","Lack of skilled personnel","No clear business case","Regulatory concerns","Lack of skilled personnel","AI adoption","AI Index Report 2025"),
+ ("What is the main reason companies cited for not adopting AI according to the AI Index Report 2025?","Too expensive overall","Lack of skilled personnel","No clear business case","Regulatory concerns","Lack of skilled personnel","AI adoption","AI Index Report 2025"),
 
  ("According to the AI Index Report 2025, which AI application area saw the most significant growth in 2024?","Robotics applications","Computer vision systems","Natural language processing","Autonomous vehicles overall","Natural language processing","AI applications","AI Index Report 2025"),
 
  ("What trend did the AI Index Report 2025 identify regarding AI model training costs?","Decreasing significantly","Increasing exponentially","Remaining stable overall","Becoming unpredictable","Increasing exponentially","AI development","AI Index Report 2025"),
 
- ("According to the AI Index Report, what is the primary ethical concern about AI in 2024?","Cost of deployment infrastructure","Bias and fairness in algorithms","Speed of processing data","Energy consumption levels","Bias and fairness in algorithms","AI ethics","AI Index Report 2025"),
+ ("According to the AI Index Report 2025, what is the primary ethical concern about AI in 2024?","Cost of deployment infrastructure","Bias and fairness in algorithms","Speed of processing data","Energy consumption levels","Bias and fairness in algorithms","AI ethics","AI Index Report 2025"),
 
  ("Which region showed the fastest growth in AI research publications according to the AI Index Report 2025?","North America","Europe region","Asia region","South America","Asia region","AI research","AI Index Report 2025"),
 
@@ -256,7 +256,7 @@ qa_mc = [
 
  ("What does the AI Index Report 2025 say about AI's impact on job displacement?","Minimal impact observed so far in the workforce overall","Significant displacement in manufacturing and routine cognitive tasks","Only affects low-skill jobs primarily in service sectors","No measurable impact yet detected in any sector nationwide","Significant displacement in manufacturing and routine cognitive tasks","AI impact","AI Index Report 2025"),
 
- ("According to the AI Index Report, which application of AI in transportation saw the most investment in 2024?","Traffic management systems","Autonomous vehicles technology","Route optimization algorithms","Predictive maintenance tools","Autonomous vehicles technology","AI applications","AI Index Report 2025"),
+ ("According to the AI Index Report 2025, which application of AI in transportation saw the most investment in 2024?","Traffic management systems","Autonomous vehicles technology","Route optimization algorithms","Predictive maintenance tools","Autonomous vehicles technology","AI applications","AI Index Report 2025"),
 
  ("What trend did the AI Index Report 2025 identify in AI regulatory frameworks globally?","Decreasing regulation overall worldwide trend","Increasing fragmentation and country-specific approaches","Complete harmonization worldwide trend overall","No significant changes observed anywhere globally","Increasing fragmentation and country-specific approaches","AI policy","AI Index Report 2025"),
 
@@ -268,7 +268,7 @@ qa_mc = [
 
  ("What does the AI Index Report 2025 identify as the biggest barrier to AI adoption in developing countries?","Lack of interest overall in AI technology","Infrastructure and connectivity limitations","Cultural resistance to technology adoption","Too many regulations in place domestically","Infrastructure and connectivity limitations","AI adoption","AI Index Report 2025"),
 
- ("According to the report, which industry sector has the highest AI adoption rate?","Healthcare industry sector","Finance and insurance industry","Retail industry sector","Manufacturing industry sector","Finance and insurance industry","AI adoption","AI Index Report 2025"),
+ ("According to the 2025 report, which industry sector has the highest AI adoption rate?","Healthcare industry sector","Finance and insurance industry","Retail industry sector","Manufacturing industry sector","Finance and insurance industry","AI adoption","AI Index Report 2025"),
 
  ("What trend did the AI Index Report identify regarding open-source AI models in 2024?","Declining in popularity overall trend","Significant increase in development and adoption","Remaining stable without change overall","Being replaced by proprietary models","Significant increase in development and adoption","AI development","AI Index Report 2025"),
 
@@ -276,13 +276,13 @@ qa_mc = [
 
  ("What does the report say about AI's energy consumption in 2024?","Decreasing due to efficiency gains","Growing concern due to training large models","Not significant enough to measure","Completely offset by renewable energy","Growing concern due to training large models","AI sustainability","AI Index Report 2025"),
 
- ("According to the AI Index Report, which country has the most comprehensive AI strategy?","USA","China","Singapore","EU","China","AI policy","AI Index Report 2025"),
+ ("According to the AI Index Report 2025, which country has the most comprehensive AI strategy?","USA","China","Singapore","EU","China","AI policy","AI Index Report 2025"),
 
  ("What percentage of Fortune 500 companies have a dedicated AI strategy according to the AI Index Report 2025?","40 percent of companies overall","60 percent of companies overall","75 percent of companies overall","90 percent of companies overall","75 percent of companies overall","AI adoption","AI Index Report 2025"),
 
- ("According to the report, what is the average time to deploy an AI model to production in 2024?","1-3 months on average overall","4-6 months on average overall","7-12 months on average overall","Over 1 year on average overall","4-6 months on average overall","AI development","AI Index Report 2025"),
+ ("According to the AI Index Report 2025, what is the average time to deploy an AI model to production in 2024?","1-3 months on average overall","4-6 months on average overall","7-12 months on average overall","Over 1 year on average overall","4-6 months on average overall","AI development","AI Index Report 2025"),
 
- ("What does the AI Index Report identify as the most promising emerging AI application?","AI for drug discovery","AI climate mitigation","AI education tech","AI cybersecurity","AI for drug discovery","AI applications","AI Index Report 2025"),
+ ("What does the AI Index Report 2025 identify as the most promising emerging AI application?","AI for drug discovery","AI climate mitigation","AI education tech","AI cybersecurity","AI for drug discovery","AI applications","AI Index Report 2025"),
 
  ("What are the three main types of machine learning?","Supervised, Unsupervised, Reinforcement","Classification, Regression, Clustering","Neural, Decision trees, SVM methods","Deep, Shallow, Transfer learning","Supervised, Unsupervised, Reinforcement","ML fundamentals","studocu"),
 
