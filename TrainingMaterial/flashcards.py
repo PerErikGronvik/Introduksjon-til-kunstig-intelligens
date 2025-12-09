@@ -40,11 +40,6 @@ qa = [
     ("What is the purpose of feature scaling?","Feature scaling is used to normalize the range of independent variables or features of data. It helps in speeding up the convergence of gradient descent and improves the performance of the model.","ML"),
     ("What is the curse of dimensionality?","The curse of dimensionality refers to various phenomena that arise when analyzing and organizing data in high-dimensional spaces. It can lead to overfitting and increased computational cost.","ML"),
     ("What is cross-validation?","Cross-validation is a technique used to assess the performance of a model by partitioning the data into subsets, training the model on some subsets and validating it on others.","ML"),
-    ("","",""),
-    ("","",""),
-    ("","",""),
-    ("","",""),
-    ("","",""),
 ]
 
 

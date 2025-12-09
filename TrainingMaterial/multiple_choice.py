@@ -59,6 +59,17 @@ qa_mc = [
  ("In Machine learning, Linear Regression falls within the category of:","Unsupervised learning","Recommender systems","Supervised learning","Reinforcement learning","Supervised learning","Machine learning types","eksamen 2021"),
 
  ("Regression models are used with","Random data","Continuous data","None of the above","Categorical data","Continuous data","Regression","eksamen 2021"),
+ 
+ ("What is the main difference between AI and Machine Learning?","They are the same thing essentially","AI is the broader concept, ML is a subset focused on learning from data","ML is broader than AI overall","AI only works with images","AI is the broader concept, ML is a subset focused on learning from data","AI concepts","eksamen 2022"),
+
+ ("What is the purpose of data normalization in machine learning?","To remove outliers from data","To scale features to similar ranges for better model performance","To add more data","To label the data manually","To scale features to similar ranges for better model performance","Data preprocessing","eksamen 2022"),
+
+ ("Which metric would be most appropriate for imbalanced classification problems?","Accuracy alone","F1-score or precision-recall","Mean squared error","R-squared coefficient","F1-score or precision-recall","ML evaluation","eksamen 2022"),
+
+ ("What is the curse of dimensionality?","Having too much data available overall","Performance degradation as the number of features increases","Having too few samples for training","Model training is too fast overall","Performance degradation as the number of features increases","ML concepts","eksamen 2022"),
+
+ ("What is the purpose of PCA (Principal Component Analysis)?","To increase dimensions in data space","To reduce dimensionality while preserving variance","To classify data into categories overall","To cluster data into groups overall","To reduce dimensionality while preserving variance","ML techniques","eksamen 2022"),
+
 
  ("What is NOT valid for a hyperplane?","They are boundaries that help classify data points","Hyperplanes work with support vector machines","We can only use maximum 2 hyperplanes for any number of features","They separate data linearly","We can only use maximum 2 hyperplanes for any number of features","SVM","eksamen 2021"),
 
@@ -75,6 +86,179 @@ qa_mc = [
  ("If the software follows a logical series of steps to reach a conclusion, is easy to explain and the programmer has complete control over the code, then what kind of programming is it?","Conventional programming","Artificial Intelligence programming","Machine learning","Neural networks","Conventional programming","Programming paradigms","eksamen 2021"),
 
  ("The major reason behind the increased use of Artificial Intelligence today is due to","Powerful processors","Increased connectivity between devices and Cloud computing","Powerful processors","All of the choices","All of the choices","AI trends","eksamen 2021"),
+
+ ("According to the AI Index Report 2025, which sector saw the highest AI private investment in 2024?","Healthcare applications","Data management and processing","Transportation systems","Retail and e-commerce overall","Data management and processing","AI industry trends","AI Index Report 2025"),
+
+ ("What was the approximate total global AI private investment in 2024 according to the AI Index Report 2025?","$50 billion","$97.2 billion","$150 billion","$25 billion","$97.2 billion","AI industry trends","AI Index Report 2025"),
+
+ ("Which country led in AI private investment in 2024? according to the 2025 AI Index Report","China overall","United Kingdom","United States","Germany total","United States","AI industry trends","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, what percentage of companies reported adopting at least one AI capability?","25 percent","42 percent","55 percent","72 percent","55 percent","AI adoption","AI Index Report 2025"),
+
+ ("What is the main reason companies cited for not adopting AI according to the AI Index Report 2025?","Too expensive overall","Lack of skilled personnel","No clear business case","Regulatory concerns","Lack of skilled personnel","AI adoption","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, which AI application area saw the most significant growth in 2024?","Robotics applications","Computer vision systems","Natural language processing","Autonomous vehicles overall","Natural language processing","AI applications","AI Index Report 2025"),
+
+ ("What trend did the AI Index Report 2025 identify regarding AI model training costs?","Decreasing significantly","Increasing exponentially","Remaining stable overall","Becoming unpredictable","Increasing exponentially","AI development","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, what is the primary ethical concern about AI in 2024?","Cost of deployment infrastructure","Bias and fairness in algorithms","Speed of processing data","Energy consumption levels","Bias and fairness in algorithms","AI ethics","AI Index Report 2025"),
+
+ ("Which region showed the fastest growth in AI research publications according to the AI Index Report 2025?","North America","Europe region","Asia region","South America","Asia region","AI research","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, what percentage of AI PhD graduates in the US go into industry rather than academia?","35 percent of graduates","50 percent of graduates","65 percent of graduates","80 percent of graduates","65 percent of graduates","AI workforce","AI Index Report 2025"),
+
+ ("What does the AI Index Report 2025 say about AI's impact on job displacement?","Minimal impact observed so far in the workforce overall","Significant displacement in manufacturing and routine cognitive tasks","Only affects low-skill jobs primarily in service sectors","No measurable impact yet detected in any sector nationwide","Significant displacement in manufacturing and routine cognitive tasks","AI impact","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, which application of AI in transportation saw the most investment in 2024?","Traffic management systems","Autonomous vehicles technology","Route optimization algorithms","Predictive maintenance tools","Autonomous vehicles technology","AI applications","AI Index Report 2025"),
+
+ ("What trend did the AI Index Report 2025 identify in AI regulatory frameworks globally?","Decreasing regulation overall worldwide trend","Increasing fragmentation and country-specific approaches","Complete harmonization worldwide trend overall","No significant changes observed anywhere globally","Increasing fragmentation and country-specific approaches","AI policy","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, what is the estimated growth rate of the global AI market from 2024 to 2030?","10 percent annually on average","20 percent annually on average","37 percent annually on average","50 percent annually on average","37 percent annually on average","AI industry trends","AI Index Report 2025"),
+
+ ("Which AI technique showed the most improvement in benchmark performance in 2024 according to the report?","Reinforcement learning","Large language models","Computer vision systems","Speech recognition tech","Large language models","AI development","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, what percentage of AI systems deployed in production experienced some form of failure or incident?","15 percent of systems","28 percent of systems","45 percent of systems","60 percent of systems","28 percent of systems","AI reliability","AI Index Report 2025"),
+
+ ("What does the AI Index Report 2025 identify as the biggest barrier to AI adoption in developing countries?","Lack of interest overall in AI technology","Infrastructure and connectivity limitations","Cultural resistance to technology adoption","Too many regulations in place domestically","Infrastructure and connectivity limitations","AI adoption","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, which industry sector has the highest AI adoption rate?","Healthcare industry sector","Finance and insurance industry","Retail industry sector","Manufacturing industry sector","Finance and insurance industry","AI adoption","AI Index Report 2025"),
+
+ ("What trend did the AI Index Report 2025 identify regarding open-source AI models in 2024?","Declining in popularity overall trend","Significant increase in development and adoption","Remaining stable without change overall","Being replaced by proprietary models","Significant increase in development and adoption","AI development","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, what is the primary driver of AI innovation?","Government funding programs","Private sector investment","Academic research overall","International collaboration","Private sector investment","AI development","AI Index Report 2025"),
+
+ ("What does the AI Index Report 2025 say about AI's energy consumption in 2024?","Decreasing due to efficiency gains","Growing concern due to training large models","Not significant enough to measure","Completely offset by renewable energy","Growing concern due to training large models","AI sustainability","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, which country has the most comprehensive AI strategy?","USA","China","Singapore","EU","China","AI policy","AI Index Report 2025"),
+
+ ("What percentage of Fortune 500 companies have a dedicated AI strategy according to the AI Index Report 2025?","40 percent of companies overall","60 percent of companies overall","75 percent of companies overall","90 percent of companies overall","75 percent of companies overall","AI adoption","AI Index Report 2025"),
+
+ ("According to the AI Index Report 2025, what is the average time to deploy an AI model to production in 2024?","1-3 months on average overall","4-6 months on average overall","7-12 months on average overall","Over 1 year on average overall","4-6 months on average overall","AI development","AI Index Report 2025"),
+
+ ("What does the AI Index Report 2025 identify as the most promising emerging AI application?","AI for drug discovery","AI climate mitigation","AI education tech","AI cybersecurity","AI for drug discovery","AI applications","AI Index Report 2025"),
+
+
+ ("Når vedtok Europaparlamentet AI Act?","2022","2023","2024","2025","2024","ai","report 2025"),
+
+("Hvordan utviklet publikasjoner om medisinsk AI og etikk seg i perioden 2020 til 2024?","Halverte seg","Ble uendret","Doblet seg","Firedoblet seg","Firedoblet seg","ai","report 2025"),
+
+("Hvilket år etablerte Abu Dhabi MGX fund på 100 milliarder?","2019","2020","2024","2022","2024","ai","report 2025"),
+
+("Hva viser notatet om global investering i autonom kjøring rundt 2018 til 2019?","Økte sterkt","Ble redusert","Var stabil","Ble avsluttet","Økte sterkt","ai","report 2025"),
+
+("Hvor mange amerikanske delstater innførte deepfake reguleringer i 2024?","12","18","24","30","24","ai","report 2025"),
+
+("Hvor mange AI reguleringer ble registrert i USA i 2024?","30","45","59","80","59","ai","report 2025"),
+
+("Hvor mye økte AI referanser i rettsprosesser globalt ifølge notatet?","5 prosent","12 prosent","21.3 prosent","35 prosent","21.3 prosent","ai","report 2025"),
+
+("Hvor mange AI relaterte lover er registrert i USA i notatet?","75","98","131","160","131","ai","report 2025"),
+
+("Which of the following is an example of a regression task","Predicting whether an email is spam or not","Predicting the price of a house based on its features","Grouping customers into market segments","Identifying handwritten digits","Predicting the price of a house based on its features","Astrid med Claude",),
+
+("Which statement is correct regarding K means and DBSCAN","K means requires you to specify the number of clusters; DBSCAN does not","DBSCAN only works with labeled data","K means can detect outliers; DBSCAN cannot","K means is density based; DBSCAN is centroid based","K means requires you to specify the number of clusters; DBSCAN does not","Astrid med Claude",),
+
+("Which algorithm is best suited for classification when you have labeled training data","K means","Support Vector Machine","DBSCAN","Apriori","Support Vector Machine","Astrid med Claude",),
+
+("The Gaussian Mixture Model differs from K means because","K means can handle any cluster shape; GMM only handles circular clusters","GMM can model elliptical clusters; K means assumes circular clusters","GMM requires fewer parameters","K means is probabilistic; GMM is deterministic","GMM can model elliptical clusters; K means assumes circular clusters","Astrid med Claude",),
+
+("A model has training error 2 percent and dev error 15 percent. The model suffers from","High bias","High variance (overfitting)","Data mismatch","Low variance","High variance (overfitting)","Astrid med Claude",),
+
+("A model has training error 18 percent and dev error 20 percent. The model suffers from","High variance","High bias (underfitting)","Both high bias and high variance","Neither; the model performs well","High bias (underfitting)","Astrid med Claude",),
+
+("Which technique typically helps reduce variance","Increasing model size","Adding more training data","Removing regularization","Adding more features","Adding more training data","Astrid med Claude",),
+
+("Adding L2 regularization to a neural network typically","Reduces variance but may increase bias","Reduces bias but increases variance","Reduces both bias and variance equally","Has no effect on bias or variance","Reduces variance but may increase bias","Astrid med Claude",),
+
+("The F1 score is the","Average of precision and recall","Harmonic mean of precision and recall","Geometric mean of precision and recall","Product of precision and recall","Harmonic mean of precision and recall","Astrid med Claude",),
+
+("A confusion matrix is used to","Measure how many features a model uses","Show how well a model predictions match actual values","Calculate training time","Determine the optimal learning rate","Show how well a model predictions match actual values","Astrid med Claude",),
+
+("Precision measures","The fraction of actual positives correctly identified","The fraction of predicted positives that are actually positive","The overall accuracy","The speed of the algorithm","The fraction of predicted positives that are actually positive","Astrid med Claude",),
+
+("The transformer architecture primarily relies on","Recurrent connections","Convolutional layers","Attention mechanisms","Symbolic reasoning","Attention mechanisms","Astrid med Claude",),
+
+("In LLMs a token refers to","A complete sentence","A basic unit of text","The model parameter count","The context window size","A basic unit of text","Astrid med Claude",),
+
+("The context window in an LLM is","The number of model parameters","The maximum span of text the model can consider at one time","The dataset size","The number of attention heads","The maximum span of text the model can consider at one time","Astrid med Claude",),
+
+("Foundation models and LLMs differ in that","Foundation models are smaller","Foundation models can be adapted for many tasks; LLMs focus on language","LLMs cannot generate text","Foundation models do not use transformers","Foundation models can be adapted for many tasks; LLMs focus on language","Astrid med Claude",),
+
+("Zero shot prompting means","Providing many examples","Providing no examples, only instructions","The model has zero parameters","The prompt contains zero tokens","Providing no examples, only instructions","Astrid med Claude",),
+
+("The dev set is primarily used for","Training the model","Final evaluation","Hyperparameter tuning and model selection","Data preprocessing","Hyperparameter tuning and model selection","Astrid med Claude",),
+
+("Why should dev and test come from the same distribution","To save compute","To ensure representative evaluation","To increase training speed","It does not matter","To ensure representative evaluation","Astrid med Claude",),
+
+("What has driven recent deep learning success","Smaller datasets","Data availability and compute scale","Simpler architectures","Reduced need for GPUs","Data availability and compute scale","Astrid med Claude",),
+
+("Gradient descent is used to","Increase the cost","Minimize the cost by adjusting parameters","Add layers","Split data","Minimize the cost by adjusting parameters","Astrid med Claude",),
+
+("Adding more layers generally","Increases bias decreases variance","Decreases bias but may increase variance","Has no effect","Decreases both bias and variance","Decreases bias but may increase variance","Astrid med Claude",),
+
+("Reinforcement learning is","Learning from labeled data","Learning patterns in unlabeled data","Learning from trial and error with rewards","Copying human behavior exactly","Learning from trial and error with rewards","Astrid med Claude",),
+
+("Which approach reduces high bias","Add more training data","Increase model size","Add regularization","Use early stopping","Increase model size","Astrid med Claude",),
+
+("The optimal error rate is called","Training error","Bayes error rate","Validation error","Generalization error","Bayes error rate","Astrid med Claude",),
+
+("Avoidable bias is","Dev error minus training error","Training error minus optimal error","Test minus dev","Optimal error minus dev","Training error minus optimal error","Astrid med Claude",),
+
+("Which task is classification","Predicting temperature","Estimating age","Predicting churn yes or no","Forecasting stocks","Predicting churn yes or no","Astrid med Claude",),
+
+("Decision trees SVM and Random Forest are","Unsupervised algorithms","Supervised classification algorithms","Clustering algorithms","Dimensionality reduction","Supervised classification algorithms","Astrid med Claude",),
+
+("Transformers solved what problem vs RNNs","Use less memory","Handle long range dependencies efficiently","Require less data","Only work with images","Handle long range dependencies efficiently","Astrid med Claude",),
+
+("Parameters in an LLM are","Input token counts","Internal variables used to process and generate text","Size of context window","Training dataset size","Internal variables used to process and generate text","Astrid med Claude",),
+
+("GPT and BERT are","Clustering algorithms","Large language models","Symbolic AI","Reinforcement agents","Large language models","Astrid med Claude",),
+
+("Which statement about LLMs is true","They know events after cutoff","They lack knowledge after cutoff","They update in real time","They only use structured data","They lack knowledge after cutoff","Astrid med Claude",),
+
+("If a classifier predicts 100 cats but only 80 are correct precision is","80 percent","20 percent","100 percent","Cannot be determined","80 percent","Astrid med Claude",),
+
+("Recall measures","How many predicted positives are correct","How many actual positives were correctly identified","Accuracy","Training speed","How many actual positives were correctly identified","Astrid med Claude",),
+
+("A single metric balancing precision and recall is","Accuracy","F1 score","MSE","R squared","F1 score","Astrid med Claude",),
+
+("A satisficing metric is","One you maximize","One that must meet a minimum threshold","A training time metric","Replaces optimizing metric","One that must meet a minimum threshold","Astrid med Claude",),
+
+("DBSCAN uses which parameters","k and distance","minPts and Eps","mean and variance","alpha and beta","minPts and Eps","Astrid med Claude",),
+
+("Which clustering algorithm can identify outliers","K means","DBSCAN","Both","Neither","DBSCAN","Astrid med Claude",),
+
+("In K means K represents","Number of features","Number of clusters","Number of iterations","Distance metric","Number of clusters","Astrid med Claude",),
+
+("If the dev set is too small what occurs","Model trains slowly","Cannot detect small improvements","Model overfits training","Model has high bias","Cannot detect small improvements","Astrid med Claude",),
+
+("The training dev set is used to","Train the model","Evaluate generalization to same distribution as training","Replace test set","Clean mislabeled examples","Evaluate generalization to same distribution as training","Astrid med Claude",),
+
+("Symbolic AI is characterized by","Learning from large data","Separation of logic and data through rules","Trial and error learning","Neural networks","Separation of logic and data through rules","Astrid med Claude",),
+
+("L2 regularization is known as","Lasso","Ridge regression","Dropout","Early stopping","Ridge regression","Astrid med Claude",),
+
+("Dropout is a regularization technique that","Adds penalty terms","Randomly deactivates neurons during training","Stops training early","Removes features","Randomly deactivates neurons during training","Astrid med Claude",),
+
+("Early stopping helps reduce","Bias","Variance","Training data size","Number of features","Variance","Astrid med Claude",),
+
+("According to AI Index Report hardware performance has been","Declining","Growing approximately 43 percent annually","Constant","Only improving in cost","Growing approximately 43 percent annually","Astrid med Claude",),
+
+("Carbon emissions from training AI models have","Decreased","Stayed the same","Increased with larger models","Become negligible","Increased with larger models","Astrid med Claude",),
+
+("AI patenting between 2010 and 2023 has","Declined","Grown significantly","Stayed constant","Only increased in US","Grown significantly","Astrid med Claude",),
+
+("GPT 4o Omni improvements include","Smaller model","Real time voice and faster responses","Text only","Reduced parameter count","Real time voice and faster responses","Astrid med Claude",),
+
+
+("The cost function measures","Compute cost","Difference between predicted and actual values","Number of parameters","Dataset size","Difference between predicted and actual values","Astrid med Claude",),
+
+("Gradient descent finds minimum by","Random search","Moving in steepest descent direction","Exhaustive enumeration","Symbolic computation","Moving in steepest descent direction","Astrid med Claude",),
+
+("In linear regression R squared measures","Slope","How well model fits data","Number of features","Training time","How well model fits data","Astrid med Claude",),
+
+("The equation y equals b1 x plus b0 represents","Logistic regression","Linear regression","K means","Neural network layer","Linear regression","Astrid med Claude",),
+
 
  ("What is the preferred way to work with an A.I. algorithm?","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","Identify the problem -> choose algorithms -> run the algorithm -> prepare data -> train the algorithm -> export data to algorithms","Identify the problem -> choose algorithms -> train the algorithm -> run the algorithm -> prepare data -> export data to algorithms","All of the above","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","AI workflow","eksamen 2021"),
 
@@ -150,18 +334,6 @@ qa_mc = [
 
  ("what is a holdout set in machine learning?", "A portion of the dataset set aside for final model evaluation","A subset of data used for training the model","Data used for hyperparameter tuning","Data used for feature selection","A portion of the dataset set aside for final model evaluation","ML concepts","statistisk analyse mamo2100"),
 
- ("numpy is used for?", "Data manipulation and numerical computations","Building neural networks","Creating visualizations","Data storage","Data manipulation and numerical computations","Python libraries","shiberas"),
-
- ("pandas is used for?", "Data manipulation and analysis","Building machine learning models","Creating web applications","Data visualization","Data manipulation and analysis","Python libraries","shiberas"),
-
- ("the difference between numpy and pandas is?", "numpy is for numerical computations, pandas is for data manipulation and analysis","Both are used for numerical computations","Both are used for data visualization","Both are used for building machine learning models","numpy is for numerical computations, pandas is for data manipulation and analysis","Python libraries","shiberas"),
-
- ("scikit-learn is a machine learning library in python, and it is used for?", "Building and training machine learning models","Data manipulation and analysis","Creating visualizations","Statistical modeling","Building and training machine learning models","Python libraries","shiberas"),
-
- ("matplotlib is used for?", "Creating visualizations and plots","Building machine learning models","Data manipulation and analysis","Numerical computations","Creating visualizations and plots","Python libraries","shiberas"),
-
- ("Hvilken kodelinje er riktig for å utføre regresjon", "model = LinearRegression().fit(X, y)","model = LogisticRegression().fit(X, y)","model = KMeans().fit(X)","model = SVC().fit(X, y)","model = LinearRegression().fit(X, y)","GLM regresjon","shiberas"),
-
  ("What is the main purpose of a single-number evaluation metric?","To make code run faster during execution and reduce computation time","To help quickly compare different models and choose the best one","To reduce the size of the dataset for storage and memory efficiency","To eliminate the need for human judgment entirely in all decisions","To help quickly compare different models and choose the best one","ML strategy","Machine Learning Yearning"),
 
  ("What should you do if you have multiple metrics you care about?","Pick one as the optimizing metric and others as satisficing metrics","Ignore all but one metric completely during evaluation process","Average all metrics together into single combined value overall","Only use accuracy for all tasks regardless of context or scenario","Pick one as the optimizing metric and others as satisficing metrics","ML strategy","Machine Learning Yearning"),
@@ -224,66 +396,9 @@ qa_mc = [
 
  ("What should guide your decision to use end-to-end learning?","Always use it regardless of circumstances in all situations","Whether you have enough data to learn the complexity of the mapping","Use it only for vision tasks specifically in computer vision","Never use it at all in practice for any application scenario","Whether you have enough data to learn the complexity of the mapping","ML techniques","Machine Learning Yearning"),
 
- ("Hvilken kodelinje er riktig for å utføre klassifisering", "model = LogisticRegression().fit(X, y)","model = LinearRegression().fit(X, y)","model = KMeans().fit(X)","model = SVC().fit(X, y)","model = LogisticRegression().fit(X, y)","GLM regresjon","shiberas"),
 
- ("Hvilken kodelinje er riktig for å utføre klynging", "model = KMeans().fit(X)","model = LogisticRegression().fit(X, y)","model = LinearRegression().fit(X, y)","model = SVC().fit(X, y)","model = KMeans().fit(X)","GLM regresjon","shiberas"),
 
- ("Hvilken kodelinje er riktig for å finne den mest forekommende verdien i en kolonne i en pandas dataframe", "Grc_df['Outlet_Size'].value_counts().idxmax()","Grc_df['Outlet_Size'].max()","Grc_df['Outlet_Size'].mean()","Grc_df['Outlet_Size'].min()","Grc_df['Outlet_Size'].value_counts().idxmax()","Pandas dataframe","shiberas"),
-
- ("Hvilken kodelinje er riktig for å dele en kolonne i en pandas dataframe i 10 like store binner", "Grc_Concat_df['Item_Weight_Binned'] = pd.cut(Grc_Concat_df['Item_Weight'], bins=10)","Grc_Concat_df['Item_Weight_Binned'] = pd.qcut(Grc_Concat_df['Item_Weight'], bins=10)","Grc_Concat_df['Item_Weight_Binned'] = pd.split(Grc_Concat_df['Item_Weight'], bins=10)","Grc_Concat_df['Item_Weight_Binned'] = pd.bucket(Grc_Concat_df['Item_Weight'], bins=10)","Grc_Concat_df['Item_Weight_Binned'] = pd.cut(Grc_Concat_df['Item_Weight'], bins=10)","Pandas dataframe","shiberas"),
-
- ("Hvilken kodelinje er riktig for å fylle inn manglende verdier i en kolonne med medianen av den kolonnen", "df['Age'] = df['Age'].fillna(df['Age'].median())","df['Age'] = df['Age'].fillna(df['Age'].mean())","df['Age'] = df['Age'].fillna(df['Age'].mode())","df['Age'] = df['Age'].fillna(df['Age'].min())","df['Age'] = df['Age'].fillna(df['Age'].median())","Pandas dataframe","shiberas"),
-
- ("According to the AI Index Report 2025, which sector saw the highest AI private investment in 2024?","Healthcare applications","Data management and processing","Transportation systems","Retail and e-commerce overall","Data management and processing","AI industry trends","AI Index Report 2025"),
-
- ("What was the approximate total global AI private investment in 2024 according to the AI Index Report 2025?","$50 billion","$97.2 billion","$150 billion","$25 billion","$97.2 billion","AI industry trends","AI Index Report 2025"),
-
- ("Which country led in AI private investment in 2024? according to the 2025 AI Index Report","China overall","United Kingdom","United States","Germany total","United States","AI industry trends","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, what percentage of companies reported adopting at least one AI capability?","25 percent","42 percent","55 percent","72 percent","55 percent","AI adoption","AI Index Report 2025"),
-
- ("What is the main reason companies cited for not adopting AI according to the AI Index Report 2025?","Too expensive overall","Lack of skilled personnel","No clear business case","Regulatory concerns","Lack of skilled personnel","AI adoption","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, which AI application area saw the most significant growth in 2024?","Robotics applications","Computer vision systems","Natural language processing","Autonomous vehicles overall","Natural language processing","AI applications","AI Index Report 2025"),
-
- ("What trend did the AI Index Report 2025 identify regarding AI model training costs?","Decreasing significantly","Increasing exponentially","Remaining stable overall","Becoming unpredictable","Increasing exponentially","AI development","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, what is the primary ethical concern about AI in 2024?","Cost of deployment infrastructure","Bias and fairness in algorithms","Speed of processing data","Energy consumption levels","Bias and fairness in algorithms","AI ethics","AI Index Report 2025"),
-
- ("Which region showed the fastest growth in AI research publications according to the AI Index Report 2025?","North America","Europe region","Asia region","South America","Asia region","AI research","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, what percentage of AI PhD graduates in the US go into industry rather than academia?","35 percent of graduates","50 percent of graduates","65 percent of graduates","80 percent of graduates","65 percent of graduates","AI workforce","AI Index Report 2025"),
-
- ("What does the AI Index Report 2025 say about AI's impact on job displacement?","Minimal impact observed so far in the workforce overall","Significant displacement in manufacturing and routine cognitive tasks","Only affects low-skill jobs primarily in service sectors","No measurable impact yet detected in any sector nationwide","Significant displacement in manufacturing and routine cognitive tasks","AI impact","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, which application of AI in transportation saw the most investment in 2024?","Traffic management systems","Autonomous vehicles technology","Route optimization algorithms","Predictive maintenance tools","Autonomous vehicles technology","AI applications","AI Index Report 2025"),
-
- ("What trend did the AI Index Report 2025 identify in AI regulatory frameworks globally?","Decreasing regulation overall worldwide trend","Increasing fragmentation and country-specific approaches","Complete harmonization worldwide trend overall","No significant changes observed anywhere globally","Increasing fragmentation and country-specific approaches","AI policy","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, what is the estimated growth rate of the global AI market from 2024 to 2030?","10 percent annually on average","20 percent annually on average","37 percent annually on average","50 percent annually on average","37 percent annually on average","AI industry trends","AI Index Report 2025"),
-
- ("Which AI technique showed the most improvement in benchmark performance in 2024 according to the report?","Reinforcement learning","Large language models","Computer vision systems","Speech recognition tech","Large language models","AI development","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, what percentage of AI systems deployed in production experienced some form of failure or incident?","15 percent of systems","28 percent of systems","45 percent of systems","60 percent of systems","28 percent of systems","AI reliability","AI Index Report 2025"),
-
- ("What does the AI Index Report 2025 identify as the biggest barrier to AI adoption in developing countries?","Lack of interest overall in AI technology","Infrastructure and connectivity limitations","Cultural resistance to technology adoption","Too many regulations in place domestically","Infrastructure and connectivity limitations","AI adoption","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, which industry sector has the highest AI adoption rate?","Healthcare industry sector","Finance and insurance industry","Retail industry sector","Manufacturing industry sector","Finance and insurance industry","AI adoption","AI Index Report 2025"),
-
- ("What trend did the AI Index Report 2025 identify regarding open-source AI models in 2024?","Declining in popularity overall trend","Significant increase in development and adoption","Remaining stable without change overall","Being replaced by proprietary models","Significant increase in development and adoption","AI development","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, what is the primary driver of AI innovation?","Government funding programs","Private sector investment","Academic research overall","International collaboration","Private sector investment","AI development","AI Index Report 2025"),
-
- ("What does the AI Index Report 2025 say about AI's energy consumption in 2024?","Decreasing due to efficiency gains","Growing concern due to training large models","Not significant enough to measure","Completely offset by renewable energy","Growing concern due to training large models","AI sustainability","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, which country has the most comprehensive AI strategy?","USA","China","Singapore","EU","China","AI policy","AI Index Report 2025"),
-
- ("What percentage of Fortune 500 companies have a dedicated AI strategy according to the AI Index Report 2025?","40 percent of companies overall","60 percent of companies overall","75 percent of companies overall","90 percent of companies overall","75 percent of companies overall","AI adoption","AI Index Report 2025"),
-
- ("According to the AI Index Report 2025, what is the average time to deploy an AI model to production in 2024?","1-3 months on average overall","4-6 months on average overall","7-12 months on average overall","Over 1 year on average overall","4-6 months on average overall","AI development","AI Index Report 2025"),
-
- ("What does the AI Index Report 2025 identify as the most promising emerging AI application?","AI for drug discovery","AI climate mitigation","AI education tech","AI cybersecurity","AI for drug discovery","AI applications","AI Index Report 2025"),
-
+ 
  ("What are the three main types of machine learning?","Supervised, Unsupervised, Reinforcement","Classification, Regression, Clustering","Neural, Decision trees, SVM methods","Deep, Shallow, Transfer learning","Supervised, Unsupervised, Reinforcement","ML fundamentals","studocu"),
 
  ("In supervised learning, what is required for training?","Both labeled input and output pairs","Only input data needed overall","Only output labels are needed","No data needed for supervised","Both labeled input and output pairs","ML fundamentals","studocu"),
@@ -337,16 +452,6 @@ qa_mc = [
  ("What is dropout in neural networks?","Regularization technique that randomly drops neurons during training to prevent overfitting","Removing bad data points from the dataset before training to improve data quality overall","Stopping training early when validation loss stops improving to save computational resources","Removing features from model to reduce complexity and improve generalization performance","Regularization technique that randomly drops neurons during training to prevent overfitting","Neural networks","studocu"),
 
  ("What is the vanishing gradient problem?","Gradients become very small in deep networks, making training difficult","Gradients explode during training process causing numerical instability","Gradients disappear completely during training requiring restarts","Gradients become negative values only preventing proper convergence","Gradients become very small in deep networks, making training difficult","Neural networks","studocu"),
-
- ("What is the main difference between AI and Machine Learning?","They are the same thing essentially","AI is the broader concept, ML is a subset focused on learning from data","ML is broader than AI overall","AI only works with images","AI is the broader concept, ML is a subset focused on learning from data","AI concepts","eksamen 2022"),
-
- ("What is the purpose of data normalization in machine learning?","To remove outliers from data","To scale features to similar ranges for better model performance","To add more data","To label the data manually","To scale features to similar ranges for better model performance","Data preprocessing","eksamen 2022"),
-
- ("Which metric would be most appropriate for imbalanced classification problems?","Accuracy alone","F1-score or precision-recall","Mean squared error","R-squared coefficient","F1-score or precision-recall","ML evaluation","eksamen 2022"),
-
- ("What is the curse of dimensionality?","Having too much data available overall","Performance degradation as the number of features increases","Having too few samples for training","Model training is too fast overall","Performance degradation as the number of features increases","ML concepts","eksamen 2022"),
-
- ("What is the purpose of PCA (Principal Component Analysis)?","To increase dimensions in data space","To reduce dimensionality while preserving variance","To classify data into categories overall","To cluster data into groups overall","To reduce dimensionality while preserving variance","ML techniques","eksamen 2022"),
 
  ("What does it mean when a model has high training accuracy but low test accuracy?","The model is underfitting the data overall","The model is overfitting the data","The model is perfect overall for task","The data is bad quality overall","The model is overfitting the data","ML concepts","eksamen 2022"),
 
@@ -756,6 +861,31 @@ qa_mc = [
 
  ("Which lambda creates a full name column from first and last names?","df['full_name'] = df.apply(lambda x: x['first_name'] + ' ' + x['last_name'], axis=1)","df['full_name'] = df.apply(lambda x: x['first_name'] + ' ' + x['last_name'], axis=0)","df['full_name'] = lambda x: df['first_name'] + ' ' + df['last_name']","df['full_name'] = df.map(lambda x: x['first_name'] + ' ' + x['last_name'])","df['full_name'] = df.apply(lambda x: x['first_name'] + ' ' + x['last_name'], axis=1)","Lambda functions","Lab6"),
 
+ ("Hvilken kodelinje er riktig for å utføre klassifisering", "model = LogisticRegression().fit(X, y)","model = LinearRegression().fit(X, y)","model = KMeans().fit(X)","model = SVC().fit(X, y)","model = LogisticRegression().fit(X, y)","GLM regresjon","shiberas"),
+
+ ("Hvilken kodelinje er riktig for å utføre klynging", "model = KMeans().fit(X)","model = LogisticRegression().fit(X, y)","model = LinearRegression().fit(X, y)","model = SVC().fit(X, y)","model = KMeans().fit(X)","GLM regresjon","shiberas"),
+
+ ("Hvilken kodelinje er riktig for å finne den mest forekommende verdien i en kolonne i en pandas dataframe", "Grc_df['Outlet_Size'].value_counts().idxmax()","Grc_df['Outlet_Size'].max()","Grc_df['Outlet_Size'].mean()","Grc_df['Outlet_Size'].min()","Grc_df['Outlet_Size'].value_counts().idxmax()","Pandas dataframe","shiberas"),
+
+ ("Hvilken kodelinje er riktig for å dele en kolonne i en pandas dataframe i 10 like store binner", "Grc_Concat_df['Item_Weight_Binned'] = pd.cut(Grc_Concat_df['Item_Weight'], bins=10)","Grc_Concat_df['Item_Weight_Binned'] = pd.qcut(Grc_Concat_df['Item_Weight'], bins=10)","Grc_Concat_df['Item_Weight_Binned'] = pd.split(Grc_Concat_df['Item_Weight'], bins=10)","Grc_Concat_df['Item_Weight_Binned'] = pd.bucket(Grc_Concat_df['Item_Weight'], bins=10)","Grc_Concat_df['Item_Weight_Binned'] = pd.cut(Grc_Concat_df['Item_Weight'], bins=10)","Pandas dataframe","shiberas"),
+
+ ("Hvilken kodelinje er riktig for å fylle inn manglende verdier i en kolonne med medianen av den kolonnen", "df['Age'] = df['Age'].fillna(df['Age'].median())","df['Age'] = df['Age'].fillna(df['Age'].mean())","df['Age'] = df['Age'].fillna(df['Age'].mode())","df['Age'] = df['Age'].fillna(df['Age'].min())","df['Age'] = df['Age'].fillna(df['Age'].median())","Pandas dataframe","shiberas"),
+
+
+
+ ("numpy is used for?", "Data manipulation and numerical computations","Building neural networks","Creating visualizations","Data storage","Data manipulation and numerical computations","Python libraries","shiberas"),
+
+ ("pandas is used for?", "Data manipulation and analysis","Building machine learning models","Creating web applications","Data visualization","Data manipulation and analysis","Python libraries","shiberas"),
+
+ ("the difference between numpy and pandas is?", "numpy is for numerical computations, pandas is for data manipulation and analysis","Both are used for numerical computations","Both are used for data visualization","Both are used for building machine learning models","numpy is for numerical computations, pandas is for data manipulation and analysis","Python libraries","shiberas"),
+
+ ("scikit-learn is a machine learning library in python, and it is used for?", "Building and training machine learning models","Data manipulation and analysis","Creating visualizations","Statistical modeling","Building and training machine learning models","Python libraries","shiberas"),
+
+ ("matplotlib is used for?", "Creating visualizations and plots","Building machine learning models","Data manipulation and analysis","Numerical computations","Creating visualizations and plots","Python libraries","shiberas"),
+
+ ("Hvilken kodelinje er riktig for å utføre regresjon", "model = LinearRegression().fit(X, y)","model = LogisticRegression().fit(X, y)","model = KMeans().fit(X)","model = SVC().fit(X, y)","model = LinearRegression().fit(X, y)","GLM regresjon","shiberas"),
+
+
  
 ]
 
@@ -868,6 +998,19 @@ while len(remaining_questions) > 0:
         
         # Simple continue prompt
         input("Press Enter to continue...")
+        
+        # Print 5 blank lines before next question
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
         # Continue to next random question
 
 
