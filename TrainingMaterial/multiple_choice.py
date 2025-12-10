@@ -154,6 +154,203 @@ qa_mc = [
 
 ("Hvor mange AI relaterte lover er registrert i USA i notatet?","75","98","131","160","131","ai","report 2025"),
 
+
+
+
+("Which sector produced about 90% of notable AI models in 2024?", "Academia", "Industry", "Government agencies", "Nonprofit organizations", "Industry", "ai", "report 2025 - reading guide only"),
+
+("Which country led in the total number of AI research publications in 2023?", "United States", "China", "Germany", "India", "China", "ai", "report 2025 - reading guide only"),
+
+("Which country produced the most highly cited AI research according to the AI Index 2025?", "China", "United States", "Japan", "France", "United States", "ai", "report 2025 - reading guide only"),
+
+("What percentage of all computer science publications were AI-related in 2023?", "21.6%", "30.2%", "41.8%", "49.5%", "41.8%", "ai", "report 2025 - reading guide only"),
+
+("How many notable AI models were developed by U.S. institutions in 2024?", "15", "28", "40", "55", "40", "ai", "report 2025 - reading guide only"),
+
+("How frequently does the compute used for training notable AI models double?", "Every 3 months", "Every 5 months", "Every 8 months", "Every year", "Every 5 months", "ai", "report 2025 - reading guide only"),
+
+("By 2024, the cost of querying an AI model performing at GPT-3.5 level fell from $20 to what per million tokens?", "$0.07", "$1.00", "$0.50", "$2.00", "$0.07", "ai", "report 2025 - reading guide only"),
+
+("Which country accounts for 69.7% of all AI patent grants worldwide?", "United States", "South Korea", "China", "Germany", "China", "ai", "report 2025 - reading guide only"),
+
+("At what annual rate has machine learning hardware energy efficiency improved?", "20%", "30%", "40%", "50%", "40%", "ai", "report 2025 - reading guide only"),
+
+("How many tons of CO₂ were emitted training GPT-4 in 2023?", "5184 tons", "2900 tons", "8930 tons", "1000 tons", "5184 tons", "ai", "report 2025 - reading guide only"),
+
+("By 2024, the performance gap between top open and closed-weight models narrowed to what percentage?", "1.7%", "5%", "8%", "12%", "1.7%", "ai", "report 2025 - reading guide only"),
+
+("The Elo score difference between the top and 10th-ranked models fell from 11.9% to what in 2024?", "5.4%", "6.8%", "7.9%", "10.2%", "5.4%", "ai", "report 2025 - reading guide only"),
+
+("Which OpenAI model introduced a test-time compute paradigm for reasoning?", "GPT-4o", "o1", "ChatGPT", "Codex", "o1", "ai", "report 2025 - reading guide only"),
+
+("How much higher did the o1 model score on an International Mathematical Olympiad exam compared to GPT-4o?", "9.3% vs 74.4%", "12% vs 65%", "25% vs 80%", "15% vs 70%", "9.3% vs 74.4%", "ai", "report 2025 - reading guide only"),
+
+("Which benchmark evaluates complex reasoning and planning tasks where AI systems still underperform?", "PlanBench", "SWE-bench", "GPQA", "MMMU", "PlanBench", "ai", "report 2025 - reading guide only"),
+
+("What was the number of reported AI-related incidents in 2024?", "145", "233", "320", "198", "233", "ai", "report 2025 - reading guide only"),
+
+("What was the average transparency score for major model developers by mid-2024?", "37%", "45%", "58%", "63%", "58%", "ai", "report 2025 - reading guide only"),
+
+("Which new benchmark was introduced to assess model factuality and safety?", "FACTS", "TruthfulQA", "BLEU", "COCO", "FACTS", "ai", "report 2025 - reading guide only"),
+
+("Which organization group released global frameworks for Responsible AI in 2024?", "OECD, EU, UN, African Union", "G7, IMF, NATO, ASEAN", "UNESCO, WHO, WTO, WIPO", "World Bank, OECD, IMF, APEC", "OECD, EU, UN, African Union", "ai", "report 2025 - reading guide only"),
+
+("By 2024, restricted web tokens in training data increased from 5–7% to what range?", "10–15%", "20–33%", "40–45%", "50–60%", "20–33%", "ai", "report 2025 - reading guide only"),
+
+("How many RAI papers were accepted at major AI conferences in 2024?", "992", "1278", "1600", "1820", "1278", "ai", "report 2025 - reading guide only"),
+
+("Which company’s Phi-3-mini model achieved 60% MMLU accuracy with only 3.8B parameters?", "Google", "Microsoft", "Anthropic", "Meta", "Microsoft", "ai", "report 2025 - reading guide only"),
+
+("Which AI video model is mentioned as achieving major improvements in 2024?", "SORA", "DeepFakeNet", "VideoGPT", "AIView", "SORA", "ai", "report 2025 - reading guide only"),
+
+("What proportion of AI publications came from academia in 2023?", "72.1%", "80.3%", "84.9%", "90.2%", "84.9%", "ai", "report 2025 - reading guide only"),
+
+("Which region accounted for the largest share of AI publications in 2023?", "Europe and Central Asia", "East Asia and Pacific", "North America", "South Asia", "East Asia and Pacific", "ai", "report 2025 - reading guide only"),
+
+("What was the total number of AI patents in 2023?", "52,000", "89,400", "122,511", "155,000", "122,511", "ai", "report 2025 - reading guide only"),
+
+("How much did global private AI investment grow in 2024 compared to 2023?", "12%", "18%", "26%", "44.5%", "26%", "ai", "report 2025 - reading guide only"),
+
+("Which country’s AI optimism rate reached 83% in 2024?", "Japan", "China", "Indonesia", "Thailand", "China", "ai", "report 2025 - reading guide only"),
+
+("What percentage of people in the United States viewed AI as beneficial in 2024?", "25%", "39%", "52%", "63%", "39%", "ai", "report 2025 - reading guide only"),
+
+("How many AI-related U.S. federal regulations were introduced in 2024?", "25", "42", "59", "73", "59", "ai", "report 2025 - reading guide only"),
+
+("Which country pledged the largest AI infrastructure investment in 2024?", "India", "Saudi Arabia", "France", "Canada", "Saudi Arabia", "ai", "report 2025 - reading guide only"),
+
+("How many FDA-approved AI-enabled medical devices existed by 2023?", "6", "88", "150", "223", "223", "ai", "report 2025 - reading guide only"),
+
+("Which AI model achieved 96.0% on the MedQA benchmark?", "GPT-4", "o1", "Claude 3", "Gemini-1.5", "o1", "ai", "report 2025 - reading guide only"),
+
+("What share of U.S. computer science teachers believe AI should be part of foundational education?", "50%", "63%", "81%", "92%", "81%", "ai", "report 2025 - reading guide only"),
+
+("Which country continues to lead in installing industrial robots?", "Japan", "United States", "Germany", "China", "China", "ai", "report 2025 - reading guide only"),
+
+("What proportion of collaborative robots among new installations was reached by 2023?", "5%", "8%", "10.5%", "15%", "10.5%", "ai", "report 2025 - reading guide only"),
+
+("Which country launched a $47.5 billion semiconductor fund to boost AI?", "India", "China", "France", "Canada", "China", "ai", "report 2025 - reading guide only"),
+
+("What percentage of local U.S. policymakers supported AI regulation in 2023?", "55.7%", "63.8%", "73.7%", "82.5%", "73.7%", "ai", "report 2025 - reading guide only"),
+
+("Which country experienced a 27-point increase in organizational AI adoption?", "India", "Canada", "China", "South Korea", "China", "ai", "report 2025 - reading guide only"),
+
+("How much did optimism about AI increase in Germany between 2022 and 2024?", "5%", "8%", "10%", "12%", "10%", "ai", "report 2025 - reading guide only"),
+
+("By how much did AI performance improve on the MMMU benchmark from 2023 to 2024?", "10.5 percentage points", "18.8 percentage points", "25.3 percentage points", "32.4 percentage points", "18.8 percentage points", "ai", "report 2025 - reading guide only"),
+
+("What was the improvement in AI performance on the GPQA benchmark between 2023 and 2024?", "32.1 percentage points", "41.0 percentage points", "48.9 percentage points", "55.2 percentage points", "48.9 percentage points", "ai", "report 2025 - reading guide only"),
+
+("How much did AI performance on SWE-bench improve from 2023 to 2024?", "25.4 percentage points", "48.2 percentage points", "67.3 percentage points", "70.0 percentage points", "67.3 percentage points", "ai", "report 2025 - reading guide only"),
+
+("By early 2025, what was the difference in Elo score between the top two AI models?", "0.7%", "1.2%", "2.5%", "4.9%", "0.7%", "ai", "report 2025 - reading guide only"),
+
+("Which models significantly improved text-to-video generation quality in 2024?", "SORA, Veo 2, Movie Gen, Stable Video Diffusion", "ChatGPT, Gemini, Claude 3, Bard", "Imagen, DALL-E, Copilot, Perplexity", "DreamFusion, Midjourney, RunwayML, Muse", "SORA, Veo 2, Movie Gen, Stable Video Diffusion", "ai", "report 2025 - reading guide only"),
+
+("Which benchmark measures AI coding performance where humans still outperform AI (97% vs 35.5%)?", "BigCodeBench", "GSM8K", "MMLU", "FrontierMath", "BigCodeBench", "ai", "report 2025 - reading guide only"),
+
+("Which benchmark contains complex math problems where AI systems solve only 2%?", "PlanBench", "FrontierMath", "GPQA", "MMMU", "FrontierMath", "ai", "report 2025 - reading guide only"),
+
+("Which benchmark is described as 'Humanity’s Last Exam', with the top AI scoring only 8.8%?", "MMMU", "FrontierMath", "Humanity’s Last Exam", "MMLU", "Humanity’s Last Exam", "ai", "report 2025 - reading guide only"),
+
+("In short time-horizon tests (2-hour budget), AI agents outperform humans by what ratio?", "2 to 1", "3 to 1", "4 to 1", "5 to 1", "4 to 1", "ai", "report 2025 - reading guide only"),
+
+("In long-horizon tests (32-hour budget), humans outperform AI agents by what ratio?", "1.5 to 1", "2 to 1", "3 to 1", "4 to 1", "2 to 1", "ai", "report 2025 - reading guide only"),
+
+("Which reasoning limitation remains a major AI weakness according to the report?", "Pattern recognition", "Logical reasoning and planning", "Speech synthesis", "Data compression", "Logical reasoning and planning", "ai", "report 2025 - reading guide only"),
+
+("What percentage of organizations reported using AI in 2024?", "55%", "62%", "71%", "78%", "78%", "ai", "report 2025 - reading guide only"),
+
+("What percentage of organizations reported using generative AI in at least one function in 2024?", "33%", "50%", "66%", "71%", "71%", "ai", "report 2025 - reading guide only"),
+
+("What percentage of companies using AI in service operations reported cost savings?", "35%", "41%", "49%", "56%", "49%", "ai", "report 2025 - reading guide only"),
+
+("What percentage of companies using AI in marketing and sales reported revenue gains?", "45%", "57%", "63%", "71%", "71%", "ai", "report 2025 - reading guide only"),
+
+("What percentage of U.S. K–12 CS teachers believe AI should be part of foundational education?", "50%", "63%", "81%", "90%", "81%", "ai", "report 2025 - reading guide only"),
+
+("What percentage of those teachers feel equipped to teach AI?", "30%", "40%", "47%", "55%", "47%", "ai", "report 2025 - reading guide only"),
+
+("Between 2019 and 2024, how much did the number of countries offering K–12 CS education grow?", "Stayed constant", "Increased slightly", "Doubled", "Tripled", "Doubled", "ai", "report 2025 - reading guide only"),
+
+("What percentage of people globally saw AI as more beneficial than harmful in 2024?", "45%", "50%", "55%", "60%", "55%", "ai", "report 2025 - reading guide only"),
+
+("Which country had the lowest AI optimism in 2024 at 36%?", "Canada", "Netherlands", "Germany", "France", "Netherlands", "ai", "report 2025 - reading guide only"),
+
+("What proportion of Americans feared self-driving cars in 2024?", "45%", "54%", "61%", "68%", "61%", "ai", "report 2025 - reading guide only"),
+
+("How many U.S. states had deepfake election laws by 2024?", "5", "10", "15", "24", "24", "ai", "report 2025 - reading guide only"),
+
+("How many AI-related state laws were passed in the U.S. in 2024?", "49", "90", "131", "180", "131", "ai", "report 2025 - reading guide only"),
+
+("By how much did mentions of AI in global legislative proceedings rise in 2024?", "9%", "15%", "21.3%", "28%", "21.3%", "ai", "report 2025 - reading guide only"),
+
+("Which country had the largest number of industrial robots installed in 2023?", "Japan", "Germany", "China", "United States", "China", "ai", "report 2025 - reading guide only"),
+
+("What was China's global share of industrial robot installations in 2023?", "30%", "41%", "51%", "60%", "51%", "ai", "report 2025 - reading guide only"),
+
+("What percentage of new industrial robots were collaborative in 2023?", "5%", "8%", "10.5%", "15%", "10.5%", "ai", "report 2025 - reading guide only"),
+
+("What year saw the first FDA approval of an AI-enabled medical device?", "1995", "2000", "2005", "2010", "1995", "ai", "report 2025 - reading guide only"),
+
+("By 2024, how much had the number of AI patents increased since 2010?", "10x", "20x", "30x", "32x", "32x", "ai", "report 2025 - reading guide only"),
+
+("What percentage increase in AI patents occurred from 2022 to 2023?", "15%", "22%", "29.6%", "35%", "29.6%", "ai", "report 2025 - reading guide only"),
+
+("How much did the inference cost of GPT-3.5-level models drop between 2022 and 2024?", "100x", "180x", "280x", "320x", "280x", "ai", "report 2025 - reading guide only"),
+
+("How much did optimism about AI grow in France between 2022 and 2024?", "4%", "6%", "8%", "10%", "10%", "ai", "report 2025 - reading guide only"),
+
+("How many notable AI models did China produce in 2024?", "10", "12", "15", "20", "15", "ai", "report 2025 - reading guide only"),
+
+("How many notable AI models did Europe produce in 2024?", "1", "2", "3", "5", "3", "ai", "report 2025 - reading guide only"),
+
+("What percentage of AI publications came from the East Asia and Pacific region in 2023?", "25%", "30%", "34.5%", "40%", "34.5%", "ai", "report 2025 - reading guide only"),
+
+("What share of AI publication citations came from East Asia and the Pacific in 2023?", "25%", "30%", "37.1%", "42%", "37.1%", "ai", "report 2025 - reading guide only"),
+
+("Which two Nobel Prizes in 2024 were awarded for AI-related research?", "Physics and Chemistry", "Medicine and Physics", "Economics and Medicine", "Peace and Chemistry", "Physics and Chemistry", "ai", "report 2025 - reading guide only"),
+
+("Which AI-driven model won the 2024 Nobel Prize in Chemistry?", "AlphaFold", "Gemini", "Claude 3", "GPT-4", "AlphaFold", "ai", "report 2025 - reading guide only"),
+
+("Who won the Nobel Prize in Physics for neural network contributions?", "Geoffrey Hinton and John Hopfield", "Yann LeCun and Yoshua Bengio", "Andrew Ng and Ian Goodfellow", "Demis Hassabis and John Jumper", "Geoffrey Hinton and John Hopfield", "ai", "report 2025 - reading guide only"),
+
+("What percentage of AI-enabled medical ethics publications increased from 2020 to 2024?", "Tripled", "Quadrupled", "Doubled", "Remained flat", "Quadrupled", "ai", "report 2025 - reading guide only"),
+
+("How many AI ethics in medicine publications were there in 2024?", "700", "900", "1031", "1200", "1031", "ai", "report 2025 - reading guide only"),
+
+("What was the reported global private AI investment in 2024?", "$150 billion", "$200 billion", "$252.3 billion", "$300 billion", "$252.3 billion", "ai", "report 2025 - reading guide only"),
+
+("How much private AI investment went into generative AI in 2024?", "$10 billion", "$20 billion", "$33.9 billion", "$50 billion", "$33.9 billion", "ai", "report 2025 - reading guide only"),
+
+("What was the U.S. private AI investment in 2024?", "$50 billion", "$75 billion", "$109.1 billion", "$130 billion", "$109.1 billion", "ai", "report 2025 - reading guide only"),
+
+("How much did global AI mentions in legislation increase since 2016?", "5x", "7x", "9x", "10x", "9x", "ai", "report 2025 - reading guide only"),
+
+("Which benchmark measures fairness and bias in AI models?", "HELM Safety", "AIR-Bench", "FACTS", "FairBench", "AIR-Bench", "ai", "report 2025 - reading guide only"),
+
+("How many AI incidents were reported in 2023?", "110", "130", "149", "149", "149", "ai", "report 2025 - reading guide only"),
+
+("Which AI model’s training produced 8,930 tons of CO₂?", "GPT-3", "GPT-4", "Llama 3.1 405B", "Claude 3", "Llama 3.1 405B", "ai", "report 2025 - reading guide only"),
+
+("What was the approximate annual improvement rate of hardware price-performance?", "20%", "25%", "30%", "35%", "30%", "ai", "report 2025 - reading guide only"),
+
+("What was the total number of AI publication citations attributed to China in 2023?", "15%", "18%", "22.6%", "25%", "22.6%", "ai", "report 2025 - reading guide only"),
+
+("In 2024, what was the average transparency increase from the previous year?", "10%", "15%", "21%", "25%", "21%", "ai", "report 2025 - reading guide only"),
+
+("By what factor did global AI private investment grow since 2014?", "8x", "10x", "13x", "15x", "13x", "ai", "report 2025 - reading guide only"),
+
+("Which AI reasoning model cost six times more and was 30 times slower than GPT-4o?", "o1", "o3", "Claude 3", "Gemini 1.5", "o1", "ai", "report 2025 - reading guide only"),
+
+("Which region had 83% public optimism toward AI products in 2024?", "China", "Japan", "Thailand", "Indonesia", "China", "ai", "report 2025 - reading guide only"),
+
+("Which group of organizations showed the fastest adoption of responsible AI frameworks in 2024?", "Governments", "Corporations", "Startups", "Academia", "Governments", "ai", "report 2025 - reading guide only"),
+
+
+
+
+
 ("Which of the following is an example of a regression task","Predicting whether an email is spam or not","Predicting the price of a house based on its features","Grouping customers into market segments","Identifying handwritten digits","Predicting the price of a house based on its features","Astrid med Claude",),
 
 ("Which statement is correct regarding K means and DBSCAN","K means requires you to specify the number of clusters; DBSCAN does not","DBSCAN only works with labeled data","K means can detect outliers; DBSCAN cannot","K means is density based; DBSCAN is centroid based","K means requires you to specify the number of clusters; DBSCAN does not","Astrid med Claude",),
