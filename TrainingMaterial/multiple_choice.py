@@ -70,7 +70,6 @@ qa_mc = [
 
  ("What is the purpose of PCA (Principal Component Analysis)?","To increase dimensions in data space","To reduce dimensionality while preserving variance","To classify data into categories overall","To cluster data into groups overall","To reduce dimensionality while preserving variance","ML techniques","eksamen 2022"),
 
-
  ("What is NOT valid for a hyperplane?","They are boundaries that help classify data points","Hyperplanes work with support vector machines","We can only use maximum 2 hyperplanes for any number of features","They separate data linearly","We can only use maximum 2 hyperplanes for any number of features","SVM","eksamen 2021"),
 
  ("Which statement is true about outliers?","The nature of the problem determines how outliers are used","Outliers should be part of the training data set but not test data","Outliers should be identified and removed from the data set","Outliers should be part of the test data set but not training data","The nature of the problem determines how outliers are used","Data processing","eksamen 2021"),
@@ -347,10 +346,6 @@ qa_mc = [
 
 ("Which group of organizations showed the fastest adoption of responsible AI frameworks in 2024?", "Governments", "Corporations", "Startups", "Academia", "Governments", "ai", "report 2025 - reading guide only"),
 
-
-
-
-
 ("Which of the following is an example of a regression task","Predicting whether an email is spam or not","Predicting the price of a house based on its features","Grouping customers into market segments","Identifying handwritten digits","Predicting the price of a house based on its features","Astrid med Claude",),
 
 ("Which statement is correct regarding K means and DBSCAN","K means requires you to specify the number of clusters; DBSCAN does not","DBSCAN only works with labeled data","K means can detect outliers; DBSCAN cannot","K means is density based; DBSCAN is centroid based","K means requires you to specify the number of clusters; DBSCAN does not","Astrid med Claude",),
@@ -447,7 +442,6 @@ qa_mc = [
 
 ("GPT 4o Omni improvements include","Smaller model","Real time voice and faster responses","Text only","Reduced parameter count","Real time voice and faster responses","Astrid med Claude",),
 
-
 ("The cost function measures","Compute cost","Difference between predicted and actual values","Number of parameters","Dataset size","Difference between predicted and actual values","Astrid med Claude",),
 
 ("Gradient descent finds minimum by","Random search","Moving in steepest descent direction","Exhaustive enumeration","Symbolic computation","Moving in steepest descent direction","Astrid med Claude",),
@@ -456,14 +450,11 @@ qa_mc = [
 
 ("The equation y equals b1 x plus b0 represents","Logistic regression","Linear regression","K means","Neural network layer","Linear regression","Astrid med Claude",),
 
-
  ("What is the preferred way to work with an A.I. algorithm?","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","Identify the problem -> choose algorithms -> run the algorithm -> prepare data -> train the algorithm -> export data to algorithms","Identify the problem -> choose algorithms -> train the algorithm -> run the algorithm -> prepare data -> export data to algorithms","All of the above","Identify the problem -> prepare data -> choose algorithms -> train the algorithm -> run the algorithm","AI workflow","eksamen 2021"),
 
  ("What is a sigmoid function?","A function that creates a linear relationship between inputs and outputs","A mathematical function that produces an S-shaped curve used in ML","A function only used in statistics for hypothesis testing","A function that always outputs zero or one exclusively","A mathematical function that produces an S-shaped curve used in ML","GLM","flashcards"),
 
  ("What is the difference between a generative and discriminative model?","No difference between them, they are essentially the same","Discriminative learns joint probability, generative learns conditional","Generative learns joint probability, discriminative learns conditional","Both learn only conditional probability without joint distributions","Generative learns joint probability, discriminative learns conditional","ML","flashcards"),
-
-
 
  ("What is gradient descent?","A data preprocessing technique for cleaning datasets","An optimization algorithm to minimize cost functions","A type of neural network architecture for classification","A feature selection method for dimensionality reduction","An optimization algorithm to minimize cost functions","ML","flashcards"),
 
@@ -604,13 +595,7 @@ qa_mc = [
 
  ("What is the key characteristic of reinforcement learning?","Learning from labeled examples provided by experts","Finding clusters in data without supervision guidance","Learning through trial and error with rewards and penalties","Reducing dimensionality of high-dimensional feature spaces","Learning through trial and error with rewards and penalties","ML fundamentals","studocu"),
 
-
-
  ("What is the purpose of a validation set?","To train the model initially first before testing","To tune hyperparameters and prevent overfitting","To replace the test set entirely in the workflow","To label data manually by hand for training sets","To tune hyperparameters and prevent overfitting","ML concepts","studocu"),
-
-
-
-
 
  ("What is a confusion matrix used for?","To confuse the model during training process intentionally with adversarial examples","To evaluate classification model performance by showing true/false positives and negatives","To visualize training loss over time during optimization for monitoring convergence","To select features for modeling during preprocessing based on importance scores","To evaluate classification model performance by showing true/false positives and negatives","ML evaluation","studocu"),
 
@@ -732,8 +717,6 @@ qa_mc = [
 
  ("What is concept drift in machine learning?","Model getting better over time overall continuously in performance","When the statistical properties of the target variable change over time","Model staying the same forever overall consistently without changes","Training getting faster over time overall automatically with updates","When the statistical properties of the target variable change over time","ML deployment","Lecture MachineLearning"),
 
-
-
  ("What is the purpose of data augmentation?","To delete unnecessary data from dataset completely for cleaning","To artificially increase training data by creating modified versions","To compress data for storage purposes efficiently in databases","To visualize data patterns graphically for further analysis","To artificially increase training data by creating modified versions","Data preprocessing","Lecture MachineLearning"),
 
  ("What is imbalanced data in classification?","Equal class distribution across all classes evenly","When one class has significantly more samples than others","All classes are missing from the dataset completely","Data is corrupted and cannot be used for training","When one class has significantly more samples than others","Data issues","Lecture MachineLearning-p2"),
@@ -802,13 +785,9 @@ qa_mc = [
 
  ("What is the purpose of the softmax function?","To make training harder overall for better results overall","To convert outputs to probability distribution for multi-class classification","To normalize inputs only before processing data in pipeline","To reduce dimensions available in the output layer structure","To convert outputs to probability distribution for multi-class classification","Neural networks","Lecture MachineLearning-p2"),
 
-
-
  ("What does high precision but low recall indicate?","Model is perfect overall in all predictions everywhere possible with no errors at all","Model is conservative, misses many positives but rarely wrong when it predicts positive","Model is random predictions without pattern or structure at all in any systematic way","Model always predicts positive class for all inputs everywhere without discrimination","Model is conservative, misses many positives but rarely wrong when it predicts positive","ML evaluation","Lecture MachineLearning-p2"),
 
  ("What does high recall but low precision indicate?","Model is perfect overall in all predictions everywhere","Model catches most positives but has many false alarms","Model is conservative in predictions it makes overall","Model predicts nothing at all for any inputs overall","Model catches most positives but has many false alarms","ML evaluation","Lecture MachineLearning-p2"),
-
-
 
  ("What is a true negative (TN) in classification?","Correctly predicted positive class","Correctly predicted negative class","Incorrectly predicted positive class","Incorrectly predicted negative class","Correctly predicted negative class","ML evaluation","Lecture MachineLearning-p2"),
 
@@ -1068,8 +1047,6 @@ qa_mc = [
 
  ("Hvilken kodelinje er riktig for å fylle inn manglende verdier i en kolonne med medianen av den kolonnen", "df['Age'] = df['Age'].fillna(df['Age'].median())","df['Age'] = df['Age'].fillna(df['Age'].mean())","df['Age'] = df['Age'].fillna(df['Age'].mode())","df['Age'] = df['Age'].fillna(df['Age'].min())","df['Age'] = df['Age'].fillna(df['Age'].median())","Pandas dataframe","shiberas"),
 
-
-
  ("numpy is used for?", "Data manipulation and numerical computations","Building neural networks","Creating visualizations","Data storage","Data manipulation and numerical computations","Python libraries","shiberas"),
 
  ("pandas is used for?", "Data manipulation and analysis","Building machine learning models","Creating web applications","Data visualization","Data manipulation and analysis","Python libraries","shiberas"),
@@ -1082,8 +1059,20 @@ qa_mc = [
 
  ("Hvilken kodelinje er riktig for å utføre regresjon", "model = LinearRegression().fit(X, y)","model = LogisticRegression().fit(X, y)","model = KMeans().fit(X)","model = SVC().fit(X, y)","model = LinearRegression().fit(X, y)","GLM regresjon","shiberas"),
 
+ ("Hva er de to største fundamentale årsaken til feil i ML?", "Bias og Varians","Overfitting og Underfitting","Trening og Testing","Data og Modell","Bias og Varians","Maskinlæring konsepter","eksamen 2025"),
 
- 
+ ("Hvilke produserte 0, notable modeller i følge AI reports 2025?","Government","akademia","Private Sector","Research collectives","Government","AI industry","eksamen 2025"),
+
+ ("Hvor mange null returnerer koden a=['', np.null, 'None', ' ']; is_null = [x for x in a if pd.isnull(x)]; len(is_null)","2","1","3","4","1","Pandas dataframe","eksamen 2025"),
+
+ ("Hvor mange spørsmål var det på eksamen 2025","100" ,"90" , "125","110","125","eksamen 2025","eksamen 2025"),
+
+ ("Var det veldig vanskelige spørsmål på kode spørsmålene på eksamen 2025","Nei, det var kjempelett","Ja, du måtte kunne axis=1/0 og å skille nesten identisk kode","Det var kodeoppgaver du måtte kunne fillna(), isnull(), shape(), head() osv","Det var 0 oppgaver med lambda, men eller bare lette oppgaver fra labene","Det var kodeoppgaver du måtte kunne fillna(), isnull(), shape(), head() osv","eksamen 2025","eksamen 2025"),
+
+ ("Hva er Konda", "En stor språkmodell utviklet av AI21 Labs","En type nevralt nettverk","Et verktøy for pakkehåndtering og miljøstyring","En visualiseringsverktøy","Et verktøy for pakkehåndtering og miljøstyring","AI industry","eksamen 2025"),
+
+ ("Var oppgavene på eksamen 2025 bra formulert", "Ja, de var klare og tydelige. Det var aldri tvil om hva oppgaven var ute etter.","Ja og Nei, noen av de var dårlig formulert og erfaring med pensum var nødvendig for å gjette hva de egentlig mente","Oppgavene var tydelige, slik at om du kunne svaret på oppgaven så ville du få full utelling.","De var 0 duplikater, ingen spørsmål ble stilt to ganger.","Ja og Nei, noen av de var dårlig formulert og erfaring med pensum var nødvendig for å gjette hva de egentlig mente","eksamen 2025","eksamen 2025"),
+
 ]
 
 
